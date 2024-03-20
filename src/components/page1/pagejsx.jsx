@@ -5,12 +5,17 @@ const firstIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                <h1>Camping Naturaleza</h1>
+                <h1>Arena Camping</h1>
                 <nav>
                     <ul>
                         <li><a href="#home">Inicio</a></li>
-                        <li><a href="#about">Acerca de</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#home">Servicio</a></li>
+                        <li><a href="#about">Actividades</a></li>
+                        <li><a href="#contact">Entorno</a></li>
+                        <li><a href="#home">Contacto</a></li>
+                        <li><a href="#home">Precios</a></li>
+                        <li><a href="#about">Localización de</a></li>
+                        <li><a href="#contact">Idioma</a></li>
                     </ul>
                 </nav>
             </header>
