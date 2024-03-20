@@ -9,13 +9,13 @@ const firstIndex = () => {
                 <nav>
                     <ul>
                         <li><a href="#home">Inicio</a></li>
-                        <li><a href="#home">Servicio</a></li>
-                        <li><a href="#about">Actividades</a></li>
-                        <li><a href="#contact">Entorno</a></li>
-                        <li><a href="#home">Contacto</a></li>
-                        <li><a href="#home">Precios</a></li>
-                        <li><a href="#about">Localización de</a></li>
-                        <li><a href="#contact">Idioma</a></li>
+                        <li><a href="#service">Servicio</a></li>
+                        <li><a href="#activities">Actividades</a></li>
+                        <li><a href="#environment">Entorno</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#prices">Precios</a></li>
+                        <li><a href="#location">Localización  b</a></li>
+                        <li><a href="#idioms">Idioma</a></li>
                     </ul>
                 </nav>
             </header>
