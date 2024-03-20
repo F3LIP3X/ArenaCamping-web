@@ -1,5 +1,10 @@
 /* Reset default margin and padding */
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -13,12 +18,18 @@ body, h1, h2, p, ul, li {
 body {
     font-family: 'Nexa', sans-serif;
 }
+
 /* Header style */
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    display: block;
+    flex-direction: column;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 header h1 {
@@ -57,14 +68,17 @@ section {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    display: block;
+    flex-direction: column;
     text-align: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+
     /* Adjust header */
     header {
         padding: 10px;
@@ -88,12 +102,15 @@ section {
     }
 
     /* Adjust footer */
-    .footer-page {
+    footer-page {
         background-color: #333;
-        color: #eeeeee;
+        color: #fff;
         padding: 20px;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
         position: absolute;
         bottom: 0;
-        width: 100%;
     }
 }

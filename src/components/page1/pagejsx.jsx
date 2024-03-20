@@ -14,7 +14,7 @@ const firstIndex = () => {
                         <li><a href="#environment">Entorno</a></li>
                         <li><a href="#contact">Contacto</a></li>
                         <li><a href="#prices">Precios</a></li>
-                        <li><a href="#location">Localización  b</a></li>
+                        <li><a href="#location">Localización</a></li>
                         <li><a href="#idioms">Idioma</a></li>
                     </ul>
                 </nav>
@@ -23,8 +23,8 @@ const firstIndex = () => {
             <div className="main-content">
                 <main>
                     <section id="home">
-                        <h2>Bienvenido al Camping Naturaleza</h2>
-                        <p>¡Disfruta de la tranquilidad y belleza de la naturaleza en nuestro camping!</p>
+                        <h2>¡¡Bienvenido!!</h2>
+                        <p>¡En Arena Camping puedes disfruta de la tranquilidad y belleza de la naturaleza en nuestro camping!</p>
                     </section>
 
                     <section id="about">
