@@ -17,6 +17,7 @@ li {
 
 body {
     font-family: 'Nexa', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header style */
@@ -86,12 +87,36 @@ section {
     float: left;
     width: 7rem;
 }
+
+/* Estilo para ocultar la lista de elementos del menú */
+#menuItems {
+    display: none;
+}
+
+/* Estilo para mostrar la lista de elementos del menú cuando se expande */
+#menuItems.active {
+    display: block;
+}
+
+/* Estilo para el botón de hamburguesa */
+#toggleMenu {
+    display: block;
+    background: rgb(83, 82, 82);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
 
     /* Adjust header */
     header {
         padding: 10px;
+    }
+
+    body{
+        overflow-x: hidden; /* Cambiado a 'hidden' para bloquear el desplazamiento horizontal */
     }
 
     .main-content{
