@@ -1,12 +1,13 @@
 import React from 'react';
 import './pagecss.css';
-
+import icon from '../assets/logo.png';
 const firstIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                <h1>Arena Camping</h1>
-                <nav>
+                <img id='icoHeader' src={icon} alt="Logo de Arena Camping"/>
+                <h1 id=''>Arena Camping</h1>
+                <nav className='headBars'>
                     <ul>
                         <li><a href="#home">Inicio</a></li>
                         <li><a href="#service">Servicio</a></li>
@@ -19,7 +20,6 @@ const firstIndex = () => {
                     </ul>
                 </nav>
             </header>
-
             <div className="main-content">
                 <main>
                     <section id="home">
@@ -29,7 +29,10 @@ const firstIndex = () => {
 
                     <section id="about">
                         <h2>Sobre Nosotros</h2>
-                        <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
+                        
+                        
+                        
+                    <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
                     </section>
 
                     <section id="prices">
