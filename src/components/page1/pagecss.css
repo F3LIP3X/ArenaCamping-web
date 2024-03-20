@@ -56,14 +56,15 @@ nav ul li a {
 
 /* Main styles */
 main {
-    padding: 20px;
+    width: auto;
+    
 }
 
 section {
     margin-bottom: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
     padding: 20px;
 }
 
@@ -73,9 +74,8 @@ section {
     color: #fff;
     padding: 20px;
     display: block;
-    flex-direction: column;
     text-align: center;
-    width: 100%;
+    width: auto;
     position: static;
     bottom: 0;
 }
@@ -108,11 +108,11 @@ section {
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 912px) {
 
     /* Adjust header */
     header {
-        padding: 10px;
+        width: auto;
     }
 
     body{
@@ -140,16 +140,20 @@ section {
         margin-bottom: 10px;
     }
 
+    .foot{
+        width: 100%;
+    }
     /* Adjust footer */
     footer-page {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
+        width: auto;
         display: block;
-        flex-direction: column;
         text-align: center;
-        width: 100%;
+        
         position: static;
         bottom: 0;
+    }
+
+    .footertext{
+        color: rgb(115, 243, 179);
     }
 }

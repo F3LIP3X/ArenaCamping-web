@@ -76,9 +76,9 @@ const firstIndex = () => {
 
             <footer className="footer-page">
                 <div className='foot'>
-                    <p>© 2024 | Felipe Toledano Escudero</p>
-                    <nav>
-                        <ul>
+                    <p className='footertext'>© 2024 | Felipe Toledano Escudero</p>
+                    <nav className='footertext'>
+                        <ul >
                             <li><a href="#home">Inicio</a></li>
                             <li><a href="#about">Acerca de</a></li>
                             <li><a href="#contact">Contacto</a></li>
