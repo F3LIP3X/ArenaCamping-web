@@ -5,11 +5,14 @@ body, h1, h2, p, ul, li {
 }
 
 /* Set font size and family */
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+@font-face {
+    font-family: 'Nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
 }
 
+body {
+    font-family: 'Nexa', sans-serif;
+}
 /* Header style */
 header {
     background-color: #333;
