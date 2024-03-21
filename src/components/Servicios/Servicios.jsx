@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import icon from '../assets/logo.ico';
+import '../Servicios/servicios.css';
+import { GiPadlock } from "react-icons/gi";
 
 const secondIndex = () => {
     return (
@@ -21,17 +23,30 @@ const secondIndex = () => {
                 </nav>
             </header>
             <div className="main-content">
-                <main>
-                      <section id="home">
-                        <h2>¡¡Bienvenido!!</h2>
-                        <p>¡En Arena Camping puedes disfruta de la tranquilidad y belleza de la naturaleza en nuestro camping!</p>
+                <main className='informacion'>
+                    <section id="home">
+                        <h2 className='subtitulo'>Servicios</h2>
                     </section>
-
-                    <section id="about">
-                        <h2>Sobre Nosotros</h2>
-                        <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
+                    <section id="home">
+                        <h2>Nuestros Servicios</h2>
+                            <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área 
+                            de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios 
+                            que disponemos.</p>
                     </section>
-
+                <div className='Ejemplos'>
+                    <section id="about" className='lista'>
+                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
+                    </section>
+                    <section id="about" className='lista'>
+                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
+                    </section>
+                    <section id="about" className='lista'>
+                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
+                    </section>
+                    <section id="about" className='lista'>
+                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
+                    </section>
+                </div>
                     <section id="prices">
                         <h2>Tabla de Precios</h2>
                         <table>

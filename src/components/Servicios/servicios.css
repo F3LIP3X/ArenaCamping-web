@@ -55,13 +55,40 @@ nav ul li a {
 }
 
 /* Main styles */
-main {
+.informacion {
+    margin-top: 0.3%;
     width: auto;
 
 }
 
+.subtitulo {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.textoinfo {
+    
+    margin-top: 1%;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+}
+
+.lista p {
+    margin-left: 1%;
+}
+
+.emote {
+    color: grey;
+    width: 1%;
+    height: 5%;
+}
+
 section {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-color: #f9f9f9;
     border-radius: 1rem;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
@@ -84,6 +111,7 @@ section {
 
 #icoHeader {
     position: relative;
+    position: +1;
     float: left;
     width: 7rem;
 }

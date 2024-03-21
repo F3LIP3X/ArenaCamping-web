@@ -20,6 +20,10 @@ body {
     overflow-x: hidden;
 }
 
+.wrapped {
+    position: 0;
+}
+
 /* Header style */
 header {
     background-color: #333;
