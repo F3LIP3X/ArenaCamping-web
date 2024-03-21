@@ -10,7 +10,7 @@ const secondIndex = () => {
                 <h1 id='h1Arena'>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
-                        <li><Link to="/Inicio">Inicio</Link></li>
+                        <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/Servicios">Servicio</Link></li>
                         <li><Link to="/Actividades">Actividades</Link></li>
                         <li><Link to="/page2#environment">Entorno</Link></li>
