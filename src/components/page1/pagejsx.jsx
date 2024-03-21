@@ -2,6 +2,38 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './pagecss.css';
 import icon from '../assets/logo.png';
+<<<<<<< Updated upstream
+=======
+import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+
+const firstIndex = () => {
+    return (
+        <div className='wrapper'>
+            <header>
+                <img id='icoHeader' src={icon} alt="Logo de Arena Camping"/>
+                <h1 id=''>Arena Camping</h1>
+                <nav className='headBars'>
+                    <ul>
+                        <li><a id="#home">Inicio</a></li>
+                        <li><a id="#service">Servicio</a></li>
+                        <li><a id="#activities">Actividades</a></li>
+                        <li><a id="#environment">Entorno</a></li>
+                        <li><a id="#contact">Contacto</a></li>
+                        <li><a id="#prices">Precios</a></li>
+                        <li><a id="#location">Localización</a></li>
+                        <li><a id="#idioms">Idioma</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div className="main-content">
+                <main>
+                    <section id="home">
+                        <h2>¡¡Bienvenido!!</h2>
+                        <p>¡En Arena Camping puedes disfruta de la tranquilidad y belleza de la naturaleza en nuestro camping!</p>
+                    </section>
+>>>>>>> Stashed changes
 
 const PageJsx = () => {
   return (
