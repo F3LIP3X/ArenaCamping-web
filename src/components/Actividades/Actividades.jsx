@@ -15,10 +15,10 @@ const actividades = () => {
                     <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/Servicios">Servicio</Link></li>
                         <li><Link to="/Actividades">Actividades</Link></li>
-                        <li><Link to="/page2#environment">Entorno</Link></li>
-                        <li><Link to="/page2#contact">Contacto</Link></li>
-                        <li><Link to="/page2#prices">Precios</Link></li>
-                        <li><Link to="/page2#location">Localización</Link></li>
+                        <li><Link to="/Entorno">Entorno</Link></li>
+                        <li><Link to="/Contacto">Contacto</Link></li>
+                        <li><Link to="/Precios">Precios</Link></li>
+                        <li><Link to="/Localización">Localización</Link></li>
                     </ul>
                 </nav>
             </header>
