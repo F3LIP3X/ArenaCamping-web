@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font size and family */
+@font-face {
+    font-family: 'Nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+}
+
+body {
+    font-family: 'Nexa', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: static;
+    top: 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 2px #9fd898;
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    width: auto;
+
+}
+
+section {
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
+    padding: 1.5rem;
+}
+
+/* Footer styles */
+.footer-page {
+    position: -ms-page;
+    bottom: 0;
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.headBars {
+    padding-top: 1%;
+}
+
+#icoHeader {
+    position: relative;
+    float: left;
+    width: 7rem;
+}
+
+/* Estilo para ocultar la lista de elementos del menú */
+#menuItems {
+    display: none;
+}
+
+/* Estilo para mostrar la lista de elementos del menú cuando se expande */
+#menuItems.active {
+    display: block;
+}
+
+/* Estilo para el botón de hamburguesa */
+#toggleMenu {
+    display: block;
+    background: rgb(83, 82, 82);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 912px) {
+
+    /* Adjust header */
+    header {
+        width: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+        /* Cambiado a 'hidden' para bloquear el desplazamiento horizontal */
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    /* Adjust main */
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 10px;
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+    /* Adjust footer */
+    .footer-page {
+        position: -ms-page;
+        bottom: 0;
+        background-color: #333;
+        color: #000000;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footertext {
+        color: rgb(115, 243, 179);
+    }
+}
