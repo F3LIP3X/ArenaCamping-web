@@ -24,11 +24,9 @@ const firstIndex = () => {
             </header>
             <div className="main-content">
                 <main>
-                    <section id="home">
-                        <h2>¡¡Bienvenido!!</h2>
-                        <p>¡En Arena Camping puedes disfruta de la tranquilidad y belleza de la naturaleza en nuestro camping!</p>
+                <section id="home">
+                        <h2 className='subtitulo'>Inicio</h2>
                     </section>
-
                     <section id="about">
                         <h2>Sobre Nosotros</h2>
                         <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
@@ -45,14 +43,12 @@ const firstIndex = () => {
 
             <footer className="footer-page">
                 <div className='foot'>
-                    <h3>© 2024 | Felipe Toledano Escudero</h3>
-                    <h3>Télefono de Contacto: +34 625 86 46 17</h3>
+                    <p>© 2024 | Felipe Toledano Escudero</p>
                     <nav>
                         <ul>
-                            <li><a>Inicio</a></li>
-                            <li><a>Acerca de</a></li>
-                            <li><a>Contacto</a></li>
-                            p     
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#about">Acerca de</a></li>
+                            <li><a href="#contact">Contacto</a></li>
                         </ul>
                     </nav>
                 </div>
