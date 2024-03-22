@@ -67,6 +67,10 @@ nav ul li a {
     margin-top: 1%;
 }
 
+.textoinfo {
+    
+    margin-top: 1%;
+}
 
 .lista {
     display: flex;
@@ -79,8 +83,6 @@ nav ul li a {
 
 .emote {
     color: grey;
-    width: 1%;
-    height: 5%;
 }
 
 section {
@@ -98,9 +100,12 @@ section {
     background-color: #333;
     color: #000000;
     text-align: center;
-    padding: 2%;
+    padding: 20px;
 }
 
+.headBars {
+    padding-top: 1%;
+}
 
 #icoHeader {
     position: relative;

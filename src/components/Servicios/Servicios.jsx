@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import icon from '../assets/logo.ico';
 import '../Servicios/servicios.css';
 import { GiPadlock } from "react-icons/gi";
+import { FaShower } from "react-icons/fa";
+import { AiOutlineThunderbolt } from "react-icons/ai";
+import { GiWashingMachine } from "react-icons/gi";
+
 
 const secondIndex = () => {
     return (
@@ -25,7 +29,7 @@ const secondIndex = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section id="home">
-                        <h2 className='subtitulo'>Servicios</h2>
+                        <h1 className='subtitulo'>Servicios</h1>
                     </section>
                     <section id="home">
                         <h2>Nuestros Servicios</h2>
@@ -35,16 +39,38 @@ const secondIndex = () => {
                     </section>
                 <div className='Ejemplos'>
                     <section id="about" className='lista'>
-                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
-                    </section>
-                    <section id="about" className='lista'>
-                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
-                    </section>
-                    <section id="about" className='lista'>
-                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
-                    </section>
-                    <section id="about" className='lista'>
-                        <p className='emote'><GiPadlock /></p><p>Estacionamiento Seguro</p>
+                        <div className="service-item">
+                            <p className='emote'><GiPadlock /></p>
+                            <p>Estacionamiento Seguro</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><FaShower /></p>
+                            <p>Disponibilidad de Duchas</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><AiOutlineThunderbolt /></p>
+                            <p>Electricidad Accesible</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><GiWashingMachine /></p>
+                            <p>Variedad de Electrodomésticos</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><GiPadlock /></p>
+                            <p>Estacionamiento Seguro</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><GiPadlock /></p>
+                            <p>Estacionamiento Seguro</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><GiPadlock /></p>
+                            <p>Estacionamiento Seguro</p>
+                        </div>
+                        <div className="service-item">
+                            <p className='emote'><GiPadlock /></p>
+                            <p>Estacionamiento Seguro</p>
+                        </div>
                     </section>
                 </div>
                     <section id="prices">
