@@ -1,0 +1,25 @@
+tr button {    font-family: 'nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+    
+
+    background-color: rgb(38, 38, 38);
+    color: #fff
+}
+
+.tabla {
+    background-color: antiquewhite;
+}
+
+.titulo {
+    margin-top: 0.3%;
+}
+.boton {
+    display:block;
+    float: right;
+}
+
+@media screen and (max-width: 912px) {
+    tr button {
+        margin-left: 10em;
+    }
+}
