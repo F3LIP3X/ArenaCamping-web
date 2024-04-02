@@ -67,8 +67,31 @@ nav ul li a {
 }
 
 .textoinfo {
-    
     margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.Reglas {
+    text-align: center;
+}
+
+.Normas {
+    display: grid;
+    grid-template-columns: auto auto; /* Crea dos columnas automáticas */
+    grid-gap: 10px; /* Añade espacio entre las columnas */
+    margin-right: -30%; /* Ajusta el margen derecho */
+}
+
+.Normas p {
+    margin: 0;
+    padding: 5px; /* Ajusta el espaciado */
+}
+
+.Foto{
+border: 5px black solid;
+width: 200px;
+height: 250px;
+float: right;
 }
 
 .lista {
@@ -80,8 +103,49 @@ nav ul li a {
     margin-left: 1%;
 }
 
-.emote {
-    color: grey;
+.candadoe {
+    color: rgb(157, 139, 22);
+}
+
+.wifie {
+    color: rgb(0, 200, 255);
+}
+
+.duchae {
+    color: rgb(70, 70, 70);
+}
+
+.areae {
+    color: rgb(255, 147, 147);
+}
+
+.rayoe {
+    color: rgb(225, 255, 0);
+}
+
+.maquinae {
+    color: rgb(47, 99, 255);
+}
+
+.aguae {
+    color: rgb(70, 70, 70);
+}
+
+.descansoe {
+    color: rgb(17, 10, 158);
+}
+
+
+.service-item{
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.service-item2{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 section {
@@ -184,3 +248,4 @@ section {
         color: rgb(115, 243, 179);
     }
 }
+
