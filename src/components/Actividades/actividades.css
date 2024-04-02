@@ -18,6 +18,39 @@ tr button {    font-family: 'nexa';
     float: right;
 }
 
+.Galeria{
+    display: flex;
+    width: 700px;
+    height: 430px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.Galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.Galeria img:hover { 
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.articulos {
+    margin:1em;
+}
+
+i {
+    margin-right: 1em;
+}
+
+
 @media screen and (max-width: 912px) {
     tr button {
         margin-left: 10em;
