@@ -62,9 +62,15 @@ const actividades = () => {
                         <img src="https://camperparkgranada.es/wp-content/uploads/2023/07/ciclismo-de-carretera-367x367.jpg" alt="img4" />
                     </section>
 
-                    <section>
-                        <h1 className="Parte4">¡No te pierdas nada!</h1>
+                    <section className='Partes'>
+                        <h1>¡No te pierdas nada!</h1>
                         <h4>Consulta aqui todas las noticias de Arena Camping Granada</h4>
+                    </section>
+
+                    <section className='Partes'>
+                        <h1 >Reserva ya tu plaza en Arena Camping</h1>
+                        <h5 >Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
+                        <button>¡Contacta!</button>
                     </section>
 
                     <section>
