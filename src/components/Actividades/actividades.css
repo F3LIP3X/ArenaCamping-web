@@ -25,7 +25,8 @@ tr button {    font-family: 'nexa';
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 1em;
-    
+    margin: 0em 3em;
+    margin-bottom: 0.7em;
 }
 
 #section {

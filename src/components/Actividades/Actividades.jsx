@@ -3,6 +3,8 @@ import '../Actividades/actividades.css';
 import icon from '../assets/logo.ico';
 import { Link } from 'react-router-dom';
 
+//Imagenes
+
 
 const actividades = () => {
     return (
