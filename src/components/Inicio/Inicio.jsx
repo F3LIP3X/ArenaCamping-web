@@ -2,14 +2,14 @@ import React from 'react';
 import '../Inicio/inicio.css'
 import icon from '../assets/logo.ico';
 import {Link } from 'react-router-dom';
-
+import image1 from '../assets/logo.png';
 
 const firstIndex = () => {
     return (
         <div className='wrapper'>
             <header>
                 <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
-                <h1 id=''>Arena Camping</h1>
+                <h1 id='title'>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>

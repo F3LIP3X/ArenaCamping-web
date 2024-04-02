@@ -28,7 +28,7 @@ const actividades = () => {
             </header>
             <div className="main-content">
                 <main className='titulo'>
-                    <section id="home">
+                    <section id="section">
                         <h1>Actividades</h1>
 
                     </section>

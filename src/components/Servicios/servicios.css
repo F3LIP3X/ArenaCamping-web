@@ -62,8 +62,7 @@ nav ul li a {
 }
 
 .subtitulo {
-    text-decoration: underline;
-    text-align: center;
+    text-align: left;
     margin-top: 1%;
 }
 
@@ -86,11 +85,11 @@ nav ul li a {
 }
 
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     background-color: #f9f9f9;
-    border-radius: 1rem;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
-    padding: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
+    padding: 1.6rem;
 }
 
 /* Footer styles */
