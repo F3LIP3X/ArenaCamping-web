@@ -20,11 +20,12 @@ tr button {    font-family: 'nexa';
 
 .Galeria{
     display: flex;
-    width: 700px;
-    height: 430px;
+    width: 90%;
+    height: 25%;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 1em;
+    padding: 5%;
 }
 
 #section {
