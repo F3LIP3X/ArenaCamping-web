@@ -2,7 +2,7 @@ import React from 'react';
 import '../Inicio/inicio.css'
 import icon from '../assets/logo.ico';
 import {Link } from 'react-router-dom';
-import image1 from '../assets/logo.png';
+
 
 const firstIndex = () => {
     return (
@@ -32,6 +32,12 @@ const firstIndex = () => {
                         <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
                     </section>
 
+                    <section id="contact">
+                        <h2>Contacto</h2>
+                        <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>
+                        <p>Teléfono: 123-456-789</p>
+                        <p>Email: info@campingnaturaleza.com</p>
+                    </section>
                     <section id="contact">
                         <h2>Contacto</h2>
                         <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>

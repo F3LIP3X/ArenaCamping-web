@@ -116,7 +116,7 @@ section {
 
     /* Adjust header */
     header {
-        width: auto;
+        width: 100%;
     }
 
     body {
@@ -124,7 +124,7 @@ section {
         /* Cambiado a 'hidden' para bloquear el desplazamiento horizontal */
     }
 
-    .main-content {
+    main-content {
         width: 100%;
     }
 
@@ -151,12 +151,12 @@ section {
 
     /* Adjust footer */
     .footer-page {
-        position: -ms-page;
         bottom: 0;
         background-color: #333;
-        color: #000000;
+        color: #ffffff;
         text-align: center;
-        padding: 20px;
+        display: block;
+        bottom: 50px;
     }
 
     .footertext {
