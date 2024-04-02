@@ -111,6 +111,14 @@ section {
     cursor: pointer;
 }
 
+.imagenes{
+    height: 2.7em;
+    padding: 1em;
+}
+
+.pStyle{
+    text-align: center;
+}
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
 
@@ -161,5 +169,13 @@ section {
 
     .footertext {
         color: rgb(115, 243, 179);
+    }
+    .imagenes{
+        height: 2.7em;
+        padding: 1em;
+    }
+    
+    .pStyle{
+        text-align: center;
     }
 }
