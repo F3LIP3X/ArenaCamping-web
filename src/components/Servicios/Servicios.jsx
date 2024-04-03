@@ -18,6 +18,7 @@ const secondIndex = () => {
     return (
         <div className='wrapper'>
             <header>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
                 <h1 id='h1Arena'>Arena Camping</h1>
                 <nav className='headBars'>
@@ -38,7 +39,7 @@ const secondIndex = () => {
                         <h1 className='subtitulo'>Servicios</h1>
                     </section>
                     <section id="home">
-                        <h2>Nuestros Servicios</h2>
+                        <h2 className='titleservicio'>Nuestros Servicios</h2>
                             <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área 
                             de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios 
                             que disponemos.</p>
@@ -81,13 +82,17 @@ const secondIndex = () => {
                     <section id="rules">
                         <h2 className='Reglas'>Normas</h2>
                         <div class="Normas">
-                            <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H</b></p>
                             <p><TiTick /><b>Se permiten caravanas, camper y autocaravanas</b></p> 
-                            <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas</b></p>
-                            <p><TiTick /><b> Zona Vigilada 24H</b></p>
-                            <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña</b></p>
                             <p><TiTick /><b>Entrada y salida de 8:00H a 22:00H</b></p>
+                            <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H</b></p>
+                            <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña</b></p>
+                            <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas</b></p>
                         </div>
+                    </section>
+
+                    <section id="galeria">
+                        <h2 className='fotosg'>Galería</h2>
+                        <p className='fotosg'>Descubre nuestras instalaciones</p>
                     </section>
 
                 </main>

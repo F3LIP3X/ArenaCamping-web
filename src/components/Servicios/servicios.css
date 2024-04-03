@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 body,
 h1,
 h2,
@@ -9,7 +8,10 @@ li {
     padding: 0;
 }
 
-/* Set font size and family */
+html {
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: 'Nexa';
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
@@ -20,24 +22,17 @@ body {
     overflow-x: hidden;
 }
 
-/* Header style */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    display: block;
-    flex-direction: column;
+    padding: 2%; 
     text-align: center;
-    width: 100%;
-    position: static;
-    top: 0;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 1%;  
     text-shadow: 3px 2px 2px #9fd898;
-    font-size: 3rem;
-    text-align: center;
+    font-size: 3vw; 
 }
 
 nav ul {
@@ -46,7 +41,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2%;  
 }
 
 nav ul li a {
@@ -56,14 +51,17 @@ nav ul li a {
 
 /* Main styles */
 .informacion {
-    margin-top: 0.3%;
+    margin-top: 1%;
     width: auto;
-
 }
 
 .subtitulo {
     text-align: left;
     margin-top: 1%;
+}
+
+.titleservicio{
+    text-align: center;
 }
 
 .textoinfo {
@@ -77,30 +75,29 @@ nav ul li a {
 
 .Normas {
     display: grid;
-    grid-template-columns: auto auto; /* Crea dos columnas automáticas */
-    grid-gap: 10px; /* Añade espacio entre las columnas */
-    margin-right: -30%; /* Ajusta el margen derecho */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 1%;  
 }
 
 .Normas p {
-    margin: 0;
-    padding: 5px; /* Ajusta el espaciado */
+    padding: 1%;  
 }
 
-.Foto{
-border: 5px black solid;
-width: 200px;
-height: 250px;
-float: right;
+.fotosg {
+    text-align: center;
+    text-decoration: dotted;
+    margin-bottom: 1%;
 }
 
 .lista {
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
     align-items: center;
 }
 
 .lista p {
-    margin-left: 1%;
+    margin: 1% 0; 
 }
 
 .candadoe {
@@ -135,35 +132,22 @@ float: right;
     color: rgb(17, 10, 158);
 }
 
-
-.service-item{
-    float: left;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.service-item2{
-    float: right;
-    margin-left: 2%;
-    margin-right: 2%;
+.service-item,
+.service-item2 {
+    flex-basis: 45%; 
+    margin: 1%;
 }
 
 section {
-    margin-bottom: 1.2rem;
-    background-color: #f9f9f9;
-    border-radius: 1.2rem;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
-    padding: 1.6rem;
+    margin-bottom: 2%;  
+    padding: 2%;  
 }
 
-/* Footer styles */
 .footer-page {
-    position: -ms-page;
-    bottom: 0;
     background-color: #333;
-    color: #000000;
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 2%;  
 }
 
 .headBars {
@@ -171,81 +155,34 @@ section {
 }
 
 #icoHeader {
-    position: relative;
-    position: +1;
-    float: left;
-    width: 7rem;
+    width: 7%;  
 }
 
-/* Estilo para ocultar la lista de elementos del menú */
-#menuItems {
-    display: none;
-}
-
-/* Estilo para mostrar la lista de elementos del menú cuando se expande */
-#menuItems.active {
-    display: block;
-}
-
-/* Estilo para el botón de hamburguesa */
 #toggleMenu {
-    display: block;
-    background: rgb(83, 82, 82);
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
+    display: none; 
 }
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
-
-    /* Adjust header */
-    header {
-        width: auto;
-    }
-
-    body {
-        overflow-x: hidden;
-        /* Cambiado a 'hidden' para bloquear el desplazamiento horizontal */
-    }
-
-    .main-content {
-        width: 100%;
+    nav ul li {
+        margin-right: 1%;  
     }
 
     header h1 {
-        font-size: 24px;
+        font-size: 5vw; /* Aumentar el tamaño del título en pantallas más pequeñas */
     }
 
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    /* Adjust main */
     main {
-        padding: 10px;
+        padding: 2%;  
     }
 
-    section {
-        margin-bottom: 10px;
-    }
-
-    .foot {
-        width: 100%;
-    }
-
-    /* Adjust footer */
     .footer-page {
-        position: -ms-page;
-        bottom: 0;
-        background-color: #333;
-        color: #000000;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .footertext {
-        color: rgb(115, 243, 179);
+        padding: 2%;  
     }
 }
 
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 7vw; /* Aumentar el tamaño del título en pantallas muy pequeñas */
+    }
+}
