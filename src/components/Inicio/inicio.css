@@ -28,34 +28,29 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    
     display: block;
     flex-direction: column;
     text-align: center;
+
     width: 100%;
+
     position: static;
     top: 0;
 }
 
-header h1 {
-    margin-bottom: 10px;
+#title {
     text-shadow: 3px 2px 2px #9fd898;
-    font-size: 3rem;
     text-align: center;
+    font-size: 4em;
 }
 
-nav ul {
-    list-style: none;
-}
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
 
-nav ul li a {
+
+nav, ul, li {
     color: #fff;
-    text-decoration: none;
+    text-decoration: double;
 }
 
 /* Main styles */
@@ -65,11 +60,9 @@ main {
 }
 
 section {
-    margin-bottom: 1.2rem;
     background-color: #f9f9f9;
     border-radius: 1.2rem;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
-    padding: 1.6rem;
 }
 
 /* Footer styles */
@@ -79,11 +72,6 @@ section {
     background-color: #333;
     color: #000000;
     text-align: center;
-    padding: 20px;
-}
-
-.headBars {
-    padding-top: 1%;
 }
 
 #icoHeader {
@@ -111,14 +99,31 @@ section {
     cursor: pointer;
 }
 
-.imagenes{
-    height: 2.7em;
-    padding: 1em;
-}
-
-.pStyle{
+#aboutUs{
     text-align: center;
 }
+
+#contactos{
+    text-align: center;
+}
+
+/* Redes sociales */
+.imagenes{
+    height: 2.5em;
+}
+
+.lista-redes{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+#titleRedes{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
 
@@ -136,21 +141,8 @@ section {
         width: 100%;
     }
 
-    header h1 {
-        font-size: 24px;
-    }
-
-    nav ul li {
-        margin-right: 10px;
-    }
-
-    /* Adjust main */
-    main {
-        padding: 10px;
-    }
-
     section {
-        margin-bottom: 10px;
+        margin-bottom: 1em;
     }
 
     .foot {
@@ -177,5 +169,11 @@ section {
     
     .pStyle{
         text-align: center;
+    }
+
+    #title {
+        text-shadow: 3px 2px 2px #9fd898;
+        text-align: center;
+        font-size: 2.6em;
     }
 }

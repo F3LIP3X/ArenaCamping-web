@@ -44,9 +44,11 @@ const secondIndex = () => {
                     </section>
                     <section id="home">
                         <h2 className='titleservicio'>Nuestros Servicios</h2>
+                            <hr />
                         <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área
                             de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios
                             que disponemos.</p>
+                            <hr />
                         <div className='lista'>
                             <div className="service-item">
                                 <p className='candadoe'><GiPadlock /></p>
@@ -85,12 +87,14 @@ const secondIndex = () => {
 
                     <section id="rules">
                         <h2 className='Reglas'>Normas</h2>
+                        <hr />
                         <div class="Normas">
                             <div className='normasG'>
                                 <p><TiTick /><b>Se permiten caravanas, camper y autocaravanas.</b></p>
                                 <p><TiTick /><b>Entrada y salida de 8:00H a 22:00H.</b></p>
                                 <p><TiTick /><b>Vandalismo sancionado.</b></p>
                             </div>
+                            <div><hr /></div>
                             <div className='normasB'>
                             <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H.</b></p>
                             <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña.</b></p>
