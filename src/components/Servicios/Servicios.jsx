@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import icon from '../assets/logo.ico';
+
+//css
 import '../Servicios/servicios.css';
+
+//icons
+import icon from '../assets/logo.ico';
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -40,53 +44,58 @@ const secondIndex = () => {
                     </section>
                     <section id="home">
                         <h2 className='titleservicio'>Nuestros Servicios</h2>
-                            <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área 
-                            de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios 
+                        <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área
+                            de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios
                             que disponemos.</p>
-                            <div className='lista'>
-                                <div className="service-item">
+                        <div className='lista'>
+                            <div className="service-item">
                                 <p className='candadoe'><GiPadlock /></p>
                                 <p>Estacionamiento Seguro</p>
-                                </div>
-                                <div className="service-item">
-                                    <p className='wifie'><FaWifi /></p>
-                                    <p>Wifi Gratis</p>
-                                </div>
-                                <div className="service-item">
-                                    <p className='duchae'><FaShower /></p>
-                                    <p>Disponibilidad de Duchas</p>
-                                </div>
-                                <div className="service-item">
-                                    <p className='areae'><MdGames /></p>
-                                    <p>Área recreativa</p>
-                                </div>
-                                <div className="service-item2">
-                                    <p className='rayoe'><AiOutlineThunderbolt /></p>
-                                    <p>Electricidad Accesible</p>
-                                </div>
-                                <div className="service-item2">
-                                    <p className='maquinae'><GiWashingMachine /></p>
-                                    <p>Variedad de Electrodomésticos</p>
-                                </div>
-                                <div className="service-item2">
-                                    <p className='aguae'><MdOutlineWaterDamage /></p>
-                                    <p>Llenado y vaciado aguas</p>
-                                </div>
-                                <div className="service-item2">
-                                    <p className='descansoe'><GiNightSleep /></p>
-                                    <p>Área de Descanso</p>
-                                </div>
                             </div>
-                    </section>        
+                            <div className="service-item">
+                                <p className='wifie'><FaWifi /></p>
+                                <p>Wifi Gratis</p>
+                            </div>
+                            <div className="service-item">
+                                <p className='duchae'><FaShower /></p>
+                                <p>Disponibilidad de Duchas</p>
+                            </div>
+                            <div className="service-item">
+                                <p className='areae'><MdGames /></p>
+                                <p>Área recreativa</p>
+                            </div>
+                            <div className="service-item2">
+                                <p className='rayoe'><AiOutlineThunderbolt /></p>
+                                <p>Electricidad Accesible</p>
+                            </div>
+                            <div className="service-item2">
+                                <p className='maquinae'><GiWashingMachine /></p>
+                                <p>Variedad de Electrodomésticos</p>
+                            </div>
+                            <div className="service-item2">
+                                <p className='aguae'><MdOutlineWaterDamage /></p>
+                                <p>Llenado y vaciado aguas</p>
+                            </div>
+                            <div className="service-item2">
+                                <p className='descansoe'><GiNightSleep /></p>
+                                <p>Área de Descanso</p>
+                            </div>
+                        </div>
+                    </section>
 
                     <section id="rules">
                         <h2 className='Reglas'>Normas</h2>
                         <div class="Normas">
-                            <p><TiTick /><b>Se permiten caravanas, camper y autocaravanas</b></p> 
-                            <p><TiTick /><b>Entrada y salida de 8:00H a 22:00H</b></p>
-                            <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H</b></p>
-                            <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña</b></p>
-                            <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas</b></p>
+                            <div className='normasG'>
+                                <p><TiTick /><b>Se permiten caravanas, camper y autocaravanas.</b></p>
+                                <p><TiTick /><b>Entrada y salida de 8:00H a 22:00H.</b></p>
+                                <p><TiTick /><b>Vandalismo sancionado.</b></p>
+                            </div>
+                            <div className='normasB'>
+                            <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H.</b></p>
+                            <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña.</b></p>
+                            <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas.</b></p>
+                            </div>
                         </div>
                     </section>
 
