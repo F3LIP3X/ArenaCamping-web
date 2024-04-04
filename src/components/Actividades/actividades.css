@@ -1,6 +1,4 @@
-tr button {    font-family: 'nexa';
-    src: url('../assets/Nexa\ Bold.otf') format('truetype');
-    
+tr button {   
 
     background-color: rgb(38, 38, 38);
     color: #fff
@@ -16,8 +14,15 @@ tr button {    font-family: 'nexa';
 .boton {
     display:block;
     float: right;
+    font-family: 'nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+    color: white;
+    background-color: black;
 }
 
+.pText {
+    padding-bottom: 1%;
+}
 .Galeria{
     display: flex;
     width: auto;
