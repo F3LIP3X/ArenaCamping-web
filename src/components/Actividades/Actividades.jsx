@@ -16,7 +16,7 @@ const actividades = () => {
                 <head>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
                 </head>
-                
+
                 <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
                 <h1 id=''>Arena Camping</h1>
                 <nav className='headBars'>
@@ -39,25 +39,21 @@ const actividades = () => {
                     </section>
 
                     <section id="actividad" class="tabla">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Camping Básico (Tienda de Campaña)</td>
-                                    <button className='boton'>VER MÁS</button>
+                        <div>
+                            <div>
+                                <td>Camping Básico (Tienda de Campaña)</td>
+                                <button className='boton'>VER MÁS</button>
+                            </div>
+                            <div>
+                                <td>Bungalow Pequeño</td>
+                                <button className='boton'>VER MÁS</button>
+                            </div>
+                            <div>
+                                <td>Bungalow Grande</td>
+                                <button className='boton'>VER MÁS</button>
 
-                                </tr>
-                                <tr>
-                                    <td>Bungalow Pequeño</td>
-                                    <button className='boton'>VER MÁS</button>
-
-                                </tr>
-                                <tr>
-                                    <td>Bungalow Grande</td>
-                                    <button className='boton'>VER MÁS</button>
-
-                                </tr>
-                            </tbody>
-                        </table>
+                            </div>
+                        </div>
                     </section>
 
                     <section className='Galeria'>
@@ -79,25 +75,25 @@ const actividades = () => {
                     </section>
 
                     <section>
-                        <article className="articulos"> 
-                        <i class="fa-solid fa-person"></i>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
+                        <article className="articulos">
+                            <i class="fa-solid fa-person"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
                         </article>
                         <article className="articulos">
-                        <i class="fa-solid fa-person-walking"></i>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
+                            <i class="fa-solid fa-person-walking"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
                         </article>
                         <article className="articulos">
-                        <i class="fa-solid fa-bicycle"></i>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
+                            <i class="fa-solid fa-bicycle"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
                         </article>
                         <article className="articulos">
-                        <i class="fa-solid fa-bicycle"></i>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
+                            <i class="fa-solid fa-bicycle"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
                         </article>
 
                     </section>
-                    
+
                 </main>
             </div>
 
