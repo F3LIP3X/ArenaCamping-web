@@ -118,7 +118,7 @@ const secondIndex = () => {
                     <section>
                         <h2 className='fotosg'>Galería</h2>
                         <p className='fotosg'>Descubre nuestras instalaciones</p>
-                            <div className='conjuntofotos'>
+                            <div className='Album'>
                                 <div className='box'>
                                     <img src={arealibre} alt="img1" />
                                 </div>

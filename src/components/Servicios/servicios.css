@@ -45,13 +45,15 @@
     margin-bottom: 1%;
 }
 
-.conjuntofotos{
-    max-width: 1200px;
+.Album{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px;
-    grid-gap: 20px;
+
+    max-width: 100%;
+    grid-template-rows: 25em;
+    grid-gap: 3em;
+    
 }
 
 .box img {
@@ -153,10 +155,22 @@
     .footer-page {
         padding: 2%;  
     }
+    .Album{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+        max-width: 90%;
+        grid-template-rows: 15em;
+        grid-gap: 0.4em;
+        padding-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     header h1 {
         font-size: 7vw; 
     }
+
+    
 }
