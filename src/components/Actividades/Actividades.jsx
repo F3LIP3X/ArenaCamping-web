@@ -89,7 +89,8 @@ const actividades = () => {
                     <div>
                             <div id='Seguros'>
                                 <h3 id='h3'>Seguros</h3>
-                                <p>Seguro para las actividades al aire libre</p>
+                                <p >Seguro para las actividades al aire libre</p>
+                                <br />
                                 <br />
                             </div>
                             <div>
