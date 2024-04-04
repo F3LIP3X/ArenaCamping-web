@@ -1,5 +1,5 @@
 
-
+/* Fuente del texto */
 @font-face {
     font-family: 'Nexa';
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
@@ -45,6 +45,29 @@
     margin-bottom: 1%;
 }
 
+.conjuntofotos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box:nth-child(1) {
+    grid-column-start: span 2;
+}
+
+.box:nth-child(4) {
+    grid-column-start: span 2;
+}
+
 .lista {
     display: flex;
     flex-wrap: wrap; 
@@ -57,6 +80,13 @@
     text-align: center;
 }
 
+.service-item,
+.service-item2 {
+    flex-basis: 45%; 
+    margin: 1%;
+}
+
+/* Emojis styles */
 .candadoe {
     color: rgb(157, 139, 22);
     text-align: center;
@@ -97,13 +127,7 @@
     text-align: center;
 }
 
-.service-item,
-.service-item2 {
-    flex-basis: 45%; 
-    margin: 1%;
-}
-
-
+/* Footer styles */
 .footer-page {
     background-color: #333;
     color: #fff;
