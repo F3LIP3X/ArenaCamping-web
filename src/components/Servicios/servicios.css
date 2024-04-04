@@ -54,38 +54,47 @@
 
 .lista p {
     margin: 1% 0; 
+    text-align: center;
 }
 
 .candadoe {
     color: rgb(157, 139, 22);
+    text-align: center;
 }
 
 .wifie {
     color: rgb(0, 200, 255);
+    text-align: center;
 }
 
 .duchae {
     color: rgb(70, 70, 70);
+    text-align: center;
 }
 
 .areae {
     color: rgb(255, 147, 147);
+    text-align: center;
 }
 
 .rayoe {
-    color: rgb(225, 255, 0);
+    color: rgb(66, 85, 255);
+    text-align: center;
 }
 
 .maquinae {
     color: rgb(47, 99, 255);
+    text-align: center;
 }
 
 .aguae {
     color: rgb(70, 70, 70);
+    text-align: center;
 }
 
 .descansoe {
     color: rgb(17, 10, 158);
+    text-align: center;
 }
 
 .service-item,

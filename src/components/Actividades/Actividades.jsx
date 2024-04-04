@@ -33,7 +33,7 @@ const actividades = () => {
             </header>
             <div className="main-content">
                 <main className='titulo'>
-                    <section id="section">
+                    <section>
                         <h1>Actividades</h1>
 
                     </section>
