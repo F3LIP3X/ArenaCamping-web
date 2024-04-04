@@ -64,6 +64,21 @@ i {
     align-items: center;
 }
 
+ .segur{
+    border: black solid 2.5px;
+    width: 7%;
+    display: block;
+    margin: 0 auto;
+    color: white !important;
+    background-color: rgb(95, 154, 248);
+    padding: 2px;
+}
+
+#linky{
+    text-decoration: none;
+    color:white;
+}
+
 h5{
     margin-top: 4px;
     margin-bottom: 14px;

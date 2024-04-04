@@ -60,6 +60,10 @@ const actividades = () => {
                                 <button className='boton'>VER MÁS</button>
                                 <p className='pText'>Tiro con arco</p>
                             </div>
+                            <div>
+                                <h3 id='h3' className='segur'> <a href='#Seguros' id='linky'>Seguros</a></h3>
+                                <br />
+                            </div>
                         </div>
                     </section>
 
@@ -83,7 +87,7 @@ const actividades = () => {
 
                     <section className='Partes'>
                     <div>
-                            <div>
+                            <div id='Seguros'>
                                 <h3 id='h3'>Seguros</h3>
                                 <p>Seguro para las actividades al aire libre</p>
                                 <br />
