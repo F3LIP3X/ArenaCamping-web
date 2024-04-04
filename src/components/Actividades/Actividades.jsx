@@ -3,6 +3,11 @@ import '../Actividades/actividades.css';
 import icon from '../assets/logo.ico';
 import { Link } from 'react-router-dom';
 
+//Imagenes
+import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
+import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
+import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
+import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 
 const actividades = () => {
     return (
@@ -56,10 +61,10 @@ const actividades = () => {
                     </section>
 
                     <section className='Galeria'>
-                        <img src="https://camperparkgranada.es/wp-content/uploads/2022/12/IMG-20221208-WA0021-e1671536902930-300x300.jpg" alt="img1" />
-                        <img src="https://camperparkgranada.es/wp-content/uploads/2022/12/IMG-20221204-WA0004-e1671536865544-300x300.jpg" alt="img2" />
-                        <img src="https://camperparkgranada.es/wp-content/uploads/2022/10/3-1-300x300.jpg" alt="img3" />
-                        <img src="https://camperparkgranada.es/wp-content/uploads/2023/07/ciclismo-de-carretera-367x367.jpg" alt="img4" />
+                        <img src={Excursiones} alt="img1" />
+                        <img src={Senderismo} alt="img2" />
+                        <img src={BiciM} alt="img3" />
+                        <img src={BiciC} alt="img4" />
                     </section>
 
                     <section className='Partes'>
