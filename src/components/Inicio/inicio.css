@@ -97,10 +97,6 @@ section {
 /* Estilo para ocultar la lista de elementos del menú */
 #menuItems {
     display: none;
-}
-
-/* Estilo para mostrar la lista de elementos del menú cuando se expande */
-#menuItems.active {
     display: block;
 }
 

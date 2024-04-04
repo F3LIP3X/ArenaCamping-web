@@ -25,9 +25,10 @@ tr button {
 }
 .Galeria{
     display: flex;
+    
     width: auto;
-    height: 20em;
-    justify-content: center;
+    height: 25em;
+    justify-content: left;
     margin: 0 auto;
     margin-bottom: 1em;
     
@@ -35,11 +36,11 @@ tr button {
 
 
 .Galeria img {
-    width: 0px;
-    flex-grow: 1;
+    width: 1em;
+    flex-grow: 4;
     object-fit: cover;
-    opacity: 0.77;
-    transition: .5s ease;
+    opacity: 0.78;
+    transition: 1s ease;
 }
 
 .Galeria img:hover { 

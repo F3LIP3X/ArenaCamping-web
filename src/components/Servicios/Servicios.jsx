@@ -185,5 +185,4 @@ const secondIndex = () => {
         </div>
     );
 };
-
 export default secondIndex;
