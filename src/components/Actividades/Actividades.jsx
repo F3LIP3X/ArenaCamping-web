@@ -63,7 +63,7 @@ const actividades = () => {
                         </div>
                     </section>
 
-                    <section className='Galeria'>
+                    <section className='Galeria'> 
                         <img src={Excursiones} alt="img1" />
                         <img src={Senderismo} alt="img2" />
                         <img src={BiciM} alt="img3" />
@@ -81,7 +81,34 @@ const actividades = () => {
                         <button>¡Contacta!</button>
                     </section>
 
-                    <section>
+                    <section className='Partes'>
+                    <div>
+                            <div>
+                                <h3 id='h3'>Seguros</h3>
+                                <p>Seguro para las actividades al aire libre</p>
+                                <br />
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'>Seguro Escalada</p>
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'> Seguro Cicilismo</p>
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'> Seguro Senderismo</p>
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'>Seguro Tiro con arco</p>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                   {/*  <section>
                         <article className="articulos">
                             <i class="fa-solid fa-person"></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
@@ -99,7 +126,7 @@ const actividades = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
                         </article>
 
-                    </section>
+                    </section> */}
 
                 </main>
             </div>
