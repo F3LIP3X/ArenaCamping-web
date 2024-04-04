@@ -1,52 +1,8 @@
-body,
-h1,
-h2,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
 
-html {
-    overflow-x: hidden;
-}
 
 @font-face {
     font-family: 'Nexa';
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
-}
-
-body {
-    font-family: 'Nexa', sans-serif;
-    overflow-x: hidden;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 2%; 
-    text-align: center;
-}
-
-header h1 {
-    margin-bottom: 1%;  
-    text-shadow: 3px 2px 2px #9fd898;
-    font-size: 3vw; 
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 2%;  
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* Main styles */
@@ -138,10 +94,6 @@ nav ul li a {
     margin: 1%;
 }
 
-section {
-    margin-bottom: 2%;  
-    padding: 2%;  
-}
 
 .footer-page {
     background-color: #333;
@@ -164,17 +116,6 @@ section {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
-    nav ul li {
-        margin-right: 1%;  
-    }
-
-    header h1 {
-        font-size: 5vw; /* Aumentar el tamaño del título en pantallas más pequeñas */
-    }
-
-    main {
-        padding: 2%;  
-    }
 
     .footer-page {
         padding: 2%;  
@@ -183,6 +124,6 @@ section {
 
 @media screen and (max-width: 600px) {
     header h1 {
-        font-size: 7vw; /* Aumentar el tamaño del título en pantallas muy pequeñas */
+        font-size: 7vw; 
     }
 }

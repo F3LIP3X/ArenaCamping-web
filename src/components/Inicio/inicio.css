@@ -9,6 +9,11 @@ li {
     padding: 0;
 }
 
+
+html {
+    overflow-x: hidden;
+}
+
 /* Set font size and family */
 @font-face {
     font-family: 'Nexa';
@@ -35,25 +40,32 @@ header {
 
     width: 100%;
 
+    padding: 1%; 
     position: static;
     top: 0;
 }
 
-#title {
+header h1 {
+    margin-bottom: 1%;  
     text-shadow: 3px 2px 2px #9fd898;
     text-align: center;
     font-size: 4em;
 }
 
-
-
-
-nav, ul, li {
-    color: #fff;
-    text-decoration: double;
+nav ul {
+    list-style: none;
 }
 
-/* Main styles */
+nav ul li {
+    display: inline-block;
+    margin-right: 2%;  
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 main {
     width: auto;
 
@@ -62,7 +74,9 @@ main {
 section {
     background-color: #f9f9f9;
     border-radius: 1.2rem;
+    padding: 2%;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
+    margin: 1%;
 }
 
 /* Footer styles */
@@ -126,7 +140,18 @@ section {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
+    header h1 {
+        font-size: 24px;
+    }
 
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    /* Adjust main */
+    main {
+        padding: 10px;
+    }
     /* Adjust header */
     header {
         width: 100%;

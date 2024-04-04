@@ -19,7 +19,7 @@ const firstIndex = () => {
         <div className='wrapper'>
             <header>
                 <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
-                <h1 id='title'>Arena Camping</h1>
+                <h1>Arena Camping</h1>
                 <nav className='pages'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>

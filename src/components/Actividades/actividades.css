@@ -21,7 +21,7 @@ tr button {    font-family: 'nexa';
 .Galeria{
     display: flex;
     width: auto;
-    height: 30em;
+    height: 20em;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 1em;
@@ -46,7 +46,7 @@ tr button {    font-family: 'nexa';
 
 .Galeria img:hover { 
     cursor: crosshair;
-    width: 300px;
+    width: 180px;
     opacity: 1;
     filter: contrast(120%);
 }
