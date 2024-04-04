@@ -41,16 +41,24 @@ const actividades = () => {
                     <section id="actividad" class="tabla">
                         <div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
-                                <p className='pText'>Camping Básico (Tienda de Campaña)</p>
+                                <h3 id='h3'>Actividades</h3>
+                                <br />
                             </div>
                             <div>
                                 <button className='boton'>VER MÁS</button>
-                                <p className='pText'>Bungalow Pequeño</p>
+                                <p className='pText'>Escalada</p>
                             </div>
                             <div>
                                 <button className='boton'>VER MÁS</button>
-                                <p className='pText'>Bungalow Grande</p>
+                                <p className='pText'>Cicilismo</p>
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'>Senderismo</p>
+                            </div>
+                            <div>
+                                <button className='boton'>VER MÁS</button>
+                                <p className='pText'>Tiro con arco</p>
                             </div>
                         </div>
                     </section>
