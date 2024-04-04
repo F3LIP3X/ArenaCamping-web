@@ -41,17 +41,16 @@ const actividades = () => {
                     <section id="actividad" class="tabla">
                         <div>
                             <div>
-                                <td>Camping Básico (Tienda de Campaña)</td>
+                                <p>Camping Básico (Tienda de Campaña)</p>
                                 <button className='boton'>VER MÁS</button>
                             </div>
                             <div>
-                                <td>Bungalow Pequeño</td>
+                                <p>Bungalow Pequeño</p>
                                 <button className='boton'>VER MÁS</button>
                             </div>
                             <div>
-                                <td>Bungalow Grande</td>
+                                <p>Bungalow Grande</p>
                                 <button className='boton'>VER MÁS</button>
-
                             </div>
                         </div>
                     </section>
