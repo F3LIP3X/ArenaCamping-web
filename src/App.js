@@ -1,9 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+//Páginas
+
 import Inicio from './components/Inicio/Inicio';
 import Servicios from './components/Servicios/Servicios';
 import Actividades from './components/Actividades/Actividades';
-//import Contacto from
+//import Entorno from './components/Entorno/Entorno';
+//import Contacto from './components/Contacto/Contacto';
+//import Precios from './components/Precios/Precios';
+//import Localización from './components/Localización/Localización';
+
 
 function App() {
   return (
@@ -13,6 +20,12 @@ function App() {
           <Route exact path="/" element={<Inicio />} />
           <Route exact path="/Servicios" element={<Servicios />} />
           <Route exact path="/Actividades" element={<Actividades />} />
+          
+          {/* No estan completos :) */}
+          <Route exact path="/Entorno" element={<Actividades />} />
+          <Route exact path="/Contacto" element={<Actividades />} />
+          <Route exact path="/Precios" element={<Actividades />} />
+          <Route exact path="/Localización" element={<Actividades />} />
         </Routes>
       </div>
     </Router>
