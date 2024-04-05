@@ -14,13 +14,15 @@ import instagram from '../assets/instagram.png';
 import twitter from '../assets/twitter.png';
 import youtube from '../assets/youtube.png';
 
+
+//Comando para comentar Ctrl + K + C
 const firstIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
+                <img id='logo' src={icon} alt="Logo de Arena Camping" />
                 <h1>Arena Camping</h1>
-                <nav className='pages'>
+                <nav className='headBars'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/Servicios">Servicio</Link></li>
@@ -91,7 +93,7 @@ const firstIndex = () => {
                     <p>© 2024 | Felipe Toledano Escudero</p>
                     <nav>
                         <ul>
-                            <li><a href="#home">Inicio</a></li>
+                            <li><Link to="/">Inicio</Link></li>
                             <li><a href="#about">Acerca de</a></li>
                             <li><a href="#contact">Contacto</a></li>
                         </ul>

@@ -1,7 +1,9 @@
 import React from 'react';
 import '../Actividades/actividades.css';
-import icon from '../assets/logo.ico';
 import { Link } from 'react-router-dom';
+
+//Icon
+import icon from '../assets/logo.ico';
 
 //Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
@@ -13,12 +15,8 @@ const actividades = () => {
     return (
         <div className='wrapper'>
             <header>
-                <head>
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-                </head>
-
-                <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
-                <h1 id=''>Arena Camping</h1>
+                <img id='logo' src={icon} alt="Logo de Arena Camping" />
+                <h1>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
@@ -60,14 +58,13 @@ const actividades = () => {
                                 <button className='boton'>VER MÁS</button>
                                 <p className='pText'>Tiro con arco</p>
                             </div>
-                            <div>
-                                <h3 id='h3' className='segur'> <a href='#Seguros' id='linky'>Seguros</a></h3>
-                                <br />
-                            </div>
+                        </div>
+                        <div id='aseguradora'>
+                            <a id='linky' href="#Seguros">Aseguradoras</a>
                         </div>
                     </section>
 
-                    <section className='Galeria'> 
+                    <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />
                         <img src={Senderismo} alt="img2" />
                         <img src={BiciM} alt="img3" />
@@ -86,7 +83,7 @@ const actividades = () => {
                     </section>
 
                     <section className='Partes'>
-                    <div>
+                        <div>
                             <div id='Seguros'>
                                 <h3 id='h3'>Seguros</h3>
                                 <p >Seguro para las actividades al aire libre</p>
@@ -110,10 +107,10 @@ const actividades = () => {
                                 <p className='pText'>Seguro Tiro con arco</p>
                             </div>
                         </div>
-                        
+
                     </section>
 
-                   {/*  <section>
+                    {/*  <section>
                         <article className="articulos">
                             <i class="fa-solid fa-person"></i>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus risus nec sapien molestie, quis tincidunt magna ultrices. Proin rutrum metus nulla, eget rhoncus libero scelerisque vitae. Nam laoreet arcu pharetra massa iaculis pharetra. Vestibulum auctor, tortor ut posuere pellentesque, mauris ex auctor eros, id finibus ante lacus non tortor. Nam ut tortor commodo, condimentum dolor in, facilisis eros. Vivamus auctor nisl sed ultricies fermentum. Etiam sollicitudin rhoncus aliquam. Nunc vitae condimentum quam. Suspendisse consectetur dui et leo iaculis malesuada. Nam eget iaculis tellus. Quisque facilisis dapibus dui aliquam consectetur. Vivamus aliquet, massa ac laoreet vestibulum, turpis dolor consectetur nisi, vel finibus ex magna sed nibh. Cras aliquet arcu non elit mattis fringilla. Nulla condimentum malesuada hendrerit.
@@ -141,7 +138,7 @@ const actividades = () => {
                     <p>© 2024 | Felipe Toledano Escudero</p>
                     <nav>
                         <ul>
-                            <li><a href="#home">Inicio</a></li>
+                            <li><Link to="/">Inicio</Link></li>
                             <li><a href="#about">Acerca de</a></li>
                             <li><a href="#contact">Contacto</a></li>
                         </ul>

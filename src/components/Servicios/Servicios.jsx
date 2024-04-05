@@ -35,9 +35,8 @@ const secondIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <img id='icoHeader' src={icon} alt="Logo de Arena Camping" />
-                <h1 id='h1Arena'>Arena Camping</h1>
+                <img id='logo' src={icon} alt="Logo de Arena Camping" />
+                <h1>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
@@ -57,11 +56,11 @@ const secondIndex = () => {
                     </section>
                     <section id="home">
                         <h2 className='titleservicio'>Nuestros Servicios</h2>
-                            <hr />
+                        <hr />
                         <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área
                             de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios
                             que disponemos.</p>
-                            <hr />
+                        <hr />
                         <div className='lista'>
                             <div className="service-item">
                                 <p className='candadoe'><GiPadlock /></p>
@@ -108,9 +107,9 @@ const secondIndex = () => {
                                 <p><TiTick /><b>Vandalismo sancionado.</b></p>
                             </div>
                             <div className='normasB'>
-                            <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H.</b></p>
-                            <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña.</b></p>
-                            <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas.</b></p>
+                                <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H.</b></p>
+                                <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña.</b></p>
+                                <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas.</b></p>
                             </div>
                         </div>
                     </section>
@@ -118,29 +117,29 @@ const secondIndex = () => {
                     <section>
                         <h2 className='fotosg'>Galería</h2>
                         <p className='fotosg'>Descubre nuestras instalaciones</p>
-                            <div className='Album'>
-                                <div className='box'>
-                                    <img src={arealibre} alt="img1" />
-                                </div>
-                                <div className='box'>
-                                    <img src={electricidad} alt="img2" />
-                                </div>
-                                <div className='box'>
-                                    <img src={duchas} alt="img3" />
-                                </div>
-                                <div className='box'>
-                                    <img src={camping} alt="img4" />
-                                </div>
-                                <div className='box'>
-                                    <img src={electrodomesticos} alt="img5" />
-                                </div>
-                                <div className='box'>
-                                    <img src={parking} alt="img6" />
-                                </div>
-                                <div className='box'>
-                                    <img src={vaciadoaguas} alt="img7" />
-                                </div>
+                        <div className='Album'>
+                            <div className='box'>
+                                <img src={arealibre} alt="img1" />
                             </div>
+                            <div className='box'>
+                                <img src={electricidad} alt="img2" />
+                            </div>
+                            <div className='box'>
+                                <img src={duchas} alt="img3" />
+                            </div>
+                            <div className='box'>
+                                <img src={camping} alt="img4" />
+                            </div>
+                            <div className='box'>
+                                <img src={electrodomesticos} alt="img5" />
+                            </div>
+                            <div className='box'>
+                                <img src={parking} alt="img6" />
+                            </div>
+                            <div className='box'>
+                                <img src={vaciadoaguas} alt="img7" />
+                            </div>
+                        </div>
                     </section>
                     <section className='redes'>
                         <div id='titleRedes'>
@@ -175,7 +174,7 @@ const secondIndex = () => {
                     <p>© 2024 | Felipe Toledano Escudero</p>
                     <nav>
                         <ul>
-                            <li><a href="#home">Inicio</a></li>
+                            <li><Link to="/">Inicio</Link></li>
                             <li><a href="#about">Acerca de</a></li>
                             <li><a href="#contact">Contacto</a></li>
                         </ul>

@@ -12,12 +12,15 @@ tr button {
     margin-top: 0.3%;
 }
 .boton {
-    display:block;
+    display: block;
     float: right;
-    font-family: 'nexa';
+    
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
+    font-family: 'nexa';
+
     color: white;
-    background-color: black;
+    border-radius: 0.6em;
+    background-color: rgb(92, 91, 91) ;
 }
 
 .pText {
@@ -64,24 +67,26 @@ i {
     align-items: center;
 }
 
- .segur{
-    border: black solid 2.5px;
-    width: 7%;
-    display: block;
-    margin: 0 auto;
-    color: white !important;
-    background-color: rgb(95, 154, 248);
-    padding: 2px;
-}
-
 #linky{
     text-decoration: none;
-    color:white;
+    text-align: center;
+    margin: 0 auto;
+
+    border-radius: 0.6em;
+    background-color: rgb(151, 0, 0) ;
+    color:rgb(255, 255, 255);
+    
+    padding: 0.5em;
+}
+
+#aseguradora{
+    padding: 1em;
+    text-align: center;
 }
 
 h5{
-    margin-top: 4px;
-    margin-bottom: 14px;
+    margin-top: 0.4em;
+    margin-bottom: 1.4em;
 }
 .Partes button {
     display: block;
