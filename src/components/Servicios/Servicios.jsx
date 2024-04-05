@@ -35,7 +35,7 @@ const secondIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                <img id='logo' src={icon} alt="Logo de Arena Camping" />
+                {/* <img id='logo' src={icon} alt="Logo de Arena Camping" /> */}
                 <h1>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
