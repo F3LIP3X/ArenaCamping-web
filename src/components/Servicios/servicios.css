@@ -165,12 +165,5 @@
         grid-gap: 0.4em;
         padding-bottom: 5%;
     }
-}
-
-@media screen and (max-width: 600px) {
-    header h1 {
-        font-size: 7vw; 
-    }
-
     
 }

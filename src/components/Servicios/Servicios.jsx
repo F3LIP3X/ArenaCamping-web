@@ -13,8 +13,10 @@ import electrodomesticos from '../assets/Imagenes Servicios/electrodomesticos.pn
 import parking from '../assets/Imagenes Servicios/parking.png';
 import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.png';
 
+//Icon
+//import icon from '../assets/logo.ico';
+
 //icons
-import icon from '../assets/logo.ico';
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";

@@ -3,7 +3,7 @@ import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
 
 //Icon
-import icon from '../assets/logo.ico';
+//import icon from '../assets/logo.ico';
 
 //Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'

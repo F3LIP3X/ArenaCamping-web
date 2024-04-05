@@ -1,7 +1,9 @@
 import React from 'react';
 import '../Inicio/inicio.css'
-import icon from '../assets/logo.ico';
 import { Link } from 'react-router-dom';
+
+//Icon
+//import icon from '../assets/logo.ico';
 
 //imagenes
 import maps from '../assets/Imagenes Inicio/maps.png';
