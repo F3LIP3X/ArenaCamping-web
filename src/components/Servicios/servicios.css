@@ -11,11 +11,6 @@
     width: auto;
 }
 
-.subtitulo {
-    text-align: left;
-    margin-top: 1%;
-}
-
 .titleservicio{
     text-align: center;
 }
@@ -130,13 +125,6 @@
 }
 
 /* Footer styles */
-.footer-page {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 2%;  
-}
-
 .headBars {
     padding-top: 1%;
 }
@@ -152,9 +140,7 @@
 /* Media queries for responsiveness */
 @media screen and (max-width: 912px) {
 
-    .footer-page {
-        padding: 2%;  
-    }
+    
     .Album{
         margin: 0 auto;
         display: grid;

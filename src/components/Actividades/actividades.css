@@ -28,13 +28,13 @@ tr button {
 }
 .Galeria{
     display: flex;
-    
-    width: auto;
+    width: 94%;
     height: 25em;
+
+    margin-bottom: 1em;
+
     justify-content: left;
     margin: 0 auto;
-    margin-bottom: 1em;
-    
 }
 
 

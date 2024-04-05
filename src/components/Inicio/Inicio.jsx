@@ -39,7 +39,7 @@ const firstIndex = () => {
             <div className="main-content">
                 <main>
                     <section id="home">
-                        <h2 className='subtitulo'>Inicio</h2>
+                        <h2 >Inicio</h2>
                     </section>
                     <section id="about">
                         <h2 id='aboutUs'>Sobre Nosotros</h2>

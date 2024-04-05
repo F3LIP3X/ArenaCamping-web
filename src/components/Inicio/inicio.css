@@ -31,7 +31,7 @@ body {
 
 /* Header style */
 header {
-    background-color: #333;
+    background-color: #011f1ac9;
     color: #fff;
     
     display: block;
@@ -109,11 +109,11 @@ section {
 
 /* Footer styles */
 .footer-page {
-    position: -ms-page;
     bottom: 0;
-    background-color: #333;
-    color: #000000;
+    background-color: #011f1aaf;
+    color: #ffffff;
     text-align: center;
+    padding: 3em;
 }
 
 #icoHeader {
@@ -170,7 +170,7 @@ section {
 
     /* Adjust main */
     main {
-        padding: 10px;
+        padding: 0.4em;
     }
     /* Adjust header */
     header {
@@ -197,7 +197,7 @@ section {
     /* Adjust footer */
     .footer-page {
         bottom: 0;
-        background-color: #333;
+        background-color: #011f1aaf;
         color: #ffffff;
         text-align: center;
         display: block;
