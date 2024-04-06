@@ -136,35 +136,30 @@ const actividades = () => {
             <footer className="footer-page">
                 <div className='footer-container'>
                     <div className="footer-info">
-                        <h4>Información</h4>
-                        <div className="table-responsive">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td>Empresa: </td>
-                                        <td>Arena Camping Granada</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Dirección:</td>
-                                        <td>18183 Huétor de Santillán Granda, España
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Teléfono:</td>
-                                        <td>666-666-666</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Email:</td>
-                                        <td>info@campingnaturaleza.com</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <h4 id='info-Footer'>Información</h4>
+                        <div className="info-table">
+                            <div className="info-row">
+                                <span>Empresa: </span>
+                                <span>Arena Camping Granada</span>
+                            </div>
+                            <div className="info-row">
+                                <span>Dirección: </span>
+                                <span>18183 Huétor de Santillán Granda, España</span>
+                            </div>
+                            <div className="info-row">
+                                <span>Teléfono: </span>
+                                <span>666-666-666</span>
+                            </div>
+                            <div className="info-row">
+                                <span>Email: </span>
+                                <span>info@campingnaturaleza.com</span>
+                            </div>
                         </div>
-                    </div>
+                    </div >
                     <div className="footer-image">
                         <img src={icon} alt="Arena Camping" />
                     </div>
-                </div>
+                </div >
                 <br />
                 <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
                 <nav>
@@ -175,8 +170,8 @@ const actividades = () => {
                         <li><a href="#work-with-us">Trabaja con nosotros</a></li>
                     </ul>
                 </nav>
-            </footer>
-        </div>
+            </footer >
+        </div >
     );
 };
 
