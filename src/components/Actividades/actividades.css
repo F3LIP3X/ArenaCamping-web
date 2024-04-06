@@ -26,15 +26,14 @@ tr button {
 .pText {
     padding-bottom: 1%;
 }
+
 .Galeria{
+    padding: 1em;
     display: flex;
-    width: 94%;
-    height: 25em;
-
-    margin-bottom: 1em;
-
+    width:  auto;
+    height: 22em;
     justify-content: left;
-    margin: 0 auto;
+    margin: 1%;
 }
 
 
@@ -42,13 +41,13 @@ tr button {
     width: 1em;
     flex-grow: 4;
     object-fit: cover;
-    opacity: 0.78;
+    opacity: 0.8;
     transition: 1s ease;
 }
 
 .Galeria img:hover { 
     cursor: crosshair;
-    width: 180px;
+    width: 13em;
     opacity: 1;
     filter: contrast(125%);
     content: attr(tittle);
@@ -92,6 +91,8 @@ h5{
     display: block;
     margin: 0 auto;
 }
+
+
 
 
 @media screen and (max-width: 912px) {

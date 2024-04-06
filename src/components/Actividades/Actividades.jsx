@@ -3,7 +3,7 @@ import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
 
 //Icon
-//import icon from '../assets/logo.ico';
+import icon from '../assets/logo.ico';
 
 //Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
@@ -134,16 +134,47 @@ const actividades = () => {
             </div>
 
             <footer className="footer-page">
-                <div className='foot'>
-                    <p>© 2024 | Felipe Toledano Escudero</p>
-                    <nav>
-                        <ul>
-                            <li><Link to="/">Inicio</Link></li>
-                            <li><a href="#about">Acerca de</a></li>
-                            <li><a href="#contact">Contacto</a></li>
-                        </ul>
-                    </nav>
+                <div className='footer-container'>
+                    <div className="footer-info">
+                        <h4>Información</h4>
+                        <div className="table-responsive">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Empresa: </td>
+                                        <td>Arena Camping Granada</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dirección:</td>
+                                        <td>18183 Huétor de Santillán Granda, España
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Teléfono:</td>
+                                        <td>666-666-666</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td>info@campingnaturaleza.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div className="footer-image">
+                        <img src={icon} alt="Arena Camping" />
+                    </div>
                 </div>
+                <br />
+                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
+                <nav>
+                    <ul>
+                        <li><Link to="/">Inicio</Link></li>
+                        <li><a href="#about">Acerca de</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#work-with-us">Trabaja con nosotros</a></li>
+                    </ul>
+                </nav>
             </footer>
         </div>
     );

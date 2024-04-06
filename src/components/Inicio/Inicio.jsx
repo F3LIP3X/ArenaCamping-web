@@ -3,7 +3,7 @@ import '../Inicio/inicio.css'
 import { Link } from 'react-router-dom';
 
 //Icon
-//import icon from '../assets/logo.ico';
+import icon from '../assets/logo.ico';
 
 //imagenes
 import maps from '../assets/Imagenes Inicio/maps.png';
@@ -23,7 +23,7 @@ const firstIndex = () => {
         <div className='wrapper'>
             <header>
                 {/* <img id='logo' src={icon} alt="Logo de Arena Camping" /> */}
-                <h1>Arena Camping</h1>
+                <h1 id='webName'>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
@@ -39,7 +39,7 @@ const firstIndex = () => {
             <div className="main-content">
                 <main>
                     <section id="home">
-                        <h2 >Inicio</h2>
+                        <h2>Inicio</h2>
                     </section>
                     <section id="about">
                         <h2 id='aboutUs'>Sobre Nosotros</h2>
@@ -61,9 +61,10 @@ const firstIndex = () => {
                         <img src={aparcamiento} alt="img4" />
                         <img src="https://camperparkgranada.es/wp-content/uploads/2023/07/ciclismo-de-carretera-367x367.jpg" alt="img5" />
                     </section>
+                    <p>_</p>
                     <section className='redes'>
                         <div id='titleRedes'>
-                            <h1>Puedes seguirnos en cualquiera de nuestras redes sociales.</h1>
+                            <h1 id='redes'>Puedes seguirnos en cualquiera de nuestras redes sociales.</h1>
                         </div>
                         <div className='lista-redes'>
                             <div className='divs'>
@@ -91,16 +92,47 @@ const firstIndex = () => {
             </div>
 
             <footer className="footer-page">
-                <div className='foot'>
-                    <p>© 2024 | Felipe Toledano Escudero</p>
-                    <nav>
-                        <ul>
-                            <li><Link to="/">Inicio</Link></li>
-                            <li><a href="#about">Acerca de</a></li>
-                            <li><a href="#contact">Contacto</a></li>
-                        </ul>
-                    </nav>
+                <div className='footer-container'>
+                    <div className="footer-info">
+                        <h4>Información</h4>
+                        <div className="table-responsive">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Empresa: </td>
+                                        <td>Arena Camping Granada</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dirección:</td>
+                                        <td>18183 Huétor de Santillán Granda, España
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Teléfono:</td>
+                                        <td>666-666-666</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td>info@campingnaturaleza.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div className="footer-image">
+                        <img src={icon} alt="Arena Camping" />
+                    </div>
                 </div>
+                <br />
+                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
+                <nav>
+                    <ul>
+                        <li><Link to="/">Inicio</Link></li>
+                        <li><a href="#about">Acerca de</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#work-with-us">Trabaja con nosotros</a></li>
+                    </ul>
+                </nav>
             </footer>
         </div >
     );

@@ -9,7 +9,6 @@ li {
     padding: 0;
 }
 
-
 html {
     overflow-x: hidden;
 }
@@ -33,13 +32,10 @@ body {
 header {
     background-color: #011f1ac9;
     color: #fff;
-    
     display: block;
     flex-direction: column;
     text-align: center;
-
     width: 100%;
-
     padding: 1%; 
     position: static;
     top: 0;
@@ -53,7 +49,6 @@ header h1 {
 }
  
 /* Lista de Páginas */
-
 nav ul {
     list-style: none;
 }
@@ -73,7 +68,6 @@ nav ul li a {
 
 main {
     width: auto;
-
 }
 
 .headBars ul {
@@ -112,7 +106,7 @@ section {
     bottom: 0;
     background-color: #011f1aaf;
     color: #ffffff;
-    text-align: center;
+    text-align: left; /* Alinea el texto a la izquierda */
     padding: 3em;
 }
 
@@ -162,7 +156,51 @@ section {
     padding-bottom: 2em;
 }
 
-/* Media queries for responsiveness */
+#home{
+    padding: 0.9em;
+}
+
+#redes{
+    font-size: large;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en dispositivos pequeños */
+}
+
+.footer-info {
+    flex-grow: 1;
+    flex-basis: 300px; /* Establece un ancho inicial para el texto */
+    margin-bottom: 20px; /* Agrega margen inferior para separar del texto */
+}
+
+.footer-image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha en dispositivos grandes */
+}
+
+.footer-image img {
+    max-width: 100%; /* La imagen ocupará el ancho máximo posible */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(190, 236, 105, 0.459);
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 912px) {
     header h1 {
         font-size: 2.4em;
@@ -175,6 +213,8 @@ section {
     /* Adjust header */
     header {
         width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 
     body {
@@ -213,12 +253,6 @@ section {
     }
     
     .pStyle{
-        text-align: center;
-    }
-
-    #title {
-        text-shadow: 3px 2px 2px #9fd898;
-        text-align: center;
-        font-size: 2.6em;
+        text-align:
     }
 }
