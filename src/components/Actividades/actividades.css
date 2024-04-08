@@ -66,17 +66,19 @@ i {
     align-items: center;
 }
 
-#linky{
+.linky, #cont{
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
 
     border-radius: 0.6em;
-    background-color: rgb(151, 0, 0) ;
+    background-color: rgb(9, 41, 18) ;
     color:rgb(255, 255, 255);
     
     padding: 0.5em;
 }
+
+
 
 #aseguradora{
     padding: 1em;
