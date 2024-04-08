@@ -1,0 +1,20 @@
+
+/* Fuente del texto */
+@font-face {
+    font-family: 'Nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+}
+
+/* Footer styles */
+.headBars {
+    padding-top: 1%;
+}
+
+#icoHeader {
+    width: 7%;  
+}
+
+#toggleMenu {
+    display: none; 
+}
+
