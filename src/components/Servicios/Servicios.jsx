@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 //Componentes
 import FooterPanel from '../Inicio/footer'; 
 import HeaderPanel from '../Inicio/header'; 
+import SocialPanel from '../Inicio/social';
 
 //css
 import '../Servicios/servicios.css';
@@ -133,31 +134,7 @@ const secondIndex = () => {
                             </div>
                         </div>
                     </section>
-                    <section className='redes'>
-                        <div id='titleRedes'>
-                            <h1>Puedes seguirnos en cualquiera de nuestras redes sociales.</h1>
-                        </div>
-                        <div className='lista-redes'>
-                            <div className='divs'>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={instagram} alt="img6" />
-                                </a>
-                                <p className='pStyle'>Instagram</p>
-                            </div>
-                            <div className='divs'>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={twitter} alt="img7" />
-                                </a>
-                                <p className='pStyle'>Twitter</p>
-                            </div>
-                            <div className='divs'>
-                                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={youtube} alt="img8" />
-                                </a>
-                                <p className='pStyle'>YouTube</p>
-                            </div>
-                        </div>
-                    </section>
+                    <SocialPanel />
                 </main>
             </div>
             <FooterPanel />
