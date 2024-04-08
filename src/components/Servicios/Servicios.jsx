@@ -1,25 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 //Componentes
 import FooterPanel from '../Inicio/footer'; 
 import HeaderPanel from '../Inicio/header'; 
 import SocialPanel from '../Inicio/social';
+import GaleryPanel2 from './GaleryPanel2';
 
 //css
 import '../Servicios/servicios.css';
-
-//imagenes
-import arealibre from '../assets/Imagenes Servicios/arealibre.png';
-import camping from '../assets/Imagenes Servicios/camping.png';
-import duchas from '../assets/Imagenes Servicios/duchas.png';
-import electricidad from '../assets/Imagenes Servicios/electricidad.png';
-import electrodomesticos from '../assets/Imagenes Servicios/electrodomesticos.png';
-import parking from '../assets/Imagenes Servicios/parking.png';
-import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.png';
-
-//Icon
-import icon from '../assets/logo.ico';
 
 //icons
 import { GiPadlock } from "react-icons/gi";
@@ -32,11 +20,6 @@ import { MdOutlineWaterDamage } from "react-icons/md";
 import { IoIosCloseCircle } from "react-icons/io";
 import { TiTick } from "react-icons/ti";
 import { MdGames } from "react-icons/md";
-
-//logos redes
-import instagram from '../assets/instagram.png';
-import twitter from '../assets/twitter.png';
-import youtube from '../assets/youtube.png';
 
 const secondIndex = () => {
     return (
@@ -106,34 +89,7 @@ const secondIndex = () => {
                             </div>
                         </div>
                     </section>
-
-                    <section>
-                        <h2 className='fotosg'>Galería</h2>
-                        <p className='fotosg'>Descubre nuestras instalaciones</p>
-                        <div className='Album'>
-                            <div className='box'>
-                                <img src={arealibre} alt="img1" />
-                            </div>
-                            <div className='box'>
-                                <img src={electricidad} alt="img2" />
-                            </div>
-                            <div className='box'>
-                                <img src={duchas} alt="img3" />
-                            </div>
-                            <div className='box'>
-                                <img src={camping} alt="img4" />
-                            </div>
-                            <div className='box'>
-                                <img src={electrodomesticos} alt="img5" />
-                            </div>
-                            <div className='box'>
-                                <img src={parking} alt="img6" />
-                            </div>
-                            <div className='box'>
-                                <img src={vaciadoaguas} alt="img7" />
-                            </div>
-                        </div>
-                    </section>
+                    <GaleryPanel2 />
                     <SocialPanel />
                 </main>
             </div>

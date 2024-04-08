@@ -1,9 +1,5 @@
 import React from 'react';
 import '../Inicio/inicio.css'
-import { Link } from 'react-router-dom';
-
-//Icon
-import icon from '../assets/logo.ico';
 
 //logos redes
 import instagram from '../assets/instagram.png';
