@@ -1,4 +1,4 @@
-tr button {   
+tr button {
 
     background-color: rgb(38, 38, 38);
     color: #fff
@@ -11,26 +11,27 @@ tr button {
 .titulo {
     margin-top: 0.3%;
 }
+
 .boton {
     display: block;
     float: right;
-    
+
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
     font-family: 'nexa';
 
     color: white;
     border-radius: 0.6em;
-    background-color: rgb(92, 91, 91) ;
+    background-color: rgb(92, 91, 91);
 }
 
 .pText {
     padding-bottom: 1%;
 }
 
-.Galeria{
+.Galeria {
     padding: 1em;
     display: flex;
-    width:  auto;
+    width: auto;
     height: 22em;
     justify-content: left;
     margin: 1%;
@@ -45,7 +46,7 @@ tr button {
     transition: 1s ease;
 }
 
-.Galeria img:hover { 
+.Galeria img:hover {
     cursor: crosshair;
     width: 13em;
     opacity: 1;
@@ -54,51 +55,56 @@ tr button {
 }
 
 .articulos {
-    margin:1em;
+    margin: 1em;
 }
 
 i {
     margin-right: 1em;
 }
 
-.Partes h1, h4, h5, #h3{
+.Partes h1,
+h4,
+h5,
+#h3 {
     text-align: center;
     align-items: center;
 }
 
-.linky, #cont{
+.linky,
+#cont {
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
 
     border-radius: 0.6em;
-    background-color: rgb(9, 41, 18) ;
-    color:rgb(255, 255, 255);
-    
+    background-color: rgb(9, 41, 18);
+    color: rgb(255, 255, 255);
+
     padding: 0.5em;
 }
 
 
 
-#aseguradora{
+#aseguradora {
     padding: 1em;
     text-align: center;
 }
 
-h5{
+h5 {
     margin-top: 0.4em;
     margin-bottom: 1.4em;
 }
+
 .Partes button {
     display: block;
     margin: 0 auto;
 }
 
-.slider{
+.slider {
     overflow: hidden;
 }
 
-.slider--iner{
+.slider--iner {
     display: flex;
     flex-wrap: nowrap;
     height: 100%;
@@ -109,6 +115,8 @@ h5{
     color: #000;
 }
 
+#div-ti {
+}
 
 @media screen and (max-width: 912px) {
     tr button {

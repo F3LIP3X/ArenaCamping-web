@@ -19,7 +19,26 @@ const firstIndex = () => {
                     <section id="about">
                         <h2 id='aboutUs'>Sobre Nosotros</h2>
                         <hr />
-                        <p>Somos un camping familiar ubicado en medio de exuberantes bosques y hermosos paisajes naturales. Ofrecemos una amplia gama de servicios para hacer que tu estadía sea cómoda y memorable.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius 
+                            quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
+                            rem provident eveniet optio porro! Accusantium, distinctio! Et molestiae
+                            velit natus maiores accusamus dignissimos, corrupti odit sequi porro
+                            soluta labore fuga praesentium quo, nostrum, reprehenderit ab facere
+                            commodi deleniti ea quidem consequatur quia quos aperiam? Fuga
+                            placeat labore iusto nisi non unde cupiditate enim voluptatem
+                            debitis id ab sequi vitae, aut recusandae veniam? Excepturi
+                            tempore at adipisci quibusdam, est, ullam saepe ratione eum
+                            non cumque rerum corporis iusto reprehenderit neque id deserunt
+                            itaque sequi molestias harum perferendis debitis inventore
+                            consectetur. Quod architecto corrupti expedita, facere est
+                            cupiditate nobis tempora quis similique et dicta maxime
+                            corporis incidunt atque iusto, quam in laboriosam sed
+                            commodi pariatur. Necessitatibus commodi incidunt fuga,
+                            optio assumenda iure. Ratione nemo, accusamus ea recusandae
+                            sapiente voluptatum tenetur numquam? Nemo aspernatur
+                            aperiam itaque in optio hic aut perferendis eum similique
+                            tenetur exercitationem assumenda libero ab, molestias tempora magnam
+                            doloribus at mollitia beatae rem minima aliquid molestiae facere.</p>
                     </section>
 
                     <section id="contact">
