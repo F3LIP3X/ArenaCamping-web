@@ -94,7 +94,20 @@ h5{
     margin: 0 auto;
 }
 
+.slider{
+    overflow: hidden;
+}
 
+.slider--iner{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100vw;
+
+
+    background-color: #fff;
+    color: #000;
+}
 
 
 @media screen and (max-width: 912px) {

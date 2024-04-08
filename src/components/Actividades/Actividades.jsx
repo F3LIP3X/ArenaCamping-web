@@ -63,6 +63,16 @@ const actividades = () => {
                             <a className='linky' href="#Seguros">Aseguradoras</a>
                         </div>
                     </section>
+                    
+                    <section className='slider'>
+                        <div className='slider--inner'>
+                            <img src={Excursiones} alt="img1" />
+                            <img src={Senderismo} alt="img2" />
+                            <img src={BiciM} alt="img3" />
+                            <img src={BiciC} alt="img4" />
+                        </div>
+                    </section>
+
 
                     <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />
@@ -79,10 +89,10 @@ const actividades = () => {
                     <section className='Partes'>
                         <h1 >Reserva ya tu plaza en Arena Camping</h1>
                         <h5 >Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
-                        <div  id='aseguradora'>
+                        <div id='aseguradora'>
                             <button id='cont' ><Link to="/Contacto">¡Contacta!</Link></button>
                         </div>
-                        
+
                     </section>
 
                     <section className='Partes'>
@@ -113,6 +123,7 @@ const actividades = () => {
 
                 </main>
             </div>
+
 
             <footer className="footer-page">
                 <div className='footer-container'>
@@ -155,5 +166,11 @@ const actividades = () => {
         </div >
     );
 };
+
+let sliderInner = document.querySelector(".slider--inner");
+
+setInterval(function(){
+    let percentage
+})
 
 export default actividades;
