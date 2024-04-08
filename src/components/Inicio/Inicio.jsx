@@ -2,6 +2,8 @@ import React from 'react';
 import '../Inicio/inicio.css'
 import { Link } from 'react-router-dom';
 
+import FooterPanel from './footer'; // Importa el componente FooterPanel desde el archivo footer.js
+
 //Icon
 import icon from '../assets/logo.ico';
 
@@ -87,48 +89,11 @@ const firstIndex = () => {
                             </div>
                         </div>
                     </section>
-
+                    {/* Agrega el componente FooterPanel aquí */}
+                    <FooterPanel />
                 </main>
             </div>
-            <footer className="footer-page">
-                <div className='footer-container'>
-                    <div className="footer-info">
-                        <h4 id='info-Footer'>Información</h4>
-                        <div className="info-table">
-                            <div className="info-row">
-                                <span>Empresa: </span>
-                                <span>Arena Camping Granada</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Dirección: </span>
-                                <span>18183 Huétor de Santillán Granda, España</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Teléfono: </span>
-                                <span>666-666-666</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Email: </span>
-                                <span>info@campingnaturaleza.com</span>
-                            </div>
-                        </div>
-                    </div >
-                    <div className="footer-image">
-                        <img src={icon} alt="Arena Camping" />
-                    </div>
-                </div >
-                <br />
-                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Inicio</Link></li>
-                        <li><a href="#about">Acerca de</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                        <li><a href="#work-with-us">Trabaja con nosotros</a></li>
-                    </ul>
-                </nav>
-            </footer >
-        </div >
+        </div>
     );
 };
 

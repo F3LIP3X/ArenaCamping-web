@@ -141,12 +141,24 @@ section {
 
 /* Redes sociales */
 .imagenes{
-    height: 2.5em;
+    width: 2.5em;
 }
 
+.imagenes:hover{
+    cursor: crosshair;
+    width: 2.6em;
+    opacity: 1;
+    filter: contrast(125%);
+    content: attr(tittle);
+}
+
+.divs p{
+    position: static;
+}
 .lista-redes{
     display: flex;
     flex-wrap: wrap; 
+    padding: 1em;
     justify-content: space-around; 
     align-items: center;
 }
