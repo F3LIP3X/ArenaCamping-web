@@ -58,7 +58,6 @@ button[type="submit"] {
     width: 91%;
     padding: 10px;
     font-size: 1.5em;
-    background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -66,8 +65,23 @@ button[type="submit"] {
     animation: changeColor 8s infinite; /* Animación del botón */
 }
 
-button[type="submit"]:hover {
-    background-color: #0056b3;
+/* Iframe */
+.mapa {
+    text-align: center;
+    height: 100%;
+}
+
+.mapa h2 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+.mapa iframe {
+    width: 100%; 
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes changeColor {
@@ -105,3 +119,7 @@ button[type="submit"]:hover {
         font-size: 1.2em;
     }
 }
+
+
+
+
