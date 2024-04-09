@@ -1,22 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-//css
+// CSS
 import '../Contacto/contacto.css';
 
-//Icon
+// Icono
 import icon from '../assets/logo.ico';
 
-//logos redes
+// Redes sociales
 import instagram from '../assets/instagram.png';
 import twitter from '../assets/twitter.png';
 import youtube from '../assets/youtube.png';
 
-const fifthIndex = () => {
+const FifthIndex = () => {
     return (
         <div className='wrapper'>
             <header>
-                {/* <img id='logo' src={icon} alt="Logo de Arena Camping" /> */}
                 <h1>Arena Camping</h1>
                 <nav className='headBars'>
                     <ul>
@@ -35,7 +34,6 @@ const fifthIndex = () => {
                     <section id="home">
                         <h1>Contacto</h1>
                     </section>
-                    
                     <section className='redes'>
                         <div id='titleRedes'>
                             <h1>Puedes seguirnos en cualquiera de nuestras redes sociales:</h1>
@@ -61,9 +59,26 @@ const fifthIndex = () => {
                             </div>
                         </div>
                     </section>
+                    <section className="formulario">
+                        <h2>Si tiene alguna duda, envíanos un mensaje</h2>
+                        <form>
+                            <div className="form-group">
+                                <label htmlFor="matricula">Matrícula:</label>
+                                <input type="text" id="matricula" name="matricula" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="email">Correo Electrónico:</label>
+                                <input type="email" id="email" name="email" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="mensaje">Mensaje:</label>
+                                <textarea id="mensaje" name="mensaje"></textarea>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </section>
                 </main>
             </div>
-
             <footer className="footer-page">
                 <div className='footer-container'>
                     <div className="footer-info">
@@ -105,4 +120,5 @@ const fifthIndex = () => {
         </div>
     );
 };
-export default fifthIndex;
+
+export default FifthIndex;

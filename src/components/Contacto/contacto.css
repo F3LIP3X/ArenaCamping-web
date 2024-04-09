@@ -1,4 +1,3 @@
-
 /* Fuente del texto */
 @font-face {
     font-family: 'Nexa';
@@ -11,10 +10,98 @@
 }
 
 #icoHeader {
-    width: 7%;  
+    width: 10%;  
 }
 
 #toggleMenu {
     display: none; 
 }
 
+/* Estilos del formulario */
+.formulario {
+    padding-right: 0.5%; 
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    overflow: hidden; 
+    padding-right: 0.5%; 
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    width: 91%;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: changeColor 8s infinite; /* Animación del botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #729989;
+    }
+    25% {
+        background-color: #245643;
+    }
+    50% {
+        background-color: #0B2821;
+    }
+    75% {
+        background-color: #47806B;
+    }
+    100% {
+        background-color: #729989;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    .form-group label {
+        font-size: 1em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 1em;
+    }
+
+    button[type="submit"] {
+        font-size: 1.2em;
+    }
+}
