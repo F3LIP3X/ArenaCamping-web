@@ -1,10 +1,10 @@
 import React from 'react';
 
 //Componentes
-import FooterPanel from '../Inicio/footer'; 
-import HeaderPanel from '../Inicio/header'; 
-import SocialPanel from '../Inicio/social';
-import GaleryPanel2 from './GaleryPanel2';
+import FooterPanel from '../Componentes/footer'; 
+import HeaderPanel from '../Componentes/header'; 
+import SocialPanel from '../Componentes/social';
+import GaleryPanel2 from '../Componentes/GaleryPanel2';
 
 //css
 import '../Servicios/servicios.css';

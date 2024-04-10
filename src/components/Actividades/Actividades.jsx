@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
-import FooterPanel from '../Inicio/footer'; 
+import FooterPanel from '../Componentes/footer'; 
 
 
 //Icon
