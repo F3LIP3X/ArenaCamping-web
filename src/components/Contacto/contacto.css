@@ -17,11 +17,6 @@
     display: none; 
 }
 
-/* Estilos del formulario */
-.formulario {
-    padding-right: 0.5%; 
-}
-
 .formulario h2 {
     text-align: center;
     font-size: 2.5em;
@@ -31,7 +26,6 @@
 .form-group {
     margin-bottom: 30px;
     overflow: hidden; 
-    padding-right: 0.5%; 
 }
 
 .form-group label {
@@ -43,7 +37,8 @@
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 90%;
+    width: 100%;
+    box-sizing: border-box; 
     padding: 10px;
     font-size: 1.2em;
     border-radius: 5px;
@@ -55,33 +50,15 @@ textarea {
 }
 
 button[type="submit"] {
-    width: 91%;
+    width: 100%; 
+    box-sizing: border-box; 
     padding: 10px;
     font-size: 1.5em;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    animation: changeColor 8s infinite; /* Animación del botón */
-}
-
-/* Iframe */
-.mapa {
-    text-align: center;
-    height: 100%;
-}
-
-.mapa h2 {
-    font-size: 2.5em;
-    margin-bottom: 2%;
-}
-
-.mapa iframe {
-    width: 100%; 
-    height: 100%;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: changeColor 8s infinite; 
 }
 
 @keyframes changeColor {
@@ -104,7 +81,6 @@ button[type="submit"] {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-
     .form-group label {
         font-size: 1em;
     }
@@ -119,7 +95,3 @@ button[type="submit"] {
         font-size: 1.2em;
     }
 }
-
-
-
-

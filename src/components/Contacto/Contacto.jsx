@@ -78,13 +78,6 @@ const FifthIndex = () => {
                         </form>
                     </section>
 
-                    <section className="mapa">
-                        <h2>Encuéntranos en el mapa</h2>
-                        <iframe title="mapa" width="100%" height="400" frameBorder="0" style={{ border: 0 }}
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49671.75769421663!2d-3.656892711053048!3d37.17733639939106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6722855b3d5ab3%3A0xabc09b30e8b39eeb!2sGranada%2C%20Spain!5e0!3m2!1sen!2sus!4v1617453461371!5m2!1sen!2sus"
-                            allowFullScreen
-                        ></iframe>
-                    </section>
                 </main>
             </div>
             
