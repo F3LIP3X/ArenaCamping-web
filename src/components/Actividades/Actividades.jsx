@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
-import FooterPanel from '../Componentes/footer'; 
+import FooterPanel from '../Inicio/footer'; 
 
 
 //Icon
@@ -129,11 +129,5 @@ const actividades = () => {
         </div >
     );
 };
-
-let sliderInner = document.querySelector(".slider--inner");
-
-setInterval(function(){
-    let percentage
-})
 
 export default actividades;
