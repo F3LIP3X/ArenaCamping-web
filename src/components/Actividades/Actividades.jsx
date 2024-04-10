@@ -1,7 +1,11 @@
 import React from 'react';
 import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
-import FooterPanel from '../Inicio/footer'; 
+
+//Moduls
+import FooterPanel from '../Moduls/footer';
+import HeaderPanel from '../Moduls/header';
+import SocialPanel from '../Moduls/social';
 
 
 //Icon
@@ -16,21 +20,7 @@ import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 const actividades = () => {
     return (
         <div className='wrapper'>
-            <header>
-                {/* <img id='logo' src={icon} alt="Logo de Arena Camping" /> */}
-                <h1>Arena Camping</h1>
-                <nav className='headBars'>
-                    <ul>
-                        <li><Link to="/">Inicio</Link></li>
-                        <li><Link to="/Servicios">Servicio</Link></li>
-                        <li><Link to="/Actividades">Actividades</Link></li>
-                        <li><Link to="/Entorno">Entorno</Link></li>
-                        <li><Link to="/Contacto">Contacto</Link></li>
-                        <li><Link to="/Precios">Precios</Link></li>
-                        <li><Link to="/Localización">Localización</Link></li>
-                    </ul>
-                </nav>
-            </header>
+            <HeaderPanel />
             <div className="main-content">
                 <main className='titulo'>
                     <section>
@@ -122,7 +112,7 @@ const actividades = () => {
                             </div>
                         </div>
                     </section>
-
+                    <SocialPanel />
                 </main>
             </div>
             <FooterPanel/>
