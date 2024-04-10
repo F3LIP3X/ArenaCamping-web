@@ -1,10 +1,10 @@
 import React from 'react';
 import '../Inicio/inicio.css'
 
-import FooterPanel from '../Componentes/footer';
-import HeaderPanel from '../Componentes/header';
-import SocialPanel from '../Componentes/social';
-import GaleryPanel from '../Componentes/galery';
+import FooterPanel from '../Moduls/footer';
+import HeaderPanel from '../Moduls/header';
+import SocialPanel from '../Moduls/social';
+import GaleryPanel from '../Moduls/galery';
 
 //Comando para comentar Ctrl + K + C
 const firstIndex = () => {
