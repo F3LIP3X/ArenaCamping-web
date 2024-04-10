@@ -40,7 +40,7 @@ const footerPanel = () => {
                 <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
                 <nav>
                     <ul>
-                        <li><Link to="/">Inicio</Link></li>
+                        <li className='foot-li'><Link to="/">Inicio</Link></li>
                         <li><a href="#about">Acerca de</a></li>
                         <li><a href="#contact">Contacto</a></li>
                         <li><a href="#work-with-us">Trabaja con nosotros</a></li>

@@ -47,30 +47,21 @@ header h1 {
     text-align: center;
     font-size: 4em;
 }
-.wrapper {
-    text-align: center;
-}
-
-.headBars ul {
-    padding: 0;
-    margin: 0;
+ 
+/* Lista de Páginas */
+nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
 }
 
-.head-li {
-    margin: 0 10px; /* Espacio entre los elementos */
+nav ul li {
+    display: inline-block;
+    margin-right: 2%;  
 }
 
-.head-li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s; /* Transición para el cambio de color */
-}
-
-.head-li a:hover {
-    color: #00FF00; /* Cambia el color a verde cuando se hace hover */
+    text-decoration: underline;
 }
 
 /*--------------------------*/
@@ -79,6 +70,28 @@ main {
     width: auto;
 }
 
+.headBars ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.headBars ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.headBars ul li:last-child {
+    margin-right: 0;
+}
+
+.headBars ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.headBars li:hover{
+    color: #000000;
+}
 
 section {
     background-color: #f9f9f9;
@@ -209,6 +222,10 @@ section {
 a {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: rgba(190, 236, 105, 0.459);
 }
 
 .copyright {
