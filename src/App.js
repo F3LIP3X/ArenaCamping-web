@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+//Import Tailwind
+import 'tailwindcss/tailwind.css';
+
 //Páginas
 
 import Inicio from './components/Inicio/Inicio';
