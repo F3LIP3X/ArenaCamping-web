@@ -7,10 +7,6 @@ import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 
-
-//Icon
-import icon from '../assets/logo.ico';
-
 //Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
@@ -25,15 +21,12 @@ const actividades = () => {
                 <main className='titulo'>
                     <section>
                         <h1>Actividades</h1>
-
                     </section>
 
-                    <section id="actividad" class="tabla">
+
+
+                    <section class="tabla">
                         <div>
-                            <div>
-                                <h3 id='h3'>Actividades</h3>
-                                <br />
-                            </div>
                             <div>
                                 <button className='boton'>VER MÁS</button>
                                 <p className='pText'>Escalada</p>
@@ -51,11 +44,11 @@ const actividades = () => {
                                 <p className='pText'>Tiro con arco</p>
                             </div>
                         </div>
-                        <div id='aseguradora'>
-                            <a className='linky' href="#Seguros">Aseguradoras</a>
+                        <div >
+                            <button className="btn btn-outline btn-success">Aseguradoras</button>
                         </div>
                     </section>
-                    
+
                     <section className='slider'>
                         <div className='slider--inner'>
                             <img src={Excursiones} alt="img1" />
@@ -115,7 +108,7 @@ const actividades = () => {
                     <SocialPanel />
                 </main>
             </div>
-            <FooterPanel/>
+            <FooterPanel />
         </div >
     );
 };

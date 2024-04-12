@@ -1,8 +1,4 @@
-tr button {
 
-    background-color: rgb(38, 38, 38);
-    color: #fff
-}
 
 .tabla {
     background-color: rgb(255, 255, 255);
@@ -64,8 +60,8 @@ i {
 
 .Partes h1,
 h4,
-h5,
-#h3 {
+h5
+{
     text-align: center;
     align-items: center;
 }
@@ -93,11 +89,6 @@ h5,
 h5 {
     margin-top: 0.4em;
     margin-bottom: 1.4em;
-}
-
-.Partes button {
-    display: block;
-    margin: 0 auto;
 }
 
 .slider {
