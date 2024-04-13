@@ -39,35 +39,35 @@ const secondIndex = () => {
                         <hr />
                         <div className='lista'>
                             <div className="service-item">
-                                <p className='candadoe'><GiPadlock /></p>
+                                <p className='logo'><GiPadlock /></p>
                                 <p>Estacionamiento Seguro</p>
                             </div>
                             <div className="service-item">
-                                <p className='wifie'><FaWifi /></p>
+                                <p className='logo'><FaWifi /></p>
                                 <p>Wifi Gratis</p>
                             </div>
                             <div className="service-item">
-                                <p className='duchae'><FaShower /></p>
+                                <p className='logo'><FaShower /></p>
                                 <p>Disponibilidad de Duchas</p>
                             </div>
                             <div className="service-item">
-                                <p className='areae'><MdGames /></p>
+                                <p className='logo'><MdGames /></p>
                                 <p>Área recreativa</p>
                             </div>
                             <div className="service-item2">
-                                <p className='rayoe'><AiOutlineThunderbolt /></p>
+                                <p className='logo'><AiOutlineThunderbolt /></p>
                                 <p>Electricidad Accesible</p>
                             </div>
                             <div className="service-item2">
-                                <p className='maquinae'><GiWashingMachine /></p>
+                                <p className='logo'><GiWashingMachine /></p>
                                 <p>Variedad de Electrodomésticos</p>
                             </div>
                             <div className="service-item2">
-                                <p className='aguae'><MdOutlineWaterDamage /></p>
+                                <p className='logo'><MdOutlineWaterDamage /></p>
                                 <p>Llenado y vaciado aguas</p>
                             </div>
                             <div className="service-item2">
-                                <p className='descansoe'><GiNightSleep /></p>
+                                <p className='logo'><GiNightSleep /></p>
                                 <p>Área de Descanso</p>
                             </div>
                         </div>
