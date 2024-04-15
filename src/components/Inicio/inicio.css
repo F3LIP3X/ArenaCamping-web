@@ -28,6 +28,10 @@ body {
     position: 0;
 }
 
+section{
+    padding-left: 1.4em;
+}
+
 /* Header style */
 header {
     background-color: #011f1ac9;

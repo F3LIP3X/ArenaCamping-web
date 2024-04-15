@@ -21,7 +21,7 @@ const AseguradoraComponent = () => {
     return (
         <div className='wrapper'>
             <HeaderPanel />
-            <div className="main-content">
+            <div className="main-content-Actividades">
                 <main className='titulo'>
                     <section>
                         <h1>Actividades</h1>
