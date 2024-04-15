@@ -48,17 +48,7 @@ const actividades = () => {
                             <button className="btn btn-outline btn-success">Aseguradoras</button>
                         </div>
                     </section>
-
-                    <section className='slider'>
-                        <div className='slider--inner'>
-                            <img src={Excursiones} alt="img1" />
-                            <img src={Senderismo} alt="img2" />
-                            <img src={BiciM} alt="img3" />
-                            <img src={BiciC} alt="img4" />
-                        </div>
-                    </section>
-
-
+                    
                     <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />
                         <img src={Senderismo} alt="img2" />
