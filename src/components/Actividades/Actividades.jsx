@@ -2,18 +2,22 @@ import React from 'react';
 import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
 
-//Moduls
+// Moduls
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 
-//Imagenes
+// Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
 import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
 import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 
-const actividades = () => {
+const AseguradoraComponent = () => {
+    const handleButtonClick = () => {
+        window.location.href = "#Seguros";
+    }
+
     return (
         <div className='wrapper'>
             <HeaderPanel />
@@ -23,32 +27,30 @@ const actividades = () => {
                         <h1>Actividades</h1>
                     </section>
 
-
-
                     <section class="tabla">
                         <div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Escalada</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Cicilismo</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Senderismo</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Tiro con arco</p>
                             </div>
                         </div>
-                        <div >
-                            <button className="btn btn-outline btn-success">Aseguradoras</button>
+                        <div id='Aseguradora'>
+                            <button id="cont" onClick={handleButtonClick}>Aseguradoras</button>
                         </div>
                     </section>
-                    
+
                     <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />
                         <img src={Senderismo} alt="img2" />
@@ -63,11 +65,10 @@ const actividades = () => {
 
                     <section className='Partes'>
                         <h1 >Reserva ya tu plaza en Arena Camping</h1>
-                        <h5 >Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
+                        <h5 id="Plazas">Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
                         <div id='aseguradora'>
                             <button id='cont' ><Link to="/Contacto">¡Contacta!</Link></button>
                         </div>
-
                     </section>
 
                     <section className='Partes'>
@@ -78,19 +79,19 @@ const actividades = () => {
                                 <br />
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Seguro Escalada</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'> Seguro Cicilismo</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'> Seguro Senderismo</p>
                             </div>
                             <div>
-                                <button className='boton'>VER MÁS</button>
+                                <button className='botonActi'>VER MÁS</button>
                                 <p className='pText'>Seguro Tiro con arco</p>
                             </div>
                         </div>
@@ -103,4 +104,4 @@ const actividades = () => {
     );
 };
 
-export default actividades;
+export default AseguradoraComponent;

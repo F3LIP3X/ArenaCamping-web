@@ -8,7 +8,7 @@
     margin-top: 0.3%;
 }
 
-.boton {
+.botonActi {
     display: block;
     float: right;
 
@@ -17,11 +17,12 @@
 
     color: white;
     border-radius: 0.6em;
-    background-color: rgb(92, 91, 91);
+    background-color: rgb(24, 128, 63);
+    padding: 0.4em;
 }
 
 .pText {
-    padding-bottom: 1%;
+    padding-bottom: 1.3%;
 }
 
 .Galeria {
@@ -60,10 +61,15 @@ i {
 
 .Partes h1,
 h4,
-h5
+#Plazas
 {
     text-align: center;
     align-items: center;
+}
+
+#Plazas {
+    margin-top: 0.4em;
+    margin-bottom: 1.4em;
 }
 
 .linky,
@@ -79,35 +85,15 @@ h5
     padding: 0.5em;
 }
 
-
+#Aseguradora{
+    text-align: center;
+}
 
 #aseguradora {
     padding: 1em;
     text-align: center;
 }
 
-h5 {
-    margin-top: 0.4em;
-    margin-bottom: 1.4em;
-}
-
-.slider {
-    overflow: hidden;
-}
-
-.slider--iner {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 100%;
-    width: 100vw;
-
-
-    background-color: #fff;
-    color: #000;
-}
-
-#div-ti {
-}
 
 @media screen and (max-width: 912px) {
     tr button {
