@@ -31,7 +31,7 @@ const FifthIndex = () => {
             </header>
             <div className="main-content">
                 <main className='informacion'>
-                    <section id="home">
+                    <section>
                         <h1>Contacto</h1>
                     </section>
                     <section className='redes'>

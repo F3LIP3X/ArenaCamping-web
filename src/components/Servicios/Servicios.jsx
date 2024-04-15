@@ -27,10 +27,10 @@ const secondIndex = () => {
             <HeaderPanel />
             <div className="main-content">
                 <main className='informacion'>
-                    <section id="home">
+                    <section>
                         <h1>Servicios</h1>
                     </section>
-                    <section id="home">
+                    <section>
                         <h2 className='titleservicio'>Nuestros Servicios</h2>
                         <hr />
                         <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área

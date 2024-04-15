@@ -13,7 +13,7 @@ import Actividades from './components/Actividades/Actividades';
 import Contacto from './components/Contacto/Contacto';
 //import Precios from './components/Precios/Precios';
 //import Localización from './components/Localización/Localización';
-import Prueba from './components/Moduls/prueba'
+
 
 
 function App() {
@@ -30,7 +30,6 @@ function App() {
           <Route exact path="/Contacto" element={<Contacto />} />
           <Route exact path="/Precios" element={<Actividades />} />
           <Route exact path="/Localización" element={<Actividades />} />
-          <Route exact path="/Prueba" element={<Prueba />} />
         </Routes>
       </div>
     </Router>

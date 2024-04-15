@@ -28,10 +28,6 @@ body {
     position: 0;
 }
 
-section{
-    padding-left: 1.4em;
-}
-
 /* Header style */
 header {
     background-color: #011f1ac9;
@@ -100,7 +96,7 @@ main {
 section {
     background-color: #f9f9f9;
     border-radius: 1.2rem;
-    padding: 1%;
+    padding: 1em;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
     margin: 1%;
 }
@@ -145,7 +141,7 @@ section {
 
 /* Redes sociales */
 .imagenes{
-    width: 2.5em;
+    max-width: 1em;
     min-width: 1.2em;
 }
 
@@ -161,11 +157,11 @@ section {
     text-shadow: 1px 2px 3px  #000000;
 }
 
-.divs {
-    display: flex;
-    flex-direction: column; /* Alinea los elementos en columna */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+.divSocial {
+    display: flex !important;
+    flex-direction: column !important; /* Alinea los elementos en columna */
+    justify-content: center !important; /* Centra horizontalmente */
+    align-items: center !important; /* Centra verticalmente */
 }
 
 
@@ -180,10 +176,6 @@ section {
 #titleRedes{
     text-align: center;
     padding-bottom: 2em;
-}
-
-#home{
-    padding: 0.9em;
 }
 
 #redes{
@@ -293,7 +285,7 @@ a:hover {
         color: rgb(115, 243, 179);
     }
     .imagenes{
-        min-width: 5em;
+        min-width: 3em;
     }
 
     .footer-info {
