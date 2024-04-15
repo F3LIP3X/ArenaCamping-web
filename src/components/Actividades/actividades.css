@@ -32,7 +32,7 @@
     user-select: none;
 }
 
-.botonActi:hover,:focus{
+.botonActi:hover,.botonActi:focus{
     color: #ffffff;
     background: #218a36e2;
     border: 1px solid #00ff1e;
