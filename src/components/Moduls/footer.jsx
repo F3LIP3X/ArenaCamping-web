@@ -12,7 +12,6 @@ const footerPanel = () => {
             <footer className="footer-page">
                 <div className='footer-container'>
                     <div className="footer-info">
-                        <h4 id='info-Footer'>Información</h4>
                         <div className="info-table">
                             <div className="info-row">
                                 <span>Empresa: </span>

@@ -141,8 +141,8 @@ section {
 
 /* Redes sociales */
 .imagenes{
-    max-width: 1em;
-    min-width: 1.2em;
+    max-width: 2.4em;
+    min-width: 0.5em;
 }
 
 .imagenes:hover{
@@ -156,14 +156,6 @@ section {
 .pStyle{
     text-shadow: 1px 2px 3px  #000000;
 }
-
-.divSocial {
-    display: flex !important;
-    flex-direction: column !important; /* Alinea los elementos en columna */
-    justify-content: center !important; /* Centra horizontalmente */
-    align-items: center !important; /* Centra verticalmente */
-}
-
 
 .lista-redes{
     display: flex;
@@ -238,6 +230,90 @@ a:hover {
     margin-top: 20px;
 }
 
+/* Social */
+.Follow{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.card {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .3s;
+    margin: auto; /* Agregado para separar los contenedores */
+}
+
+/* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+/* twitter*/
+.containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+}
+
+/* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialSvg {
+    width: 1.7em;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+  
+
+  
 @media screen and (max-width: 912px) {
     header h1 {
         font-size: 2.4em;
@@ -285,7 +361,7 @@ a:hover {
         color: rgb(115, 243, 179);
     }
     .imagenes{
-        min-width: 3em;
+        min-width: 2em;
     }
 
     .footer-info {
