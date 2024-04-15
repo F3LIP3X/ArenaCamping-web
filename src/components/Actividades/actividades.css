@@ -1,4 +1,8 @@
+*{
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+    font-family: 'nexa';
 
+}
 
 .tabla {
     background-color: rgb(255, 255, 255);
@@ -9,20 +13,34 @@
 }
 
 .botonActi {
-    display: block;
-    float: right;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0d460280;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #35605b36;
+    transition: 0.5s ease;
+    user-select: none;
+}
 
-    src: url('../assets/Nexa\ Bold.otf') format('truetype');
-    font-family: 'nexa';
-
-    color: white;
-    border-radius: 0.6em;
-    background-color: rgb(24, 128, 63);
-    padding: 0.4em;
+.botonActi:hover,:focus{
+    color: #ffffff;
+    background: #218a36e2;
+    border: 1px solid #00ff1e;
+    text-shadow: 0 0 2px #ffffff, 0 0 5px #ffffff, 0 0 10px #ffffff;
+    box-shadow: 0 0 5px #00ffae, 0 0 20px #00ff6655, 0 0 50px #009b0a58,
+      0 0 100px #08751e41;
 }
 
 .pText {
     padding-bottom: 1.3%;
+    margin-right: auto;
+
 }
 
 .Galeria {
@@ -59,13 +77,12 @@ i {
     margin-right: 1em;
 }
 
-.Partes h1,
-h4,
-#Plazas
-{
-    text-align: center;
-    align-items: center;
+.divs {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2em;
 }
+
 
 #Plazas {
     margin-top: 0.4em;

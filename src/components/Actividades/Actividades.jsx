@@ -29,21 +29,21 @@ const AseguradoraComponent = () => {
 
                     <section class="tabla">
                         <div>
-                            <div>
-                                <button className='botonActi'>VER MÁS</button>
+                            <div  className='divs'>
                                 <p className='pText'>Escalada</p>
-                            </div>
-                            <div>
                                 <button className='botonActi'>VER MÁS</button>
+                            </div>
+                            <div className='divs'>
                                 <p className='pText'>Cicilismo</p>
-                            </div>
-                            <div>
                                 <button className='botonActi'>VER MÁS</button>
+                            </div>
+                            <div className='divs'>
                                 <p className='pText'>Senderismo</p>
-                            </div>
-                            <div>
                                 <button className='botonActi'>VER MÁS</button>
+                            </div>
+                            <div className='divs'>
                                 <p className='pText'>Tiro con arco</p>
+                                <button className='botonActi'>VER MÁS</button>
                             </div>
                         </div>
                         <div id='Aseguradora'>
@@ -71,29 +71,28 @@ const AseguradoraComponent = () => {
                         </div>
                     </section>
 
-                    <section className='Partes'>
-                        <div>
-                            <div id='Seguros'>
-                                <h3 id='h3'>Seguros</h3>
-                                <p >Seguro para las actividades al aire libre</p>
-                                <br />
-                            </div>
-                            <div>
-                                <button className='botonActi'>VER MÁS</button>
-                                <p className='pText'>Seguro Escalada</p>
-                            </div>
-                            <div>
-                                <button className='botonActi'>VER MÁS</button>
-                                <p className='pText'> Seguro Cicilismo</p>
-                            </div>
-                            <div>
-                                <button className='botonActi'>VER MÁS</button>
-                                <p className='pText'> Seguro Senderismo</p>
-                            </div>
-                            <div>
-                                <button className='botonActi'>VER MÁS</button>
-                                <p className='pText'>Seguro Tiro con arco</p>
-                            </div>
+                    <section>
+
+                        <div id='Seguros'>
+                            <h3 id='h3'>Seguros</h3>
+                            <p >Seguro para las actividades al aire libre</p>
+                            <br />
+                        </div>
+                        <div className='divs'>
+                            <p className='pText'>Seguro Escalada</p>
+                            <button className='botonActi'>VER MÁS</button>
+                        </div>
+                        <div className='divs'>
+                            <p className='pText'> Seguro Cicilismo</p>
+                            <button className='botonActi'>VER MÁS</button>
+                        </div>
+                        <div className='divs'>
+                            <p className='pText'> Seguro Senderismo</p>
+                            <button className='botonActi'>VER MÁS</button>
+                        </div>
+                        <div className='divs'>
+                            <p className='pText'>Seguro Tiro con arco</p>
+                            <button className='botonActi'>VER MÁS</button>
                         </div>
                     </section>
                     <SocialPanel />
