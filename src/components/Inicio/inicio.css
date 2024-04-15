@@ -243,6 +243,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 1em;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
 }
 
@@ -250,6 +251,7 @@ a:hover {
 .socialContainer {
     width: 52px;
     height: 52px;
+    border-radius: 1em;
     background-color: rgb(44, 44, 44);
     display: flex;
     align-items: center;
