@@ -6,59 +6,21 @@ import '../Contacto/contacto.css';
 
 // Icono
 import icon from '../assets/logo.ico';
+import SocialPanel from '../Moduls/social';
+import HeaderPanel from '../Moduls/header';
 
-// Redes sociales
-import instagram from '../assets/instagram.png';
-import twitter from '../assets/twitter.png';
-import youtube from '../assets/youtube.png';
+
 
 const FifthIndex = () => {
     return (
         <div className='wrapper'>
-            <header>
-                <h1>Arena Camping</h1>
-                <nav className='headBars'>
-                    <ul>
-                        <li><Link to="/">Inicio</Link></li>
-                        <li><Link to="/Servicios">Servicio</Link></li>
-                        <li><Link to="/Actividades">Actividades</Link></li>
-                        <li><Link to="/Entorno">Entorno</Link></li>
-                        <li><Link to="/Contacto">Contacto</Link></li>
-                        <li><Link to="/Precios">Precios</Link></li>
-                        <li><Link to="/Localización">Localización</Link></li>
-                    </ul>
-                </nav>
-            </header>
+            <HeaderPanel />
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h1>Contacto</h1>
+                        <h2>Contacto</h2>
                     </section>
-                    <section className='redes'>
-                        <div id='titleRedes'>
-                            <h1>Puedes seguirnos en cualquiera de nuestras redes sociales:</h1>
-                        </div>
-                        <div className='lista-redes'>
-                            <div className='divs'>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={instagram} alt="img6" />
-                                </a>
-                                <p className='pStyle'>Instagram</p>
-                            </div>
-                            <div className='divs'>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={twitter} alt="img7" />
-                                </a>
-                                <p className='pStyle'>Twitter</p>
-                            </div>
-                            <div className='divs'>
-                                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                                    <img className='imagenes' src={youtube} alt="img8" />
-                                </a>
-                                <p className='pStyle'>YouTube</p>
-                            </div>
-                        </div>
-                    </section>
+                    <SocialPanel />
                     <section className="formulario">
                         <h2>Si tiene alguna duda, envíanos un mensaje</h2>
                         <form>

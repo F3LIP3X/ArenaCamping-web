@@ -24,26 +24,26 @@ const AseguradoraComponent = () => {
             <div className="main-content-Actividades">
                 <main className='titulo'>
                     <section>
-                        <h1>Actividades</h1>
+                        <h2>Actividades</h2>
                     </section>
 
                     <section class="tabla">
                         <div>
                             <div  className='divs'>
                                 <p className='pText'>Escalada</p>
-                                <button className='botonActi'>VER MÁS</button>
+                                <button className='botonActi'>Ver más</button>
                             </div>
                             <div className='divs'>
                                 <p className='pText'>Cicilismo</p>
-                                <button className='botonActi'>VER MÁS</button>
+                                <button className='botonActi'>Ver Más</button>
                             </div>
                             <div className='divs'>
                                 <p className='pText'>Senderismo</p>
-                                <button className='botonActi'>VER MÁS</button>
+                                <button className='botonActi'>Ver más</button>
                             </div>
                             <div className='divs'>
                                 <p className='pText'>Tiro con arco</p>
-                                <button className='botonActi'>VER MÁS</button>
+                                <button className='botonActi'>Ver más</button>
                             </div>
                         </div>
                         <div id='Aseguradora'>
@@ -59,12 +59,12 @@ const AseguradoraComponent = () => {
                     </section>
 
                     <section className='Partes'>
-                        <h1>¡No te pierdas nada!</h1>
+                        <h2>¡No te pierdas nada!</h2>
                         <h4>Consulta aqui todas las noticias de Arena Camping Granada</h4>
                     </section>
 
                     <section className='Partes'>
-                        <h1 >Reserva ya tu plaza en Arena Camping</h1>
+                        <h2>Reserva ya tu plaza en Arena Camping</h2>
                         <h5 id="Plazas">Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
                         <div id='aseguradora'>
                             <button id='cont' ><Link to="/Contacto">¡Contacta!</Link></button>
@@ -80,19 +80,19 @@ const AseguradoraComponent = () => {
                         </div>
                         <div className='divs'>
                             <p className='pText'>Seguro Escalada</p>
-                            <button className='botonActi'>VER MÁS</button>
+                            <button className='botonActi'>Ver más</button>
                         </div>
                         <div className='divs'>
                             <p className='pText'> Seguro Cicilismo</p>
-                            <button className='botonActi'>VER MÁS</button>
+                            <button className='botonActi'>Ver más</button>
                         </div>
                         <div className='divs'>
                             <p className='pText'> Seguro Senderismo</p>
-                            <button className='botonActi'>VER MÁS</button>
+                            <button className='botonActi'>Ver más</button>
                         </div>
                         <div className='divs'>
                             <p className='pText'>Seguro Tiro con arco</p>
-                            <button className='botonActi'>VER MÁS</button>
+                            <button className='botonActi'>Ver más</button>
                         </div>
                     </section>
                     <SocialPanel />

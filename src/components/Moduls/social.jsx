@@ -1,18 +1,12 @@
 import React from 'react';
 import '../Inicio/inicio.css'
 
-//logos redes
-import instagram from '../assets/instagram.png';
-import twitter from '../assets/twitter.png';
-import youtube from '../assets/youtube.png';
-
-
 //Comando para comentar Ctrl + K + C
 const SocialPanel = () => {
     return (
         <section className='redes'>
             <div>
-                <h1 className='Follow'>Siguenos en nuestras redes sociales</h1>
+                <h1 className='Follow'>Síguenos en cualquiera de nuestras redes sociales</h1>
             </div>
             <div class="card">
                 <a href="https://www.instagram.com/" target='_blank' class="socialContainer containerOne">

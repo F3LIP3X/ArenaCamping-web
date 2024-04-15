@@ -14,7 +14,7 @@ const firstIndex = () => {
             <div className="main-content">
                 <main>
                     <section>
-                        <h2 className='text-base'>Inicio</h2>
+                        <h2>Inicio</h2>
                     </section>
                     <section id="about">
                         <h2 id='aboutUs'>Sobre Nosotros</h2>

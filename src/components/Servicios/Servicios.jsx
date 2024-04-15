@@ -28,7 +28,7 @@ const secondIndex = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h1>Servicios</h1>
+                        <h2>Servicios</h2>
                     </section>
                     <section>
                         <h2 className='titleservicio'>Nuestros Servicios</h2>
