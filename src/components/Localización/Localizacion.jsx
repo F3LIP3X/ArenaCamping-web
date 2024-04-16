@@ -14,31 +14,21 @@ const locationPanel = () => {
             <div className="main-content">
                 <main>
                     <section id="home">
-                        <h2>Inicio</h2>
+                        <h2>Localizacion</h2>
                     </section>
                     <section id="about">
                         <h2 id='aboutUs'>Sobre Nosotros</h2>
                         <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
-                            quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
-                            rem provident eveniet optio porro! Accusantium, distinctio! Et molestiae
-                            velit natus maiores accusamus dignissimos, corrupti odit sequi porro
-                            soluta labore fuga praesentium quo, nostrum, reprehenderit ab facere
-                            commodi deleniti ea quidem consequatur quia quos aperiam? Fuga
-                            placeat labore iusto nisi non unde cupiditate enim voluptatem
-                            debitis id ab sequi vitae, aut recusandae veniam? Excepturi
-                            tempore at adipisci quibusdam, est, ullam saepe ratione eum
-                            non cumque rerum corporis iusto reprehenderit neque id deserunt
-                            itaque sequi molestias harum perferendis debitis inventore
-                            consectetur. Quod architecto corrupti expedita, facere est
-                            cupiditate nobis tempora quis similique et dicta maxime
-                            corporis incidunt atque iusto, quam in laboriosam sed
-                            commodi pariatur. Necessitatibus commodi incidunt fuga,
-                            optio assumenda iure. Ratione nemo, accusamus ea recusandae
-                            sapiente voluptatum tenetur numquam? Nemo aspernatur
-                            aperiam itaque in optio hic aut perferendis eum similique
-                            tenetur exercitationem assumenda libero ab, molestias tempora magnam
-                            doloribus at mollitia beatae rem minima aliquid molestiae facere.</p>
+                        <p>Bem-vindo ao Camping Vale Verde, um refúgio natural que oferece uma escapada única para os amantes da natureza e da aventura. Situado em meio a exuberantes bosques e banhado pela luz do sol filtrada pelas folhas, este local de camping é um verdadeiro paraíso para quem busca desconexão e renovação.
+
+Localizado ao calhas, longe das distrações da vida cotidiana, o Camping Vale Verde oferece uma atmosfera de paz e tranquilidade que é difícil de encontrar em outros lugares. Aqui, você pode se reconectar com a natureza, respirar ar puro e recarregar suas energias enquanto desfruta do conforto simples da vida ao ar livre.
+
+As opções de acomodação no Camping Vale Verde são tão variadas quanto as estrelas no céu noturno. Desde acampamentos em barracas sob as copas das árvores até áreas para trailers e motorhomes, há uma opção para cada estilo de viajante. E se você deseja uma experiência ainda mais próxima da natureza, pode até mesmo optar por acampar em um local selvagem e desfrutar da verdadeira sensação de liberdade.
+
+As atividades ao ar livre são o destaque desta experiência de camping. Explore trilhas que serpenteiam por entre as árvores centenárias, descubra riachos cristalinos onde é possível se refrescar em dias quentes e desfrute de passeios de bicicleta ou caminhadas para explorar os arredores. À noite, reúna-se ao redor de uma fogueira crepitante para contar histórias, ass
+
+
+</p>
                     </section>
 
                     <div class="container-form">
@@ -65,7 +55,7 @@ const locationPanel = () => {
                         <p>Teléfono: 123-456-789</p>
                         <p>Email: info@campingnaturaleza.com</p>
                     </section>
-                    <GaleryPanel />
+                  
                     <SocialPanel />
                     <FooterPanel />
                 </main>
