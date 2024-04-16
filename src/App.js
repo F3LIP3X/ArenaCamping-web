@@ -9,10 +9,11 @@ import 'tailwindcss/tailwind.css';
 import Inicio from './components/Inicio/Inicio';
 import Servicios from './components/Servicios/Servicios';
 import Actividades from './components/Actividades/Actividades';
+import Localización from './components/Localización/Localizacion';
 //import Entorno from './components/Entorno/Entorno';
 import Contacto from './components/Contacto/Contacto';
 //import Precios from './components/Precios/Precios';
-import Location from '../src/components/Localización/Localizacion';
+
 
 
 
@@ -24,12 +25,12 @@ function App() {
           <Route exact path="/" element={<Inicio />} />
           <Route exact path="/Servicios" element={<Servicios />} />
           <Route exact path="/Actividades" element={<Actividades />} />
-          
+          <Route exact path="/Localización" element={<Localización />} />
           {/* No estan completos :) */}
           <Route exact path="/Entorno" element={<Actividades />} />
           <Route exact path="/Contacto" element={<Contacto />} />
           <Route exact path="/Precios" element={<Actividades />} />
-          <Route exact path="/Location" element={<Actividades />} />
+          
         </Routes>
       </div>
     </Router>

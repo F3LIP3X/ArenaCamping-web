@@ -317,7 +317,9 @@ a:hover {
     }
 }
 
-  
+#iframeLocation{
+    width: 100%;
+}
 
   
 @media screen and (max-width: 912px) {
