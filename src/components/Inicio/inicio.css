@@ -13,6 +13,9 @@ li {
     padding: 0;
 }
 
+h2{
+    font-size: large;
+}
 html {
     overflow-x: hidden;
 }
@@ -99,7 +102,7 @@ main {
 
 section {
     background-color: #f9f9f9;
-    border-radius: 1.2rem;
+    border-radius: 0.3rem;
     padding: 1em;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.678);
     margin: 1%;
@@ -255,7 +258,7 @@ a:hover {
 .socialContainer {
     width: 52px;
     height: 52px;
-    border-radius: 1em;
+    border-radius: 0.3em;
     background-color: rgb(44, 44, 44);
     display: flex;
     align-items: center;
