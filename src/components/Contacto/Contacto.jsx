@@ -25,16 +25,17 @@ const FifthIndex = () => {
                         <h2>Si tiene alguna duda, envíanos un mensaje</h2>
                         <form>
                             <div className="form-group">
-                                <label htmlFor="matricula">Matrícula:</label>
-                                <input type="text" id="matricula" name="matricula" />
+                                <label htmlFor="matricula" >Matrícula:</label>
+                                <input type="text" id="matricula" name="matricula"  maxLength="7"/>
+                              
                             </div>
                             <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico:</label>
-                                <input type="email" id="email" name="email" />
+                                <input type="email" id="email" name="email" maxLength="30" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="mensaje">Mensaje:</label>
-                                <textarea id="mensaje" name="mensaje"></textarea>
+                                <textarea id="mensaje" name="mensaje" maxLength="200 "></textarea>
                             </div>
                             <button type="submit">Enviar</button>
                         </form>
@@ -43,44 +44,7 @@ const FifthIndex = () => {
                 </main>
             </div>
             
-            <footer className="footer-page">
-                <div className='footer-container'>
-                    <div className="footer-info">
-                        <h4 id='info-Footer'>Información</h4>
-                        <div className="info-table">
-                            <div className="info-row">
-                                <span>Empresa: </span>
-                                <span>Arena Camping Granada</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Dirección: </span>
-                                <span>18183 Huétor de Santillán Granda, España</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Teléfono: </span>
-                                <span>666-666-666</span>
-                            </div>
-                            <div className="info-row">
-                                <span>Email: </span>
-                                <span>info@campingnaturaleza.com</span>
-                            </div>
-                        </div>
-                    </div >
-                    <div className="footer-image">
-                        <img src={icon} alt="Arena Camping" />
-                    </div>
-                </div >
-                <br />
-                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Inicio</Link></li>
-                        <li><a href="#about">Acerca de</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                        <li><a href="#work-with-us">Trabaja con nosotros</a></li>
-                    </ul>
-                </nav>
-            </footer >
+          
         </div>
     );
 };

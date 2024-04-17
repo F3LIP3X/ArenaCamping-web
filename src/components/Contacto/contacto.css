@@ -26,6 +26,7 @@
 .form-group {
     margin-bottom: 30px;
     overflow: hidden; 
+    color: black;
 }
 
 .form-group label {
@@ -42,11 +43,16 @@ textarea {
     padding: 10px;
     font-size: 1.2em;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #cccccc; /* Alterando a cor da borda */
+    color: black;
+    background-color: #ffffff;
 }
+
+
 
 textarea {
     height: 150px;
+   
 }
 
 button[type="submit"] {

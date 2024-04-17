@@ -17,7 +17,7 @@ const locationPanel = () => {
                         <h2>Localizacion</h2>
                     </section>
                     <section id="about">
-                        <h2 id='aboutUs'>Sobre Nosotros</h2>
+                        <h2 id='aboutUs'>Sobre Localizacion</h2>
                         <hr />
                         <p>Bem-vindo ao Camping Vale Verde, um refúgio natural que oferece uma escapada única para os amantes da natureza e da aventura. Situado em meio a exuberantes bosques e banhado pela luz do sol filtrada pelas folhas, este local de camping é um verdadeiro paraíso para quem busca desconexão e renovação.
 
