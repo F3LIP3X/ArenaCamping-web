@@ -1,4 +1,8 @@
-h2, p,h3,h5,h4{
+h2,
+p,
+h3,
+h5,
+h4 {
     color: black;
 }
 
@@ -13,9 +17,10 @@ li {
     padding: 0;
 }
 
-h2{
+h2 {
     font-size: large;
 }
+
 html {
     overflow-x: hidden;
 }
@@ -43,18 +48,18 @@ header {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    padding: 1%; 
+    padding: 1%;
     position: static;
     top: 0;
 }
 
 header h1 {
-    margin-bottom: 1%;  
+    margin-bottom: 1%;
     text-shadow: 3px 2px 2px #9fd898;
     text-align: center;
     font-size: 4em;
 }
- 
+
 /* Lista de Páginas */
 nav ul {
     list-style: none;
@@ -62,7 +67,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 2%;  
+    margin-right: 2%;
 }
 
 nav ul li a {
@@ -96,7 +101,7 @@ main {
     color: #fff;
 }
 
-.headBars li:hover{
+.headBars li:hover {
     color: #000000;
 }
 
@@ -113,7 +118,8 @@ section {
     bottom: 0;
     background-color: #011f1aaf;
     color: #ffffff;
-    text-align: left; /* Alinea el texto a la izquierda */
+    text-align: left;
+    /* Alinea el texto a la izquierda */
     padding: 3em;
 }
 
@@ -138,21 +144,21 @@ section {
     cursor: pointer;
 }
 
-#aboutUs{
+#aboutUs {
     text-align: center;
 }
 
-#contactos{
+#contactos {
     text-align: center;
 }
 
 /* Redes sociales */
-.imagenes{
+.imagenes {
     max-width: 2.4em;
     min-width: 0.5em;
 }
 
-.imagenes:hover{
+.imagenes:hover {
     cursor: crosshair;
     width: 2.6em;
     opacity: 1;
@@ -160,24 +166,24 @@ section {
     content: attr(tittle);
 }
 
-.pStyle{
-    text-shadow: 1px 2px 3px  #000000;
+.pStyle {
+    text-shadow: 1px 2px 3px #000000;
 }
 
-.lista-redes{
+.lista-redes {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     padding: 1em;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
 }
 
-#titleRedes{
+#titleRedes {
     text-align: center;
     padding-bottom: 2em;
 }
 
-#redes{
+#redes {
     font-size: large;
 }
 
@@ -197,7 +203,7 @@ section {
 }
 
 .footer-info {
-    
+
     flex-basis: 18em;
     margin-bottom: 1.25em;
     text-align: left;
@@ -220,7 +226,7 @@ section {
     height: auto;
 }
 
-#info-Footer{
+#info-Footer {
     text-align: center;
 }
 
@@ -239,11 +245,12 @@ a:hover {
 }
 
 /* Social */
-.Follow{
+.Follow {
     text-align: center;
     color: black;
     padding-bottom: 2%;
 }
+
 .card {
     width: 100%;
     height: fit-content;
@@ -264,7 +271,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     transition-duration: .3s;
-    margin: auto; /* Agregado para separar los contenedores */
+    margin: auto;
+    /* Agregado para separar los contenedores */
 }
 
 /* instagram*/
@@ -320,11 +328,12 @@ a:hover {
     }
 }
 
-#iframeLocation{
+#iframeLocation {
     width: 100%;
 }
 
-  
+
+
 @media screen and (max-width: 912px) {
     header h1 {
         font-size: 2.4em;
@@ -334,6 +343,7 @@ a:hover {
     main {
         padding: 0.4em;
     }
+
     /* Adjust header */
     header {
         width: 100%;
@@ -371,18 +381,42 @@ a:hover {
     .footertext {
         color: rgb(115, 243, 179);
     }
-    .imagenes{
+
+    .imagenes {
         min-width: 2em;
     }
 
     .footer-info {
-        flex-basis: 100%; 
+        flex-basis: 100%;
         justify-content: center;
     }
 
     .footer-image {
-        margin-top: 0; 
+        margin-top: 0;
         justify-content: center;
-        
+
     }
+    .divVideo {
+        width: 1%;
+        background-color: #000000;/* Ajusta el porcentaje según la relación de aspecto del video */
+    }
+    
+    .iframeVideo {
+        height: 100%;      
+    }
+}
+
+.divVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30.25%;
+    /* Esto es aproximadamente 16:9 aspect ratio */
+}
+
+.iframeVideo {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    width: 53.68%;
+    height: 100%;
 }

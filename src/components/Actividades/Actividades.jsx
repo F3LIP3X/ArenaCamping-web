@@ -6,12 +6,15 @@ import { Link } from 'react-router-dom';
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
+import MoreInfoEscalada from '../Moduls/Actividades/MoreInfoEscalada';
 
 // Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
 import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
 import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
+import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
+
 
 const AseguradoraComponent = () => {
     const handleButtonClick = () => {
@@ -29,7 +32,7 @@ const AseguradoraComponent = () => {
 
                     <section class="tabla">
                         <div>
-                            <div  className='divs'>
+                            <div className='divs'>
                                 <p className='pText'>Escalada</p>
                                 <button className='botonActi'>Ver más</button>
                             </div>
@@ -50,6 +53,9 @@ const AseguradoraComponent = () => {
                             <button id="cont" onClick={handleButtonClick}>Aseguradoras</button>
                         </div>
                     </section>
+
+                    <MoreInfoEscalada />
+                    <MoreInfoCiclismo />
 
                     <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />

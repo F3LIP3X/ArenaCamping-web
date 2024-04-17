@@ -1,4 +1,4 @@
-*{
+* {
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
     font-family: 'nexa';
 
@@ -28,13 +28,14 @@
     user-select: none;
 }
 
-.botonActi:hover,.botonActi:focus{
+.botonActi:hover,
+.botonActi:focus {
     color: #ffffff;
     background: #005c13c4;
     border: 0.6px solid #00000063;
-   
+
     box-shadow: 0 0 5px #000000, 0 0 20px #00000055, 0 0 10px #00000058,
-      0 0 100px #08751ea9;
+        0 0 100px #08751ea9;
 }
 
 .pText {
@@ -102,7 +103,7 @@ i {
     padding: 0.5em;
 }
 
-#Aseguradora{
+#Aseguradora {
     text-align: center;
 }
 
@@ -111,7 +112,7 @@ i {
     text-align: center;
 }
 
-
+  
 @media screen and (max-width: 912px) {
     tr button {
         margin-left: 10em;
