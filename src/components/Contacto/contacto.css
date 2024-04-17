@@ -10,76 +10,74 @@
 }
 
 #icoHeader {
-    width: 10%;  
+    width: 10%;
 }
 
 #toggleMenu {
-    display: none; 
+    display: none;
 }
 
 .formulario h2 {
     text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
 }
 
 .form-group {
     margin-bottom: 30px;
-    overflow: hidden; 
+    overflow: hidden;
     color: black;
 }
 
-.form-group label {
-    display: block;
-    font-size: 1.5em;
-    margin-bottom: 10px;
+label {
+    display: flexbox;
+    font-size: 1.3em;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+#matricula, #email, #mensaje{
     width: 100%;
-    box-sizing: border-box; 
-    padding: 10px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: 2px solid #cccccc; /* Alterando a cor da borda */
-    color: black;
+    box-sizing: border-box;
+    padding: .5em;
+    font-size: 1.3em;
+    border: .1em solid #cccccc;
     background-color: #ffffff;
+    border-radius: 0.3em;
 }
 
-
-
 textarea {
-    height: 150px;
-   
+    height: 7em;
+
 }
 
 button[type="submit"] {
-    width: 100%; 
-    box-sizing: border-box; 
+    width: 100%;
+    box-sizing: border-box;
     padding: 10px;
     font-size: 1.5em;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    animation: changeColor 8s infinite; 
+    animation: changeColor 10s infinite;
 }
 
 @keyframes changeColor {
     0% {
         background-color: #729989;
     }
+
     25% {
         background-color: #245643;
     }
+
     50% {
         background-color: #0B2821;
     }
+
     75% {
         background-color: #47806B;
     }
+
     100% {
         background-color: #729989;
     }
