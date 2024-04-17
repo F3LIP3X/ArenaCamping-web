@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // CSS
 import '../Contacto/contacto.css';
 
-// Icono
-import icon from '../assets/logo.ico';
+import FooterPanel from '../Moduls/footer';
 import SocialPanel from '../Moduls/social';
 import HeaderPanel from '../Moduls/header';
+
+// Icono
+import icon from '../assets/logo.ico';
 
 
 
@@ -27,9 +28,6 @@ const FifthIndex = () => {
                             <div className="form-group">
                                 <label htmlFor="matricula" >Matrícula:</label>
                                 <input type="text" id="matricula" name="matricula"  maxLength="7"/>
-                              
-                            </div>
-                            <div className="form-group">
                                 <label htmlFor="email">Correo Electrónico:</label>
                                 <input type="email" id="email" name="email" maxLength="30" />
                             </div>
@@ -40,7 +38,7 @@ const FifthIndex = () => {
                             <button type="submit">Enviar</button>
                         </form>
                     </section>
-
+                    <FooterPanel />
                 </main>
             </div>
             
