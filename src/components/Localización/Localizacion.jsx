@@ -4,7 +4,7 @@ import '../Inicio/inicio.css'
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
-import GaleryPanel from '../Moduls/galery';
+import ContactPanel from '../Moduls/contacto';
 
 //Comando para comentar Ctrl + K + C
 const locationPanel = () => {
@@ -48,14 +48,7 @@ const locationPanel = () => {
 
                     </div>
 
-                    <section id="contact">
-                        <h2 id='contactos'>Contacto</h2>
-                        <hr />
-                        <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>
-                        <p>Teléfono: 123-456-789</p>
-                        <p>Email: info@campingnaturaleza.com</p>
-                    </section>
-
+                    <ContactPanel />
                     <SocialPanel />
                     <FooterPanel />
                 </main>

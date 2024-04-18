@@ -3,9 +3,11 @@ import React from 'react';
 // CSS
 import '../Contacto/contacto.css';
 
+//Moduls
 import FooterPanel from '../Moduls/footer';
 import SocialPanel from '../Moduls/social';
 import Header from '../Moduls/header';
+import ContactPanel from '../Moduls/contacto';
 
 // Icono
 
@@ -23,7 +25,7 @@ const FifthIndex = () => {
                     </section>
 
                     <section className="formulario">
-                        <h2>Si tiene alguna duda, envíanos un mensaje</h2>
+                        <h2>Si tiene alguna duda, envíanos un mensaje.</h2>
                         <form>
                             <div className="form-control">
                                 <input type="text" required maxLength="7"/>
@@ -69,15 +71,15 @@ const FifthIndex = () => {
                                     <span style={{ transitionDelay: '50ms' }}>e</span>
                                     <span style={{ transitionDelay: '100ms' }}>n</span>
                                     <span style={{ transitionDelay: '150ms' }}>s</span>
-                                    <span style={{ transitionDelay: '200ms' }}>a</span>
+                                    <span style={{ transitionDelay: '200ms' }}>a</span> 
                                     <span style={{ transitionDelay: '250ms' }}>j</span>
                                     <span style={{ transitionDelay: '300ms' }}>e</span>
                                 </label>
                             </div>
                             <button type="submit">Enviar</button>
                         </form>
-
                     </section>
+                    <ContactPanel />
                     <SocialPanel />
                     <FooterPanel />
                 </main>
