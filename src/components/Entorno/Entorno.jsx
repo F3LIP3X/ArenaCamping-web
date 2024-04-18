@@ -6,13 +6,17 @@ import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import GaleryPanel from '../Moduls/galery';
+import Contacta from '../Contacto/Contacto';
 
 //Comando para comentar Ctrl + K + C
 const Entorno = () => {
     const ButtonGastronomia = () => {
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
     }
-
+  /*  const ContactaButon = () => {
+        window.location.href = 'Contacta';
+    }
+*/
     // https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
     return (
         <div className='wrapper'>
@@ -91,11 +95,10 @@ const Entorno = () => {
                     </section>
 
                     <section id="contact">
-                        <h2 id='contactos'>Contacto</h2>
+                        <h2 id='contactos'>Reserva ya tu plaza en el Arena Camping</h2>
                         <hr />
-                        <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>
-                        <p>Teléfono: 123-456-789</p>
-                        <p>Email: info@campingnaturaleza.com</p>
+                        <p>Disponemos de X plazas de X metros, ¡Contactanos!</p>
+                        <button id='ContactaEntorno' onClick={Contacta}>¡Contacta!</button>
                     </section>
                     <GaleryPanel />
                     <SocialPanel />
