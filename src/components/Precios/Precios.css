@@ -1,0 +1,119 @@
+/* Fuente del texto */
+@font-face {
+    font-family: 'Nexa';
+    src: url('../assets/Nexa\ Bold.otf') format('truetype');
+}
+
+*{
+    font-size: large;
+}
+
+/* Footer styles */
+.headBars {
+    padding-top: 1%;
+}
+
+#icoHeader {
+    width: 10%;
+}
+
+#toggleMenu {
+    display: none;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Boton {
+    color: green;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background: #152802;
+    color: #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.Boton:hover {
+    text-decoration: none;
+}
+
+.tablaprecios {
+    width: calc(33% - 20px);
+    margin-bottom: 20px; 
+    height: auto; 
+    background-color: rgb(75, 123, 105);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px rgb(6, 26, 25);
+    padding: 60px;
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+    max-width: calc(33% - 20px);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablaprecios > h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+
+.tablaprecios img {
+    width: 64px;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.tablaprecios:hover{
+    background: rgb(23, 116, 111);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+
+.tablaprecios > p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .tablaprecios {
+        width: calc(45% - 20px);
+        max-width: none; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tablaprecios {
+        width: calc(45% - 20px);
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tablaprecios {
+        width: calc(85% - 20px);
+        padding: 20px;
+    }
+}
