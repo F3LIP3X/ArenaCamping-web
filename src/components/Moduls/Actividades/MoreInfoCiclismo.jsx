@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Inicio/inicio.css'
-import { Link } from 'react-router-dom';
+
 
 const MoreInfoCiclismo = () => {
     return (

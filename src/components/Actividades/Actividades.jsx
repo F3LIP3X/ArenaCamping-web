@@ -14,6 +14,8 @@ import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
 import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
 import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
+import MoreInfoSenderismo from '../Moduls/Actividades/MoreInfoSenderismo';
+import MoreInfoTiroArco from '../Moduls/Actividades/MoreInfoTiroArco';
 
 
 const AseguradoraComponent = () => {
@@ -56,6 +58,8 @@ const AseguradoraComponent = () => {
 
                     <MoreInfoEscalada />
                     <MoreInfoCiclismo />
+                    <MoreInfoSenderismo />
+                    <MoreInfoTiroArco />
 
                     <section className='Galeria'>
                         <img src={Excursiones} alt="img1" />

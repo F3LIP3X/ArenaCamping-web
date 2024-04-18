@@ -112,6 +112,19 @@ i {
     text-align: center;
 }
 
+#ImagenesTiroArco{
+    flex-direction: row;
+}
+
+#TiroConArco1{
+    border: #000000 1px solid;
+    width: 30%;
+}
+
+#TiroConArco2{
+    display: block;
+    width: 30%;
+}
   
 @media screen and (max-width: 912px) {
     tr button {
