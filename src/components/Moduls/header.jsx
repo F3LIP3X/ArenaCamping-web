@@ -47,6 +47,7 @@ const NavManu = styled.ul`
       cursor: pointer;
       background: #2b3831;
       border-radius: 0.3em;
+      text-align: center;
     }
   }
   .nav-menu-list {
@@ -54,6 +55,7 @@ const NavManu = styled.ul`
     color: white;
     display: block;
     padding: 10px 10px;
+    text-align: center;
   }
   @media screen and (max-width: 768px) {
     display: ${(props) => (props.isToggleOpen ? "block" : "none")};

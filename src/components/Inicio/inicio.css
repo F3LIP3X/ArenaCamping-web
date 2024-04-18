@@ -10,9 +10,7 @@ h4 {
 body,
 h1,
 h2,
-p,
-ul,
-li {
+p {
     margin: 0;
     padding: 0;
 }
@@ -90,13 +88,10 @@ section {
     cursor: pointer;
 }
 
-#aboutUs {
-    text-align: center;
+#aboutUs, #contactos, .titleservicio, .Reglas {
+    text-align: left;
 }
 
-#contactos {
-    text-align: center;
-}
 
 /* Redes sociales */
 .imagenes {
@@ -185,9 +180,10 @@ a:hover {
     color: rgba(190, 236, 105, 0.459);
 }
 
-.copyright {
+.copyright, li {
     color: white;
-    margin-top: 20px;
+    margin-top: 0.1em;
+    text-align: left;
 }
 
 /* Social */
