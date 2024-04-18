@@ -7,15 +7,16 @@ import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import MoreInfoEscalada from '../Moduls/Actividades/MoreInfoEscalada';
+import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
+import MoreInfoSenderismo from '../Moduls/Actividades/MoreInfoSenderismo';
+import MoreInfoTiroArco from '../Moduls/Actividades/MoreInfoTiroArco';
 
 // Imagenes
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
 import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
 import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
-import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
-import MoreInfoSenderismo from '../Moduls/Actividades/MoreInfoSenderismo';
-import MoreInfoTiroArco from '../Moduls/Actividades/MoreInfoTiroArco';
+
 
 
 const AseguradoraComponent = () => {
