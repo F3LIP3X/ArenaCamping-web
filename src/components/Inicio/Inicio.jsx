@@ -12,6 +12,7 @@ const firstIndex = () => {
         <div>
             <HeaderPanel />
             <div className="main-content">
+            <div class="loader"></div>
                 <main>
                     <section>
                         <h2>Inicio</h2>

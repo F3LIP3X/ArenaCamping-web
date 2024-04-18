@@ -15,7 +15,6 @@ const GaleryPanel = () => {
     return (
         <div>
             <section>
-                <h2 className='fotosg'>Galería</h2>
                 <p className='fotosg'>Descubre nuestras instalaciones</p>
                 <div className='Album'>
                     <div className='box'>
