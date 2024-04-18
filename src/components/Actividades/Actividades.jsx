@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 // Moduls
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
+import GaleryPanel from '../Moduls/galery';
 import SocialPanel from '../Moduls/social';
 import MoreInfoEscalada from '../Moduls/Actividades/MoreInfoEscalada';
 import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
@@ -61,13 +62,7 @@ const AseguradoraComponent = () => {
                     <MoreInfoCiclismo />
                     <MoreInfoSenderismo />
                     <MoreInfoTiroArco />
-
-                    <section className='Galeria'>
-                        <img src={Excursiones} alt="img1" />
-                        <img src={Senderismo} alt="img2" />
-                        <img src={BiciM} alt="img3" />
-                        <img src={BiciC} alt="img4" />
-                    </section>
+                    <GaleryPanel />
 
                     <section className='Partes'>
                         <h2>¡No te pierdas nada!</h2>
