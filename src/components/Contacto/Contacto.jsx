@@ -5,7 +5,7 @@ import '../Contacto/contacto.css';
 
 import FooterPanel from '../Moduls/footer';
 import SocialPanel from '../Moduls/social';
-import HeaderPanel from '../Moduls/header';
+import Header from '../Moduls/header';
 
 // Icono
 
@@ -15,7 +15,7 @@ import HeaderPanel from '../Moduls/header';
 const FifthIndex = () => {
     return (
         <div className='wrapper'>
-            <HeaderPanel />
+            <Header />
             <div className="main-content">
                 <main className='informacion'>
                     <section>
