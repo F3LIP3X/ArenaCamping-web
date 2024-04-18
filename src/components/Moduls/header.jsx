@@ -6,15 +6,16 @@ import { FaBars } from "react-icons/fa";
 const StyledHeader = styled.header`
   background-color: #011f1ac9;
   width: 100%;
-  padding: 20px 12px 8px 12px;
+  padding: 15px 12px 8px 12px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   .nav_logo {
     padding: 0 12px;
     .nav-logo-link {
       text-decoration: none;
-      font-size: 3em;
+      font-size: 2.3em;
       color: white;
       font-weight: bold;
     }
@@ -22,14 +23,14 @@ const StyledHeader = styled.header`
   .menuToggleBtn {
     display: none;
     color: white;
-    font-size: 24px;
+    font-size: 1.7em;
     position: absolute;
-    right: 20px;
-    top: 15px;
+    right: .8em;
+    top: 1.22em;
     cursor: pointer;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 918px) {
     flex-direction: column;
     align-items: flex-start;
     .menuToggleBtn {

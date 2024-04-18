@@ -41,40 +41,8 @@ body {
 }
 
 /* Header style */
-header {
-    background-color: #011f1ac9;
-    color: #fff;
-    display: block;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    padding: 1%;
-    position: static;
-    top: 0;
-}
 
-header h1 {
-    margin-bottom: 1%;
-    text-shadow: 3px 2px 2px #9fd898;
-    text-align: center;
-    font-size: 4em;
-}
 
-/* Lista de Páginas */
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 2%;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    text-decoration: underline;
-}
 
 /*--------------------------*/
 
@@ -82,28 +50,6 @@ main {
     width: auto;
 }
 
-.headBars ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.headBars ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.headBars ul li:last-child {
-    margin-right: 0;
-}
-
-.headBars ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.headBars li:hover {
-    color: #000000;
-}
 
 section {
     background-color: #f9f9f9;
