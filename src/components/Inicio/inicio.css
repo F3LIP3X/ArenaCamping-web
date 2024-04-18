@@ -349,7 +349,7 @@ a:hover {
     }
     .divVideo {
         width: 1%;
-        background-color: #000000;/* Ajusta el porcentaje según la relación de aspecto del video */
+        background-color: #ffffff;/* Ajusta el porcentaje según la relación de aspecto del video */
     }
     
     .iframeVideo {
