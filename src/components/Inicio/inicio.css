@@ -16,7 +16,7 @@ p {
 }
 
 h2 {
-    font-size: large;
+    font-size: larger;
 }
 
 html {
@@ -87,8 +87,16 @@ section {
     font-size: 20px;
     cursor: pointer;
 }
+.galeryh2{
+    text-align: center;
+}
 
-#aboutUs, #contactos, .titleservicio, .Reglas {
+.follow{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#aboutUs,#contactos, .titleservicio, .Reglas {
     text-align: left;
 }
 

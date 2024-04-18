@@ -9,7 +9,7 @@ import GaleryPanel from '../Moduls/galery';
 //Comando para comentar Ctrl + K + C
 const locationPanel = () => {
     return (
-        <div className='wrapper'>
+        <div>
             <HeaderPanel />
             <div className="main-content">
                 <main>

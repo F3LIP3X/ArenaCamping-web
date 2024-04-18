@@ -13,7 +13,7 @@ import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.png';
 //Comando para comentar Ctrl + K + C
 const GaleryPanel = () => {
     return (
-        <div className='wrapper'>
+        <div>
             <section>
                 <h2 className='fotosg'>Galería</h2>
                 <p className='fotosg'>Descubre nuestras instalaciones</p>

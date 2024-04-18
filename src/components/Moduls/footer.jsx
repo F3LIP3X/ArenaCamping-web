@@ -8,7 +8,7 @@ import icon from '../assets/logo.ico';
 //Comando para comentar Ctrl + K + C
 const footerPanel = () => {
     return (
-        <div className='wrapper'>
+        <div>
             <footer className="footer-page">
                 <div className='footer-container'>
                     <div className="footer-info">

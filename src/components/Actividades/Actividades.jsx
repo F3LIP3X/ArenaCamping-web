@@ -24,7 +24,7 @@ const AseguradoraComponent = () => {
     }
 
     return (
-        <div className='wrapper'>
+        <div>
             <HeaderPanel />
             <div className="main-content-Actividades">
                 <main className='titulo'>

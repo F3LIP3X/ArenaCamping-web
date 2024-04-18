@@ -14,7 +14,7 @@ import Header from '../Moduls/header';
 
 const FifthIndex = () => {
     return (
-        <div className='wrapper'>
+        <div>
             <Header />
             <div className="main-content">
                 <main className='informacion'>

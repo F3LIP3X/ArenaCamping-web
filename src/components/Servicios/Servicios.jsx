@@ -23,7 +23,7 @@ import { MdGames } from "react-icons/md";
 
 const secondIndex = () => {
     return (
-        <div className='wrapper'>
+        <div>
             <HeaderPanel />
             <div className="main-content">
                 <main className='informacion'>
