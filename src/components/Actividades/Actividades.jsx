@@ -13,10 +13,7 @@ import MoreInfoSenderismo from '../Moduls/Actividades/MoreInfoSenderismo';
 import MoreInfoTiroArco from '../Moduls/Actividades/MoreInfoTiroArco';
 
 // Imagenes
-import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
-import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
-import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
-import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
+
 
 
 
