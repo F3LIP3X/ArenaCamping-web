@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // CSS
 import '../Precios/Precios.css';
@@ -31,101 +32,221 @@ const precios = () => {
 
                     <section>
                         <div className="contenedor">
-
                             <div className="tablaprecios">
                                 <h2>Aparcamiento Zona 1</h2>
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>100 €</h3>
-                                <p>asjdsafdhasgfashfa</p>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#aparcamiento1">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Aparcamiento Zona 2</h2>
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>200 €</h3>
-                                <p>asjdsafdhasgfashfa</p>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#aparcamiento2">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Aparcamiento Zona 3</h2>
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>300 €</h3>
-                                <p>asjdsafdhasgfashfa</p>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#aparcamiento3">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
 
                             <div className="tablaprecios">
-                                <h2>Alquiler Duchas</h2>
+                                <h2>Alquiler de Aseos/Duchas</h2>
                                 <img src={Ducha} alt="img2"></img>
                                 <h3>1 € / 5'</h3>
-                                <p>asjdsafdhasgfashfa</p>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#aseos">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Alquiler de Electrodomésticos</h2>
                                 <img src={Electrodomesticos} alt="img3"></img>
                                 <h3>5 € / 1h</h3>
-                                <p>asjdsafdhasgfashfa</p>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#electrodomesticos">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Llenado/Vaciado de aguas</h2>
                                 <img src={Agua} alt="img4"></img>
-                                <h3>3 € / 1,5L</h3>
-                                <p>asjdsafdhasgfashfa</p>
+                                <h3>1,5 € / 3L</h3>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#aguas">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
 
-                            <div className="tablaprecios">
+                            <div className="tablaprecios seguros">
                                 <h2>Seguro Escalada</h2>
                                 <img src={Escalada} alt="img5"></img>
-                                <h3>1 € / 5'</h3>
-                                <p>asjdsafdhasgfashfa</p>
+                                <h3>15€ / Adulto</h3>
+                                <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#escalada">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
-                            <div className="tablaprecios">
+                            <div className="tablaprecios seguros">
                                 <h2>Seguro Tiro con Arco</h2>
                                 <img src={Arco} alt="img6"></img>
-                                <h3>5 € / 1h</h3>
-                                <p>asjdsafdhasgfashfa</p>
+                                <h3>15€ / Adulto</h3>
+                                <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#tiroarco">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
-                            <div className="tablaprecios">
+                            <div className="tablaprecios seguros">
                                 <h2>Seguro de Ciclismo</h2>
                                 <img src={Bicicleta} alt="img7"></img>
-                                <h3>3 € / 1,5L</h3>
-                                <p>asjdsafdhasgfashfa</p>
+                                <h3>15€ / Adulto</h3>
+                                <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#ciclismo">
+                                        <span>Más Info</span>
+                                    </a>
                                 </button>
                             </div>
 
-                            <div className="tablaprecios">
+                            <div className="tablaprecios seguros">
                                 <h2>Seguro Senderismo</h2>
                                 <img src={Senderismo} alt="img8"></img>
-                                <h3>3 € / 1,5L</h3>
-                                <p>asjdsafdhasgfashfa</p>
+                                <h3>15€ / Adulto</h3>
+                                <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
-                                    <span>Ver más</span>
+                                    <a href="#senderismo">
+                                        <span>Más Info</span>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div className="contenedor2">
+                            <div id="aparcamiento1" className="tablaprecios2">
+                                <h2>Aparcamiento Zona 1</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
+                                </button>
+                            </div>
+                            <div id="aparcamiento2" className="tablaprecios2">
+                                <h2>Aparcamiento Zona 2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
+                                </button>
+                            </div>
+                            <div id="aparcamiento3" className="tablaprecios2">
+                                <h2>Aparcamiento Zona 3</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
                                 </button>
                             </div>
 
+                            <div id="aseos" className="tablaprecios2">
+                                <h2>Alquiler de Aseos/Duchas</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
+                                </button>
+                            </div>
+                            <div id="electrodomesticos" className="tablaprecios2">
+                                <h2>Alquiler de Electrodomésticos</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
+                                </button>
+                            </div>
+                            <div id="aguas" className="tablaprecios2">
+                                <h2>Llenado/Vaciado de aguas</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Reservar</Link></span>
+                                </button>
+                            </div>
+
+                            <div id="escalada" className="tablaprecios2">
+                                <h2>Seguro Escalada</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Alquilar</Link></span>
+                                </button>
+                            </div>
+                            <div id="tiroarco" className="tablaprecios2">
+                                <h2>Seguro Tiro con Arco</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Alquilar</Link></span>
+                                </button>
+                            </div>
+                            <div id="ciclismo" className="tablaprecios2">
+                                <h2>Seguro de Ciclismo</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Alquilar</Link></span>
+                                </button>
+                            </div>
+
+                            <div id="senderismo" className="tablaprecios2">
+                                <h2>Seguro Senderismo</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <button className="buttonPrices2">
+                                    <span><Link to="/Contacto">Alquilar</Link></span>
+                                </button>
+                            </div>
                         </div>
                     </section>
 
