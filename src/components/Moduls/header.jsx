@@ -16,6 +16,7 @@ const StyledHeader = styled.header`
     .nav-logo-link {
       text-decoration: none;
       font-size: 2.3em;
+      text-shadow: 3px 2px 4px rgb(45, 248, 181);
       color: white;
       font-weight: bold;
     }

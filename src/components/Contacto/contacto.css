@@ -3,9 +3,7 @@
     font-family: 'Nexa';
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
 }
-*{
-    font-size: large;
-}
+
 /* Footer styles */
 .headBars {
     padding-top: 1%;
