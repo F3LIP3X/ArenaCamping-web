@@ -22,7 +22,6 @@
 }
 
 .contenedor {
-    width: 90%;
     max-width: 900px;
     margin: auto;
     height: auto;
@@ -32,39 +31,22 @@
     flex-wrap: wrap;
 }
 
-.Boton {
-    color: green;
-    text-decoration: none;
-    display: inline-block;
-    width: 150px;
-    padding: 12px;
-    background: #152802;
-    color: #ffffff;
-    border-radius: 100px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    margin: auto;
-}
-
-.Boton:hover {
-    text-decoration: none;
-}
-
 .tablaprecios {
     width: calc(33% - 20px);
     margin-bottom: 20px; 
     height: auto; 
-    background-color: rgb(75, 123, 105);
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 0px 4px 0px rgb(6, 26, 25);
-    padding: 60px;
+    background-color: rgba(0, 24, 15, 0.384);
+
+    border: 1px solid rgba(0, 179, 24, 0.39);
+    border-radius: 0.3em;
+    box-shadow: 6px 6px 4px 1px rgba(1, 75, 34, 0.384);
+
+    padding: 2em;
     text-align: center;
     color: white;
     flex-grow: 1;
     max-width: calc(33% - 20px);
-    margin-top: 20px;
+    margin-top: 0.7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,10 +54,10 @@
 }
 
 .tablaprecios > h2 {
-    font-size: 25px;
-    margin-bottom: 35px;
+    font-size: 1.11em;
+    margin-bottom: 1em;
     text-align: center;
-    color: white;
+    color: rgb(0, 49, 16);
 }
 
 .tablaprecios img {
@@ -85,7 +67,7 @@
 }
 
 .tablaprecios:hover{
-    background: rgb(23, 116, 111);
+    background: rgba(14, 88, 5, 0.466);
     color: white;
     cursor: pointer;
     transition: 0.5s all;
@@ -95,7 +77,49 @@
 .tablaprecios > p {
     display: block;
     margin-bottom: 20px;
+
 }
+
+.buttonPrices {
+    display: inline-block;
+    border-radius: 0.3em;
+    background-color: #0361097a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   .buttonPrices span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .buttonPrices span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .buttonPrices:hover span {
+    padding-right: 15px;
+   }
+   
+   .buttonPrices:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
 
 @media screen and (max-width: 1000px) {
     .tablaprecios {

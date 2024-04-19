@@ -37,73 +37,93 @@ const precios = () => {
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>100 €</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Aparcamiento Zona 2</h2>
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>200 €</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Aparcamiento Zona 3</h2>
                                 <img src={Estacionamiento} alt="img1"></img>
                                 <h3>300 €</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
 
                             <div className="tablaprecios">
                                 <h2>Alquiler Duchas</h2>
                                 <img src={Ducha} alt="img2"></img>
-                                <h3>1€ / 5M</h3>
+                                <h3>1 € / 5'</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Alquiler de Electrodomésticos</h2>
                                 <img src={Electrodomesticos} alt="img3"></img>
-                                <h3>5€ / 1H</h3>
+                                <h3>5 € / 1h</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Llenado/Vaciado de aguas</h2>
                                 <img src={Agua} alt="img4"></img>
-                                <h3>3€ / 1,5L</h3>
+                                <h3>3 € / 1,5L</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
 
                             <div className="tablaprecios">
                                 <h2>Seguro Escalada</h2>
                                 <img src={Escalada} alt="img5"></img>
-                                <h3>1€ / 5M</h3>
+                                <h3>1 € / 5'</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Seguro Tiro con Arco</h2>
                                 <img src={Arco} alt="img6"></img>
-                                <h3>5€ / 1H</h3>
+                                <h3>5 € / 1h</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
                             <div className="tablaprecios">
                                 <h2>Seguro de Ciclismo</h2>
                                 <img src={Bicicleta} alt="img7"></img>
-                                <h3>3€ / 1,5L</h3>
+                                <h3>3 € / 1,5L</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
 
                             <div className="tablaprecios">
                                 <h2>Seguro Senderismo</h2>
                                 <img src={Senderismo} alt="img8"></img>
-                                <h3>3€ / 1,5L</h3>
+                                <h3>3 € / 1,5L</h3>
                                 <p>asjdsafdhasgfashfa</p>
-                                <a className="Boton" href="">Más Info</a>
+                                <button className='buttonPrices'>
+                                    <span>Ver más</span>
+                                </button>
                             </div>
 
                         </div>
