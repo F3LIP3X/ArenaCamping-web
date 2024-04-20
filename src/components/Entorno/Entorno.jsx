@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Entorno/Entorno.css';
-import { Link } from 'react-router-dom';
+
 
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
