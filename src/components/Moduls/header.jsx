@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 
+//Logo
+import icon from '../assets/logo.ico';
+
 const StyledHeader = styled.header`
   background-color: #011f1ac9;
   width: 100%;
@@ -77,8 +80,11 @@ const Header = () => {
   return (
     <>
       <StyledHeader>
+        <div>
+
+        </div>
         <div className="nav_logo">
-          <Link to={"/"} className="nav-logo-link">
+          <Link to={"/Inicio"} className="nav-logo-link">
             Arena Camping
           </Link>
         </div>
@@ -86,6 +92,11 @@ const Header = () => {
         <NavManu isToggleOpen={isToggleOpen}>
           <li>
             <Link to={"/"} className="nav-menu-list">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to={"/Inicio"} className="nav-menu-list">
               Inicio
             </Link>
           </li>

@@ -1,11 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-//Import Tailwind
-import 'tailwindcss/tailwind.css';
-
 //Páginas
-
+import Home from './components/IndexArena';
 import Inicio from './components/Inicio/Inicio';
 import Servicios from './components/Servicios/Servicios';
 import Actividades from './components/Actividades/Actividades';
@@ -23,7 +20,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Inicio />} />
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path="/Inicio" element={<Inicio />} />
           <Route exact path="/Servicios" element={<Servicios />} />
           <Route exact path="/Actividades" element={<Actividades />} />
           <Route exact path="/Localización" element={<Localización />} />

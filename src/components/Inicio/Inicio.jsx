@@ -30,16 +30,7 @@ const firstIndex = () => {
                             debitis id ab sequi vitae, aut recusandae veniam? Excepturi
                             tempore at adipisci quibusdam, est, ullam saepe ratione eum
                             non cumque rerum corporis iusto reprehenderit neque id deserunt
-                            itaque sequi molestias harum perferendis debitis inventore
-                            consectetur. Quod architecto corrupti expedita, facere est
-                            cupiditate nobis tempora quis similique et dicta maxime
-                            corporis incidunt atque iusto, quam in laboriosam sed
-                            commodi pariatur. Necessitatibus commodi incidunt fuga,
-                            optio assumenda iure. Ratione nemo, accusamus ea recusandae
-                            sapiente voluptatum tenetur numquam? Nemo aspernatur
-                            aperiam itaque in optio hic aut perferendis eum similique
-                            tenetur exercitationem assumenda libero ab, molestias tempora magnam
-                            doloribus at mollitia beatae rem minima aliquid molestiae facere.</p>
+                            itaque sequi molestias.</p>
                     </section>
 
                     <section id="contact">
