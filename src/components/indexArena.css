@@ -2,6 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    
 }
 
 
@@ -11,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden
 }
 
 .contentWrapper {
@@ -21,19 +23,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .buttonWrapper {
     margin-top: 20px;
 }
 
-.aRedes{
+.aRedes {
     font-style: none;
 }
 
 .h1ArenaHome {
     color: #ffffff;
-    font-size: 8vw;
+    font-size: 4vw;
     min-width: 200px;
     text-shadow: 0em 6px 1px rgba(0, 0, 0, 0.877);
 }
@@ -44,8 +47,7 @@ body {
     background-image: linear-gradient(40deg, #ccf3ca, #008f4f81);
     border-radius: 0.3em;
     background-size: 100% auto;
-    font-family: "Poppins", sans-serif;
-    font-size: 4vw;
+    font-size: 1vw;
     padding: 2vw 3vw;
     cursor: pointer;
     min-width: 150px;
@@ -53,9 +55,9 @@ body {
 
 .knowAboutButton:hover {
     background-position: right center;
-    background-size: 200% auto;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
+    background-size: 150% auto;
+    -webkit-animation: pulse 1s infinite;
+    animation: pulse512 2s infinite;
 }
 
 @keyframes pulse512 {
@@ -83,7 +85,6 @@ body {
     bottom: 0;
     display: flex;
     list-style: none;
-    font-family: "Poppins", sans-serif;
     justify-content: center;
 }
 
@@ -162,4 +163,14 @@ body {
 .wrapper .instagram:hover .tooltip::before {
     background: #e4405f;
     color: #fff;
+}
+
+@media screen and (max-width: 912px) {
+    .knowAboutButton {
+        font-size: 5vw;
+    }
+
+    .h1ArenaHome{
+        font-size: 10vw;
+    }
 }

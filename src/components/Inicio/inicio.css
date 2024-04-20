@@ -34,14 +34,6 @@ body {
     overflow-x: hidden;
 }
 
-.wrapped {
-    position: 0;
-}
-
-/* Header style */
-
-
-
 /*--------------------------*/
 
 main {
@@ -304,7 +296,6 @@ a:hover {
 
     body {
         overflow-x: hidden;
-        /* Cambiado a 'hidden' para bloquear el desplazamiento horizontal */
     }
 
     main-content {

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 
 //Logo
-import icon from '../assets/logo.ico';
+
 
 const StyledHeader = styled.header`
   background-color: #011f1ac9;
@@ -16,9 +16,10 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   .nav_logo {
     padding: 0 12px;
+    flex: 1;
     .nav-logo-link {
       text-decoration: none;
-      font-size: 2.3em;
+      font-size: 2.8vw;
       text-shadow: 3px 2px 4px rgb(45, 248, 181);
       color: white;
       font-weight: bold;
@@ -28,19 +29,32 @@ const StyledHeader = styled.header`
     display: none;
     color: white;
     font-size: 1.7em;
-    position: absolute;
-    right: .8em;
-    top: 1.22em;
     cursor: pointer;
   }
 
+  .contHead{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+
   @media screen and (max-width: 918px) {
-    flex-direction: column;
-    align-items: flex-start;
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
     .menuToggleBtn {
       display: block;
     }
+
+    .contHead .nav_logo .nav-logo-link {
+      font-size: 10vw; 
+    }
+
   }
+  
 `;
 const NavManu = styled.ul`
   list-style: none;
@@ -61,7 +75,7 @@ const NavManu = styled.ul`
     padding: 10px 10px;
     text-align: center;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 912px) {
     display: ${(props) => (props.isToggleOpen ? "block" : "none")};
     flex-direction: column;
     align-items: center;
@@ -80,13 +94,15 @@ const Header = () => {
   return (
     <>
       <StyledHeader>
-        <div>
-
-        </div>
-        <div className="nav_logo">
-          <Link to={"/"} className="nav-logo-link">
-            Arena Camping
-          </Link>
+        <div className="contHead">
+          <div className="nav_logo">
+            <Link to={"/"} className="nav-logo-link">
+              Arena Camping
+            </Link>
+          </div>
+          <div>
+            <FaBars className="menuToggleBtn" onClick={handleToggleOpen} />
+          </div>
         </div>
 
         <NavManu isToggleOpen={isToggleOpen}>
@@ -135,8 +151,9 @@ const Header = () => {
               Reserva
             </Link>
           </li>
+
         </NavManu>
-        <FaBars className="menuToggleBtn" onClick={handleToggleOpen} />
+
       </StyledHeader>
     </>
   );

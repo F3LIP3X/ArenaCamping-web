@@ -4,9 +4,6 @@ import { Link } from "react-router-dom";
 //Styles
 import './indexArena.css';
 
-//Imports
-import SocialComponent from '../components/Moduls/social';
-
 //Comando para comentar Ctrl + K + C
 const indexPage = () => {
     const openLink = (url) => {
