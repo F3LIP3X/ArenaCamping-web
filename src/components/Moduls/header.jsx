@@ -84,7 +84,7 @@ const Header = () => {
 
         </div>
         <div className="nav_logo">
-          <Link to={"/Inicio"} className="nav-logo-link">
+          <Link to={"/"} className="nav-logo-link">
             Arena Camping
           </Link>
         </div>

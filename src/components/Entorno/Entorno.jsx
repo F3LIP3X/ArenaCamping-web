@@ -19,7 +19,7 @@ const Entorno = () => {
 */
     // https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
     return (
-        <div className='wrapper'>
+        <div>
             <HeaderPanel />
             <div className="main-content">
                 <main>
