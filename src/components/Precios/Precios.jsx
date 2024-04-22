@@ -33,8 +33,10 @@ const precios = () => {
                     <section>
                         <div className="contenedor">
                             <div className="tablaprecios">
-                                <h2>Aparcamiento Zona 1</h2>
-                                <img src={Estacionamiento} alt="img1"></img>
+                                <div className="textosh2">
+                                    <h2>Aparcamiento Zona 1</h2>
+                                </div>
+                                <img className="preciosimg" src={Estacionamiento} alt="img1"></img> 
                                 <h3>100 €</h3>
                                 <button className='buttonPrices'>
                                     <a href="#aparcamiento1">
@@ -43,8 +45,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios">
-                                <h2>Aparcamiento Zona 2</h2>
-                                <img src={Estacionamiento} alt="img1"></img>
+                                <div className="textosh2">
+                                    <h2>Aparcamiento Zona 2</h2>
+                                </div>
+                                <img className="preciosimg" src={Estacionamiento} alt="img1"></img>
                                 <h3>200 €</h3>
                                 <button className='buttonPrices'>
                                     <a href="#aparcamiento2">
@@ -53,8 +57,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios">
-                                <h2>Aparcamiento Zona 3</h2>
-                                <img src={Estacionamiento} alt="img1"></img>
+                                <div className="textosh2">
+                                    <h2>Aparcamiento Zona 3</h2>
+                                </div>
+                                <img className="preciosimg" src={Estacionamiento} alt="img1"></img>
                                 <h3>300 €</h3>
                                 <button className='buttonPrices'>
                                     <a href="#aparcamiento3">
@@ -64,8 +70,10 @@ const precios = () => {
                             </div>
 
                             <div className="tablaprecios">
-                                <h2>Alquiler de Aseos/Duchas</h2>
-                                <img src={Ducha} alt="img2"></img>
+                                <div className="textosh2">
+                                    <h2>Alquiler de Aseos/Duchas</h2>
+                                </div>
+                                <img className="preciosimg" src={Ducha} alt="img2"></img>
                                 <h3>1 € / 5'</h3>
                                 <button className='buttonPrices'>
                                     <a href="#aseos">
@@ -74,8 +82,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios">
-                                <h2>Alquiler de Electrodomésticos</h2>
-                                <img src={Electrodomesticos} alt="img3"></img>
+                                <div className="textosh2">
+                                    <h2>Alquiler de Electrodomésticos</h2>
+                                </div>
+                                <img className="preciosimg" src={Electrodomesticos} alt="img3"></img>
                                 <h3>5 € / 1h</h3>
                                 <button className='buttonPrices'>
                                     <a href="#electrodomesticos">
@@ -84,8 +94,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios">
-                                <h2>Llenado/Vaciado de aguas</h2>
-                                <img src={Agua} alt="img4"></img>
+                                <div className="textosh2">
+                                    <h2>Llenado/Vaciado de aguas</h2>
+                                </div>
+                                <img className="preciosimg" src={Agua} alt="img4"></img>
                                 <h3>1,5 € / 3L</h3>
                                 <button className='buttonPrices'>
                                     <a href="#aguas">
@@ -95,8 +107,10 @@ const precios = () => {
                             </div>
 
                             <div className="tablaprecios seguros">
-                                <h2>Seguro Escalada</h2>
-                                <img src={Escalada} alt="img5"></img>
+                                <div className="textosh2">
+                                    <h2>Seguro Escalada</h2>
+                                </div>
+                                <img className="preciosimg" src={Escalada} alt="img5"></img>
                                 <h3>15€ / Adulto</h3>
                                 <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
@@ -106,8 +120,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios seguros">
-                                <h2>Seguro Tiro con Arco</h2>
-                                <img src={Arco} alt="img6"></img>
+                                <div className="textosh2">
+                                    <h2>Seguro Tiro con Arco</h2>
+                                </div>
+                                <img className="preciosimg" src={Arco} alt="img6"></img>
                                 <h3>15€ / Adulto</h3>
                                 <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
@@ -117,8 +133,10 @@ const precios = () => {
                                 </button>
                             </div>
                             <div className="tablaprecios seguros">
-                                <h2>Seguro de Ciclismo</h2>
-                                <img src={Bicicleta} alt="img7"></img>
+                                <div className="textosh2">
+                                    <h2>Seguro de Ciclismo</h2>
+                                </div>
+                                <img className="preciosimg" src={Bicicleta} alt="img7"></img>
                                 <h3>15€ / Adulto</h3>
                                 <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
@@ -129,8 +147,10 @@ const precios = () => {
                             </div>
 
                             <div className="tablaprecios seguros">
-                                <h2>Seguro Senderismo</h2>
-                                <img src={Senderismo} alt="img8"></img>
+                                <div className="textosh2">
+                                    <h2>Seguro Senderismo</h2>
+                                </div>
+                                <img className="preciosimg" src={Senderismo} alt="img8"></img>
                                 <h3>15€ / Adulto</h3>
                                 <h3>7 € / - 10 Años</h3>
                                 <button className='buttonPrices'>
@@ -145,7 +165,9 @@ const precios = () => {
                     <section>
                         <div className="contenedor2">
                             <div id="aparcamiento1" className="tablaprecios2">
-                                <h2>Aparcamiento Zona 1</h2>
+                                <div className="textos2h2">
+                                    <h2>Aparcamiento Zona 1</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -155,7 +177,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="aparcamiento2" className="tablaprecios2">
-                                <h2>Aparcamiento Zona 2</h2>
+                                <div className="textos2h2">
+                                    <h2>Aparcamiento Zona 2</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -165,7 +189,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="aparcamiento3" className="tablaprecios2">
-                                <h2>Aparcamiento Zona 3</h2>
+                                <div className="textos2h2">
+                                    <h2>Aparcamiento Zona 3</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -176,7 +202,9 @@ const precios = () => {
                             </div>
 
                             <div id="aseos" className="tablaprecios2">
-                                <h2>Alquiler de Aseos/Duchas</h2>
+                                <div className="textos2h2">
+                                    <h2>Alquiler Aseos/Duchas</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -186,7 +214,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="electrodomesticos" className="tablaprecios2">
-                                <h2>Alquiler de Electrodomésticos</h2>
+                                <div className="textos2h2">
+                                    <h2>Alquiler de Electrodomésticos</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -196,7 +226,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="aguas" className="tablaprecios2">
-                                <h2>Llenado/Vaciado de aguas</h2>
+                                <div className="textos2h2">
+                                    <h2>Lenado/Vaciado de Aguas</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -207,7 +239,9 @@ const precios = () => {
                             </div>
 
                             <div id="escalada" className="tablaprecios2">
-                                <h2>Seguro Escalada</h2>
+                                <div className="textos2h2">
+                                    <h2>Seguro Escalada</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -217,7 +251,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="tiroarco" className="tablaprecios2">
-                                <h2>Seguro Tiro con Arco</h2>
+                                <div className="textos2h2">
+                                    <h2>Seguro Tiro con Arco</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -227,7 +263,9 @@ const precios = () => {
                                 </button>
                             </div>
                             <div id="ciclismo" className="tablaprecios2">
-                                <h2>Seguro de Ciclismo</h2>
+                                <div className="textos2h2">
+                                    <h2>Seguro de Ciclismo</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -238,7 +276,9 @@ const precios = () => {
                             </div>
 
                             <div id="senderismo" className="tablaprecios2">
-                                <h2>Seguro Senderismo</h2>
+                                <div className="textos2h2">
+                                    <h2>Seguro Senderismo</h2>
+                                </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
