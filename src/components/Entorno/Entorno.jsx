@@ -5,7 +5,6 @@ import '../Entorno/Entorno.css';
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
-import GaleryPanel from '../Moduls/galery';
 import Contacta from '../Contacto/Contacto';
 import SliderComida from '../Moduls/Entorno/Slider';
 
