@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import video from '../components/assets/'
+
 
 //Styles
 import './indexArena.css';
