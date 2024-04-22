@@ -7,16 +7,17 @@ import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import GaleryPanel from '../Moduls/galery';
 import Contacta from '../Contacto/Contacto';
+import SliderComida from '../Moduls/Entorno/Slider';
 
 //Comando para comentar Ctrl + K + C
 const Entorno = () => {
     const ButtonGastronomia = () => {
         window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
     }
-  /*  const ContactaButon = () => {
-        window.location.href = 'Contacta';
-    }
-*/
+    /*  const ContactaButon = () => {
+          window.location.href = 'Contacta';
+      }
+  */
     // https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
     return (
         <div>
@@ -93,14 +94,14 @@ const Entorno = () => {
 
 
                     </section>
-
+                    <SliderComida />
                     <section id="contact">
                         <h2 id='contactos'>Reserva ya tu plaza en el Arena Camping</h2>
                         <hr />
                         <p>Disponemos de X plazas de X metros, ¡Contactanos!</p>
                         <button id='ContactaEntorno' onClick={Contacta}>¡Contacta!</button>
                     </section>
-                    <GaleryPanel />
+
                     <SocialPanel />
                     <FooterPanel />
                 </main>
