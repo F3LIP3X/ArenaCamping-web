@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> parent of e8b6676 (2.1.8)
 //Styles
 import './indexArena.css';
 
