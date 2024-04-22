@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of e8b6676 (2.1.8)
 //Styles
 import './indexArena.css';
 
@@ -12,16 +15,13 @@ const indexPage = () => {
         window.open(url, '_blank');
     };
     return (
-
         <div className='homePageDiv'>
-              
-              <div className='homePageDiv'>
-               
-            <div className="content">
-                <h1>Arena Camping</h1>
-                <button onClick={() => openLink("/Inicio")}>Conoce nuestra Web</button>
-            </div>
-            
+            <div className='contentWrapper'>
+                <h1 className='h1ArenaHome'>ARENA CAMPING</h1>
+                <Link to={"/Inicio"}>
+                    <button className='knowAboutButton'>Conoce nuestra web</button>
+                </Link>
+                
             </div>
             <footer>
                 <ul class="wrapper">
