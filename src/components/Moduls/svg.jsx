@@ -1,19 +1,25 @@
 import React from "react"
 const SvgComponent = (props) => (
-    <div>
-
+    <div
+        style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "50%", // Ajusta el ancho del contenedor como desees
+            margin: "0 auto", // Centra el contenedor en la página
+        }}
+    >
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width={608}
-            height={323}
+            width="100%" // Establece el ancho del SVG al 100% del contenedor padre
+            height="auto" // Permite que la altura se ajuste automáticamente para mantener la relación de aspecto
             style={{
-                backgroundColor: "#fff",
+                maxWidth: "100%", // Asegura que el SVG no se extienda más allá de su tamaño original
+                height: "auto", // Ajusta la altura automáticamente
             }}
             viewBox="-0.5 -0.5 608 323"
             {...props}
         >
-            <rect width="100%" height="100%" fill="#fff" />
             <path
                 fill="none"
                 stroke="#005700"
@@ -67,7 +73,7 @@ const SvgComponent = (props) => (
                         }}
                     >
                         <div
-                            data-drawio-colors="color: #ffffff;"
+                            data-drawio-colors="color: #fff;"
                             style={{
                                 boxSizing: "border-box",
                                 fontSize: 0,
@@ -78,24 +84,21 @@ const SvgComponent = (props) => (
                                 style={{
                                     display: "inline-block",
                                     fontSize: 12,
-                                    fontFamily: "Helvetica",
-                                    color: "#fff",
+                                    color: "white",
                                     lineHeight: 1.2,
                                     pointerEvents: "all",
                                     whiteSpace: "nowrap",
                                 }}
                             >
-                                <h2>
-                                    <b>
-                                        <font
-                                            style={{
-                                                fontSize: 40,
-                                            }}
-                                        >
-                                            {"3"}
-                                        </font>
-                                    </b>
-                                </h2>
+                                <b>
+                                    <font
+                                        style={{
+                                            fontSize: 40,
+                                        }}
+                                    >
+                                        {"3"}
+                                    </font>
+                                </b>
                             </div>
                         </div>
                     </div>
@@ -163,17 +166,15 @@ const SvgComponent = (props) => (
                                     whiteSpace: "nowrap",
                                 }}
                             >
-                                <h2>
-                                    <b>
-                                        <font
-                                            style={{
-                                                fontSize: 40,
-                                            }}
-                                        >
-                                            {"1"}
-                                        </font>
-                                    </b>
-                                </h2>
+                                <b>
+                                    <font
+                                        style={{
+                                            fontSize: 40,
+                                        }}
+                                    >
+                                        {"1"}
+                                    </font>
+                                </b>
                             </div>
                         </div>
                     </div>
@@ -241,17 +242,15 @@ const SvgComponent = (props) => (
                                     whiteSpace: "nowrap",
                                 }}
                             >
-                                <h2>
-                                    <b>
-                                        <font
-                                            style={{
-                                                fontSize: 40,
-                                            }}
-                                        >
-                                            {"2"}
-                                        </font>
-                                    </b>
-                                </h2>
+                                <b>
+                                    <font
+                                        style={{
+                                            fontSize: 40,
+                                        }}
+                                    >
+                                        {"2"}
+                                    </font>
+                                </b>
                             </div>
                         </div>
                     </div>
@@ -319,17 +318,15 @@ const SvgComponent = (props) => (
                                     whiteSpace: "nowrap",
                                 }}
                             >
-                                <h2>
-                                    <b>
-                                        <font
-                                            style={{
-                                                fontSize: 40,
-                                            }}
-                                        >
-                                            {"4"}
-                                        </font>
-                                    </b>
-                                </h2>
+                                <b>
+                                    <font
+                                        style={{
+                                            fontSize: 40,
+                                        }}
+                                    >
+                                        {"4"}
+                                    </font>
+                                </b>
                             </div>
                         </div>
                     </div>

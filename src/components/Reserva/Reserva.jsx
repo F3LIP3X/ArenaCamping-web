@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Entorno/Entorno.css';
+import '../Reserva/reserva.css';
 
 //Components
 import FooterPanel from '../Moduls/footer';
