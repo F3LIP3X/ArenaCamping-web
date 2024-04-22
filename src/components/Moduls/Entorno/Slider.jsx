@@ -1,46 +1,44 @@
-import React from 'react';
-import '../../Entorno/Entorno.css';
+import React, { useEffect, useRef, useState } from 'react';
+import { data } from './data';
+import '../../Entorno/Entornomodulo.css';
 
-
-//Imagenes
+// Imagenes
 import Comida1 from '../../assets/Imagenes Entornos/Comida1.jpeg';
 import Comida2 from '../../assets/Imagenes Entornos/Comida2.jpeg';
 import Comida3 from '../../assets/Imagenes Entornos/Comida3.jpeg';
 
 const SliderComida = () => {
+    const listRef = useRef();
+    const [currentIndex, setCurrentIndex] = useState(0)
+
+    useEffect(() => {
+        const listNode = listRef.current;
+        const imgNode = listNode.querySelectorAll("li > img")[currentIndex];
+        if (imgNode) {
+            imgNode.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    }, [currentIndex]);
+
     return (
-        <div>
-            <section id="Trading">
-                <div className="containerEntorno">
-                    <h3 className="text-center section-subheading">
-                        -Sitios Populares-
-                    </h3>
-                    <h1 className="text-cent section-deading">
-                        Tendencias de Comida
-                    </h1>
-                </div>
-                <div className="divSliderEntorno">
-                    <div className="swiper trading-slider">
-                        <div className="swiper-wraper">
-                            {   /* Slider inicio*/
-                            <div className="swiper-slide trading-slide">
-                                <div className="trading-slide-img">
-                                    <img src={Comida1} alt="Trading" />
-                                </div>
-                                <div className="trading-slide-content">
-                                    <h1 className="food-price">20€</h1>
-                                    <div className="trading-slide-content-bottom">
-                                        <h2 className="food-name">Lorem ipsum</h2>
-                                        <h3 className="food-rating"><span>4.5</span></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            /* Slider inicio*/  }
-                        </div>
+        <section>
+            <div className="main-continer-Entorno">
+                <div className="slider-container">
+                    <div className="container-imagesEntorno">
+                        <ul ref={listRef}>
+                            {
+                                data.map((item) => {
+                                    return <li key={item.id}>
+                                        <img src={item.imgUrl} width={500} height={280} />
+                                    </li>
+                                })
+                            }
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 
