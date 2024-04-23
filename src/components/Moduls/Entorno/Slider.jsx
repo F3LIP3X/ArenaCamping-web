@@ -1,45 +1,44 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { data } from './data';
-import '../../Entorno/Entornomodulo.css';
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import '../../Inicio/inicio.css';
+import '../../Actividades/actividades.css';
 
-// Imagenes
-import Comida1 from '../../assets/Imagenes Entornos/Comida1.jpeg';
-import Comida2 from '../../assets/Imagenes Entornos/Comida2.jpeg';
-import Comida3 from '../../assets/Imagenes Entornos/Comida3.jpeg';
+// Importa las imágenes
+import imagenComida1 from '../../assets/Imagenes Entornos/Comida1.jpeg';
+import imagenComida2 from '../../assets/Imagenes Entornos/Comida2.jpeg';
+import imagenComida3 from '../../assets/Imagenes Entornos/Comida3.jpeg';
+
 
 const SliderComida = () => {
-    const listRef = useRef();
-    const [currentIndex, setCurrentIndex] = useState(0)
-
-    useEffect(() => {
-        const listNode = listRef.current;
-        const imgNode = listNode.querySelectorAll("li > img")[currentIndex];
-        if (imgNode) {
-            imgNode.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-    }, [currentIndex]);
+    // Configuración del slider 
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
 
     return (
-        <section>
-            <div className="main-continer-Entorno">
-                <div className="slider-container">
-                    <div className="container-imagesEntorno">
-                        <ul ref={listRef}>
-                            {
-                                data.map((item) => {
-                                    return <li key={item.id}>
-                                        <img src={item.imgUrl} width={500} height={280} />
-                                    </li>
-                                })
-                            }
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
+            <Slider {...settings}>
+                {/* Renderiza cada imagen dentro del Slider */}
+                <div className="carousel-item">
+                    <img src={imagenComida1} className="rounded-box" alt="TiroConArco1" />
+                </div> 
+                <div className="carousel-item">
+                    <img src={imagenComida2} className="rounded-box" alt="TiroConArco2" />
+                </div> 
+                <div className="carousel-item">
+                    <img src={imagenComida3} className="rounded-box" alt="tiroaoarco3" />
+                </div> 
+            </Slider>
+        </div>
     );
-}
+};
 
 export default SliderComida;
