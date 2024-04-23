@@ -5,7 +5,7 @@ import '../Reserva/reserva.css';
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
-import SvgPanel from '../Moduls/svg';
+import SvgComponent from '../Moduls/svg';
 //IMG
 
 
@@ -24,7 +24,7 @@ const Reserva = () => {
                     </section>
                     <section>
                         <div className='SectioPanel'>
-                            <SvgPanel />
+                            <SvgComponent />
                         </div>
                     </section>
                     <SocialPanel />

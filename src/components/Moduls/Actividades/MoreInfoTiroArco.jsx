@@ -39,6 +39,3 @@ const MoreInfoTiroArco = () => {
 };
 
 export default MoreInfoTiroArco;
-
-
-
