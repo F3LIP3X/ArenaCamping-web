@@ -69,7 +69,6 @@ const Entorno = () => {
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
                             rem provident eveniet optio porro! Accusantium, distinctio! Et molestiae
                             velit natus maiores accusamus dignissimos, corrupti odit sequi porro
-                            soluta labore fuga praesentium quo, nostrum, reprehenderit ab facere
                             commodi deleniti ea quidem consequatur quia quos aperiam? Fuga
                             placeat labore iusto nisi non unde cupiditate enim voluptatem
                             debitis id ab sequi vitae, aut recusandae veniam? Excepturi
@@ -90,8 +89,6 @@ const Entorno = () => {
                         </ul>
                         <br />
                         <button class="BotonEntonros" onClick={ButtonGastronomia}>¡¡Pulsa Aqui!!</button>
-
-
                     </section>
                     <SliderComida />
                     <section id="contact">

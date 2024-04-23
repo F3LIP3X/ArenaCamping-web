@@ -1,0 +1,128 @@
+
+/*
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+*/
+/* Estilos para el slider de comida */
+/* Estilos para el slider de comida */
+
+.tranding-slider {
+    padding: 4rem 0;
+  }
+  
+  .tranding-slide {
+    width: 100%;
+    max-width: 37rem;
+    height: auto;
+    position: relative;
+    border: 0.3em solid var(--primary); /* Utiliza el color primario definido */
+    border-radius: 0.3em;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  
+  .tranding-slide .tranding-slide-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em;
+    object-fit: cover;
+  }
+  
+  .tranding-slide .tranding-slide-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: var(--white); /* Utiliza el color blanco definido */
+  }
+  
+  .tranding-slide-content .food-price {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .tranding-slide-content .tranding-slide-content-bottom {
+    padding-top: 1rem;
+  }
+  
+  .tranding-slider-control {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .slider-arrow {
+    background: var(--white); /* Utiliza el color blanco definido */
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Color blanco semitransparente al pasar el mouse */
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+  
+  .swiper-button-next {
+    right: 2rem;
+  }
+  
+  .swiper-button-prev {
+    left: 2rem;
+  }
+  
+  .swiper-pagination {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--primary); /* Utiliza el color primario definido */
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet:hover {
+    background-color: rgba(236, 153, 75, 0.8); /* Color primario semitransparente al pasar el mouse */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: rgba(236, 153, 75, 0.8); /* Color primario semitransparente para el activo */
+  }
+  

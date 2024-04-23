@@ -7,11 +7,10 @@ import Inicio from './components/Inicio/Inicio';
 import Servicios from './components/Servicios/Servicios';
 import Actividades from './components/Actividades/Actividades';
 import Localización from './components/Localización/Localizacion';
-//import Entorno from './components/Entorno/Entorno';
 import Contacto from './components/Contacto/Contacto';
 import Precios from './components/Precios/Precios';
 import Entorno from './components/Entorno/Entorno';
-
+import Reserva from './components/Reserva/Reserva';
 
 
 
@@ -30,7 +29,7 @@ function App() {
           <Route exact path="/Entorno" element={<Entorno />} />
           <Route exact path="/Contacto" element={<Contacto />} />
           <Route exact path="/Precios" element={<Actividades />} />
-          
+          <Route exact path="/Reserva" element={<Reserva />} />
         </Routes>
       </div>
     </Router>
