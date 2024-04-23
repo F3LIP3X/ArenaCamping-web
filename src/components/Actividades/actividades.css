@@ -124,6 +124,54 @@ i {
     display: block;
     width: 30%;
 }
+
+/* Adicione este estilo ao seu arquivo CSS existente */
+
+/* Estilo para a galeria de fotns */
+/* Estilo para a galeria de fotos */
+/* Adicione este estilo ao seu arquivo CSS existente */
+
+/* Estilo para a galeria de fotos */
+/* Estilo para a galeria de fotos */
+#ImagenesTiroArco {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Permitir que as imagens sejam exibidas em várias linhas */
+  }
+  
+  #ImagenesTiroArco img {
+    max-width: 100%; /* Largura máxima das imagens */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    width: 200px; /* Tamanho inicial das miniaturas */
+    margin: 0 10px 20px; /* Espaçamento entre as imagens */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  #ImagenesTiroArco img:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+  }
+  
+  /* Estilo para a imagem em tamanho completo */
+  #ImagemSelecionada {
+    text-align: center; /* Centraliza horizontalmente o conteúdo */
+  }
+  
+  #ImagemSelecionada img {
+    width: 400px; /* Largura máxima da imagem */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  
+  
+  
+  
+  
+
+  
+  
   
 @media screen and (max-width: 912px) {
     tr button {
