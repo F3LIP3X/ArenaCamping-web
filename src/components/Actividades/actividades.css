@@ -138,9 +138,10 @@ i {
 }
 /* Estilo para as imagens da galeria */
 .carousel-item img {
-    width: 100%; /* Definindo largura de 100% para ocupar todo o espaço disponível */
-    height: auto; /* Permitindo que a altura seja ajustada automaticamente para manter a proporção */
-   
+    width: 30%; /* Definindo largura de 100% para ocupar todo o espaço disponível */
+    height: 100%; /* Permitindo que a altura seja ajustada automaticamente para manter a proporção */
+    display: flex;
+    align-items: center;
     object-fit: cover; /* Garantindo que a imagem cubra completamente o contêiner */
 }
 

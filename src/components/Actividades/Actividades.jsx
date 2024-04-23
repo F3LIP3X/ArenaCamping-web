@@ -14,10 +14,10 @@ import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 
 //import GaleryPanel from '../Moduls/galery';
 import SocialPanel from '../Moduls/social';
-import MoreInfoEscalada from '../Moduls/Actividades/MoreInfoEscalada';
-import MoreInfoCiclismo from '../Moduls/Actividades/MoreInfoCiclismo';
-import MoreInfoSenderismo from '../Moduls/Actividades/MoreInfoSenderismo';
-import MoreInfoTiroArco from '../Moduls/Actividades/MoreInfoTiroArco';
+import MoreInfoEscalada from '../Moduls/Componentes Actividades/MoreInfoEscalada';
+import MoreInfoCiclismo from '../Moduls/Componentes Actividades/MoreInfoCiclismo';
+import MoreInfoSenderismo from '../Moduls/Componentes Actividades/MoreInfoSenderismo';
+import MoreInfoTiroArco from '../Moduls/Componentes Actividades/MoreInfoTiroArco';
 
 // Imagenes
 
