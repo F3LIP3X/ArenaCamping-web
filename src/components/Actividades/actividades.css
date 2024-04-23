@@ -125,53 +125,26 @@ i {
     width: 30%;
 }
 
-/* Adicione este estilo ao seu arquivo CSS existente */
+/* Estilo para esconder a galeria em telas maiores que 768px */
+.responsive-gallery {
+    display: none;
+}
 
-/* Estilo para a galeria de fotns */
-/* Estilo para a galeria de fotos */
-/* Adicione este estilo ao seu arquivo CSS existente */
+/* Estilo para mostrar a galeria apenas em telas menores que 768px */
+@media (max-width: 768px) {
+    .responsive-gallery {
+        display: block;
+    }
+}
+/* Estilo para as imagens da galeria */
+.carousel-item img {
+    width: 100%; /* Definindo largura de 100% para ocupar todo o espaço disponível */
+    height: auto; /* Permitindo que a altura seja ajustada automaticamente para manter a proporção */
+   
+    object-fit: cover; /* Garantindo que a imagem cubra completamente o contêiner */
+}
 
-/* Estilo para a galeria de fotos */
-/* Estilo para a galeria de fotos */
-#ImagenesTiroArco {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    flex-wrap: wrap; /* Permitir que as imagens sejam exibidas em várias linhas */
-  }
-  
-  #ImagenesTiroArco img {
-    max-width: 100%; /* Largura máxima das imagens */
-    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-    width: 200px; /* Tamanho inicial das miniaturas */
-    margin: 0 10px 20px; /* Espaçamento entre as imagens */
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
-  }
-  
-  #ImagenesTiroArco img:hover {
-    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
-  }
-  
-  /* Estilo para a imagem em tamanho completo */
-  #ImagemSelecionada {
-    text-align: center; /* Centraliza horizontalmente o conteúdo */
-  }
-  
-  #ImagemSelecionada img {
-    width: 400px; /* Largura máxima da imagem */
-    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
-    display: block; /* Garante que a imagem seja exibida como um bloco */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-  }
-  
-  
-  
-  
-  
 
-  
-  
   
 @media screen and (max-width: 912px) {
     tr button {
