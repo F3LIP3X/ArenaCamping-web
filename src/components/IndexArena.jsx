@@ -1,8 +1,12 @@
 import React from 'react';
+
 import { Link } from "react-router-dom";
 
 //Styles
 import './indexArena.css';
+
+//IMG
+import './assets/camping.jpg'
 
 //Comando para comentar Ctrl + K + C
 const indexPage = () => {
