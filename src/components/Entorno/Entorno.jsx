@@ -90,7 +90,10 @@ const Entorno = () => {
                         <br />
                         <button class="BotonEntonros" onClick={ButtonGastronomia}>¡¡Pulsa Aqui!!</button>
                     </section>
-                    <SliderComida />
+                    <section>
+                        <SliderComida />
+                    </section>
+
                     <section id="contact">
                         <h2 id='contactos'>Reserva ya tu plaza en el Arena Camping</h2>
                         <hr />
