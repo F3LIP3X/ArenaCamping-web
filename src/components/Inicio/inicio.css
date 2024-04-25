@@ -20,7 +20,7 @@ h2 {
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* Set font size and family */

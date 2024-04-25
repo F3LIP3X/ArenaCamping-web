@@ -1,27 +1,26 @@
 import React from 'react';
-
-import { Link } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom";
 //Styles
 import './indexArena.css';
-
 //IMG
-import './assets/camping.jpg'
+import './assets/background.jpg'
 
 //Comando para comentar Ctrl + K + C
 const indexPage = () => {
     const openLink = (url) => {
         window.open(url, '_blank');
     };
+
     return (
         <div className='homePageDiv'>
             <div className='contentWrapper'>
+                
                 <h1 className='h1ArenaHome'>ARENA CAMPING</h1>
                 <Link to={"/Inicio"}>
                     <button className='knowAboutButton'>Conoce nuestra web</button>
                 </Link>
-                
             </div>
+
             <footer>
                 <ul class="wrapper">
                     <li class="icon facebook"  onClick={() => openLink('https://www.facebook.com/')}>

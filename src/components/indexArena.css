@@ -4,19 +4,25 @@ body {
     height: 100%;  
 }
 
+@media screen and (max-width: 120px) {
+    .homePageDiv {
+        overflow: hidden ;
+    }
+}
+
 
 .homePageDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
-    background-image: inear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.527)), url('./assets/camping.jpg');
+    background-image: inear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.527)), url('./assets/background.jpg');
+  overflow-y: initial !important;
 }
 
 
 .homePageDiv:not(hover){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.415)), url('./assets/camping.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.415)), url('./assets/background.jpg');
 }
 
 .contentWrapper {
@@ -27,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .buttonWrapper {
@@ -114,15 +120,6 @@ body {
     -ms-transform: translateX(15em);
         transform: translateX(15em);
 }
-
-
-
-
-
-
-
-
-
 
 .wrapper {
     position: fixed;
