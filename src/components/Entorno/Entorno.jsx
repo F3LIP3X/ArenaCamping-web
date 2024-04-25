@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Entorno/Entorno.css';
 import { Link } from 'react-router-dom';
- 
+
 
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
-import Contacta from '../Contacto/Contacto';
+//import Contacta from '../Contacto/Contacto';
 import SliderComida from '../Moduls/Entorno/Slider';
 
 //Comando para comentar Ctrl + K + C
@@ -25,10 +25,10 @@ const Entorno = () => {
             <div className="main-content">
                 <main>
                     <section>
-                        <h2>Inicio</h2>
+                        <h2>Home</h2>
                     </section>
                     <section id="InformacionEntorno">
-                        <h2 id='aboutUs'>Información de la zona</h2>
+                        <h2 id='aboutUs'>Area Information</h2>
                         <hr />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
@@ -46,7 +46,7 @@ const Entorno = () => {
                         </p>
                     </section>
                     <section id="HistoriaEntorno">
-                        <h2 id='aboutUs'>Historia</h2>
+                        <h2 id='aboutUs'>History</h2>
                         <hr />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
@@ -64,7 +64,7 @@ const Entorno = () => {
                         </p>
                     </section>
                     <section id="GastronomiaEntorno">
-                        <h2 id='aboutUs'>Gastronomia</h2>
+                        <h2 id='aboutUs'>Gastronomy</h2>
                         <hr />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
@@ -81,25 +81,24 @@ const Entorno = () => {
                         </p>
                     </section>
                     <section id="DondeComer">
-                        <h2 id='aboutUs'>Donde Comer</h2>
+                        <h2 id='aboutUs'>Where to Eat</h2>
                         <hr />
                         <ul id='RestaurantesEntorno'>
-                            <li>Restaurante Envero</li>
-                            <li>Restaurante ocina Salvaje</li>
-                            <li>Restaurante la Pradera</li>
+                            <li>Envero Restaurant</li>
+                            <li>Savage Kitchen Restaurant</li>
+                            <li>La Pradera Restaurant</li>
                         </ul>
                         <br />
-                        <button class="BotonEntonros" onClick={ButtonGastronomia}>¡¡Pulsa Aqui!!</button>
+                        <button class="BotonEntonros" onClick={ButtonGastronomia}>Press Here!!</button>
                     </section>
-                        <SliderComida />
+                    <SliderComida />
 
                     <section id="contact">
-                        <h2 id='contactos'>Reserva ya tu plaza en el Arena Camping</h2>
+                        <h2 id='contactos'>Book your spot at Arena Camping now</h2>
                         <hr />
-                        <p>Disponemos de X plazas de X metros, ¡Contactanos!</p>
-                        <button className='BotonEntonros'><Link to="/Contacto" ></Link>Contact</button>
+                        <p>We have X spots of X meters, Contact us!</p>
+                        <button className='BotonEntonros'><Link to="/Contact" ></Link>Contact</button>
                     </section>
-
                     <SocialPanel />
                     <FooterPanel />
                 </main>
