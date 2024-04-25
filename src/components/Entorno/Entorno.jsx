@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Entorno/Entorno.css';
-
+import { Link } from 'react-router-dom';
+ 
 
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
@@ -96,7 +97,7 @@ const Entorno = () => {
                         <h2 id='contactos'>Reserva ya tu plaza en el Arena Camping</h2>
                         <hr />
                         <p>Disponemos de X plazas de X metros, ¡Contactanos!</p>
-                        <button id='ContactaEntorno' onClick={Contacta}>¡Contacta!</button>
+                        <button className='BotonEntonros'><Link to="/Contacto" ></Link>Contact</button>
                     </section>
 
                     <SocialPanel />
