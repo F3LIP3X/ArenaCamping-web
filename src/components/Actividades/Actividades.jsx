@@ -2,27 +2,22 @@ import React from 'react';
 import '../Actividades/actividades.css';
 import { Link } from 'react-router-dom';
 
-// Moduls
+// Modules
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 
-//IMG
+// Images
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
 import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
 import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 
-//import GaleryPanel from '../Moduls/galery';
+// Components
 import SocialPanel from '../Moduls/social';
 import MoreInfoEscalada from '../Moduls/Componentes Actividades/MoreInfoEscalada';
 import MoreInfoCiclismo from '../Moduls/Componentes Actividades/MoreInfoCiclismo';
 import MoreInfoSenderismo from '../Moduls/Componentes Actividades/MoreInfoSenderismo';
 import MoreInfoTiroArco from '../Moduls/Componentes Actividades/MoreInfoTiroArco';
-
-// Imagenes
-
-
-
 
 const AseguradoraComponent = () => {
     const handleButtonClick = () => {
@@ -35,30 +30,30 @@ const AseguradoraComponent = () => {
             <div className="main-content-Actividades">
                 <main className='titulo'>
                     <section>
-                        <h2>Actividades</h2>
+                        <h2>Activities</h2>
                     </section>
 
                     <section class="tabla">
                         <div>
                             <div className='divs'>
-                                <p className='pText'>Escalada</p>
-                                <button className='botonActi'>Ver más</button>
+                                <p className='pText'>Climbing</p>
+                                <button className='botonActi'>View more</button>
                             </div>
                             <div className='divs'>
-                                <p className='pText'>Cicilismo</p>
-                                <button className='botonActi'>Ver Más</button>
+                                <p className='pText'>Cycling</p>
+                                <button className='botonActi'>View More</button>
                             </div>
                             <div className='divs'>
-                                <p className='pText'>Senderismo</p>
-                                <button className='botonActi'>Ver más</button>
+                                <p className='pText'>Hiking</p>
+                                <button className='botonActi'>View more</button>
                             </div>
                             <div className='divs'>
-                                <p className='pText'>Tiro con arco</p>
-                                <button className='botonActi'>Ver más</button>
+                                <p className='pText'>Archery</p>
+                                <button className='botonActi'>View more</button>
                             </div>
                         </div>
                         <div id='Aseguradora'>
-                            <button id="cont" onClick={handleButtonClick}>Aseguradoras</button>
+                            <button id="cont" onClick={handleButtonClick}>Insurance</button>
                         </div>
                     </section>
 
@@ -76,40 +71,39 @@ const AseguradoraComponent = () => {
                     
 
                     <section className='Partes'>
-                        <h2>¡No te pierdas nada!</h2>
-                        <h4>Consulta aqui todas las noticias de Arena Camping Granada</h4>
+                        <h2>Don't miss out!</h2>
+                        <h4>Check out all the news from Arena Camping Granada here</h4>
                     </section>
 
                     <section className='Partes'>
-                        <h2>Reserva ya tu plaza en Arena Camping</h2>
-                        <h5 id="Plazas">Disponemos de x plazas, todas, desde X metros. ¡Contáctanos para saber más!</h5>
+                        <h2>Book your spot at Arena Camping now</h2>
+                        <h5 id="Plazas">We have X spots, all from X meters. Contact us to learn more!</h5>
                         <div id='aseguradora'>
-                            <button id='cont' ><Link to="/Contacto">¡Contacta!</Link></button>
+                            <button id='cont' ><Link to="/Contacto">Contact!</Link></button>
                         </div>
                     </section>
 
                     <section>
-
                         <div id='Seguros'>
-                            <h3 id='h3'>Seguros</h3>
-                            <p >Seguro para las actividades al aire libre</p>
+                            <h3 id='h3'>Insurance</h3>
+                            <p >Insurance for outdoor activities</p>
                             <br />
                         </div>
                         <div className='divs'>
-                            <p className='pText'>Seguro Escalada</p>
-                            <button className='botonActi'>Ver más</button>
+                            <p className='pText'>Climbing Insurance</p>
+                            <button className='botonActi'>View more</button>
                         </div>
                         <div className='divs'>
-                            <p className='pText'> Seguro Cicilismo</p>
-                            <button className='botonActi'>Ver más</button>
+                            <p className='pText'> Cycling Insurance</p>
+                            <button className='botonActi'>View more</button>
                         </div>
                         <div className='divs'>
-                            <p className='pText'> Seguro Senderismo</p>
-                            <button className='botonActi'>Ver más</button>
+                            <p className='pText'> Hiking Insurance</p>
+                            <button className='botonActi'>View more</button>
                         </div>
                         <div className='divs'>
-                            <p className='pText'>Seguro Tiro con arco</p>
-                            <button className='botonActi'>Ver más</button>
+                            <p className='pText'>Archery Insurance</p>
+                            <button className='botonActi'>View more</button>
                         </div>
                     </section>
                     <SocialPanel />

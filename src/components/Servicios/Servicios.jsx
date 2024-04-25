@@ -1,15 +1,15 @@
 import React from 'react';
 
-//Componentes
+// Components
 import FooterPanel from '../Moduls/footer'; 
 import HeaderPanel from '../Moduls/header'; 
 import SocialPanel from '../Moduls/social';
 import GaleryPanel2 from '../Moduls/GaleryPanel2';
 
-//css
+// CSS
 import '../Servicios/servicios.css';
 
-//icons
+// Icons
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -28,64 +28,62 @@ const secondIndex = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h2>Servicios</h2>
+                        <h2>Services</h2>
                     </section>
                     <section>
-                        <h2 className='titleservicio'>Nuestros Servicios</h2>
+                        <h2 className='titleservicio'>Our Services</h2>
                         <hr />
-                        <p className='textoinfo'>En Arena Camping de Granada ponemos a su disposición nuestro área
-                            de descanso para autocaravanas y camper, además podrá disfrutar de la amplia gama de servicios
-                            que disponemos.</p>
+                        <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
                         <hr />
                         <div className='lista'>
                             <div className="service-item">
                                 <p className='logo'><GiPadlock /></p>
-                                <p>Estacionamiento Seguro</p>
+                                <p>Secure Parking</p>
                             </div>
                             <div className="service-item">
                                 <p className='logo'><FaWifi /></p>
-                                <p>Wifi Gratis</p>
+                                <p>Free Wi-Fi</p>
                             </div>
                             <div className="service-item">
                                 <p className='logo'><FaShower /></p>
-                                <p>Disponibilidad de Duchas</p>
+                                <p>Availability of Showers</p>
                             </div>
                             <div className="service-item">
                                 <p className='logo'><MdGames /></p>
-                                <p>Área recreativa</p>
+                                <p>Recreational Area</p>
                             </div>
                             <div className="service-item2">
                                 <p className='logo'><AiOutlineThunderbolt /></p>
-                                <p>Electricidad Accesible</p>
+                                <p>Accessible Electricity</p>
                             </div>
                             <div className="service-item2">
                                 <p className='logo'><GiWashingMachine /></p>
-                                <p>Variedad de Electrodomésticos</p>
+                                <p>Variety of Appliances</p>
                             </div>
                             <div className="service-item2">
                                 <p className='logo'><MdOutlineWaterDamage /></p>
-                                <p>Llenado y vaciado aguas</p>
+                                <p>Water Filling and Emptying</p>
                             </div>
                             <div className="service-item2">
                                 <p className='logo'><GiNightSleep /></p>
-                                <p>Área de Descanso</p>
+                                <p>Rest Area</p>
                             </div>
                         </div>
                     </section>
 
                     <section id="rules">
-                        <h2 className='Reglas'>Normas</h2>
+                        <h2 className='Reglas'>Rules</h2>
                         <hr />
                         <div class="Normas">
                             <div className='normasG'>
-                                <p><TiTick /><b>Se permiten caravanas, camper y autocaravanas.</b></p>
-                                <p><TiTick /><b>Entrada y salida de 8:00H a 22:00H.</b></p>
-                                <p><TiTick /><b>Vandalismo sancionado.</b></p>
+                                <p><TiTick /><b>Caravans, campers, and motorhomes are allowed.</b></p>
+                                <p><TiTick /><b>Entrance and exit from 8:00 AM to 10:00 PM.</b></p>
+                                <p><TiTick /><b>Vandalism is penalized.</b></p>
                             </div>
                             <div className='normasB'>
-                                <p><IoIosCloseCircle /><b> No se puyede circular ni hacer ruido desde las 23:00H hasta las 8:00H.</b></p>
-                                <p><IoIosCloseCircle /><b> No se permiten tiendas de campaña.</b></p>
-                                <p><IoIosCloseCircle /><b> Debido a la vegetación están prohibidas las barbacoas.</b></p>
+                                <p><IoIosCloseCircle /><b>No driving or noise from 11:00 PM to 8:00 AM.</b></p>
+                                <p><IoIosCloseCircle /><b>No tents are allowed.</b></p>
+                                <p><IoIosCloseCircle /><b>Barbecues are prohibited due to vegetation.</b></p>
                             </div>
                         </div>
                     </section>
@@ -94,7 +92,6 @@ const secondIndex = () => {
                 </main>
             </div>
             <FooterPanel />
-
         </div>
     );
 };

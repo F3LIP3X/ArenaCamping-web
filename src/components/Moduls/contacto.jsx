@@ -6,10 +6,10 @@ const contactPanel = () => {
     return (
         <div>
             <section id="contact">
-                <h2 id='contactos'>Contacto</h2>
+                <h2 id='contactos'>Contact</h2>
                 <hr />
-                <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>
-                <p>Teléfono: 123-456-789</p>
+                <p>To make reservations or for more information, do not hesitate to contact us:</p>
+                <p>Telephone: 123-456-789</p>
                 <p>Email: info@campingnaturaleza.com</p>
             </section>
         </div>

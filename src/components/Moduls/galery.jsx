@@ -13,7 +13,7 @@ const GaleryPanel = () => {
         <div>
             <section>
                 <div>
-                    <h2 className='galeryh2'>Galería</h2>
+                    <h2 className='galeryh2'>Galery</h2>
                 </div>
                 <div className='Galeria'>
                     <img src={maps} alt="img1" />

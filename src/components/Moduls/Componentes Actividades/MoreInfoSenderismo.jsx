@@ -5,40 +5,40 @@ const MoreInfoSenderismo = () => {
     return (
         <div>
             <section>
-                <h2>Rutas Senderismo</h2>
-                <h4>Descubre las mejores rutas con los mejores paisajes en nuestras excursiones</h4>
+                <h2>Hiking Routes</h2>
+                <h4>Discover the best routes with the best landscapes on our excursions</h4>
                 <br />
 
                 <div>
                     <article>
-                        <h2>Senderismo</h2>
+                        <h2>Hiking</h2>
 
                         <div>
                             <article>
-                                Ruta Diques de Beas de granada
+                                Beas de Granada Dams Route
                             </article>
                         </div>
                         <div>
                             <article>
-                                Paseo
+                                Stroll
                             </article>
                         </div>
                         <div>
                             <article>
-                                Ruta Parque natural de Doñana
+                                Doñana Natural Park Route
                             </article>
                         </div>
                     </article>
                 </div>
                 <br />
                 <div>
-                        <h2>Excursiones</h2>
+                    <h2>Excursions</h2>
 
-                        <div>
-                            <article>
-                                Excursion Por la montaña
-                            </article>
-                       </div>
+                    <div>
+                        <article>
+                            Mountain Excursion
+                        </article>
+                    </div>
                 </div>
             </section>
         </div>

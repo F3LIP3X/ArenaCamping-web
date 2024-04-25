@@ -6,7 +6,7 @@ const SocialPanel = () => {
     return (
         <section className='redes'>
             <div>
-                <h2 className='follow'>Síguenos en cualquiera de nuestras redes sociales</h2>
+                <h2 className='follow'>Follow us on any of our social networks</h2>
             </div>
             <div class="card">
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="socialContainer containerOne">

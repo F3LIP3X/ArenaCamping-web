@@ -12,7 +12,7 @@ import SvgComponent from '../Moduls/svg';
 //Imports
 
 
-//Comando para comentar Ctrl + K + C
+// Shortcut to comment Ctrl + K + C
 const Reserva = () => {
     return (
         <div>
@@ -20,7 +20,7 @@ const Reserva = () => {
             <div className="main-content">
                 <main>
                     <section>
-                        <h2>Reserva</h2>
+                        <h2>Reservation</h2>
                     </section>
                     <section>
                         <div className='SectioPanel'>

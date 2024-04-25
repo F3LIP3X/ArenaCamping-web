@@ -113,47 +113,45 @@ const Header = () => {
           </li>
           <li>
             <Link to={"/Inicio"} className="nav-menu-list">
-              Inicio
+              Start
             </Link>
           </li>
           <li>
             <Link to={"/Servicios"} className="nav-menu-list">
-              Servicios
+              Services
             </Link>
           </li>
           <li>
             <Link to={"/Actividades"} className="nav-menu-list">
-              Actividades
+              Activities
             </Link>
           </li>
           <li>
             <Link to={"/Entorno"} className="nav-menu-list">
-              Entorno
+              Around
             </Link>
           </li>
           <li>
             <Link to={"/Contacto"} className="nav-menu-list">
-              Contacto
+              Contact
             </Link>
           </li>
           <li>
             <Link to={"/Precios"} className="nav-menu-list">
-              Precios
+              Prices
             </Link>
           </li>
           <li>
             <Link to={"/Localización"} className="nav-menu-list">
-              Localización
+              Location
             </Link>
           </li>
           <li>
             <Link to={"/Reserva"} className="nav-menu-list">
-              Reserva
+              Booking
             </Link>
           </li>
-
         </NavManu>
-
       </StyledHeader>
     </>
   );

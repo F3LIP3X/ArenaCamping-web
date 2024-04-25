@@ -6,7 +6,7 @@ import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import GaleryPanel from '../Moduls/galery';
 
-//Comando para comentar Ctrl + K + C
+// Comment shortcut: Ctrl + K + C
 const firstIndex = () => {
     return (
         <div>
@@ -15,10 +15,10 @@ const firstIndex = () => {
             <div class="loader"></div>
                 <main>
                     <section>
-                        <h2>Inicio</h2>
+                        <h2>Home</h2>
                     </section>
                     <section id="about">
-                        <h2 id='aboutUs'>Sobre Nosotros</h2>
+                        <h2 id='aboutUs'>About Us</h2>
                         <hr />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius 
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
@@ -34,11 +34,11 @@ const firstIndex = () => {
                     </section>
 
                     <section id="contact">
-                        <h2 id='contactos'>Contacto</h2>
+                        <h2 id='contactos'>Contact</h2>
                         <hr />
-                        <p>Para realizar reservas o para obtener más información, no dudes en contactarnos:</p>
-                        <p>Teléfono: 123-456-789</p>
-                        <p>Email: info@campingnaturaleza.com</p>
+                        <p>To make reservations or for more information, feel free to contact us:</p>
+                        <p>Phone: 123-456-789</p>
+                        <p>Email: info@campingnature.com</p>
                     </section>
                     <GaleryPanel />
                     <SocialPanel />

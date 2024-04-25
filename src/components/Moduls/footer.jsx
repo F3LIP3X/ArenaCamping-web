@@ -14,15 +14,15 @@ const footerPanel = () => {
                     <div className="footer-info">
                         <div className="info-table">
                             <div className="info-row">
-                                <span>Empresa: </span>
+                                <span>Company: </span>
                                 <span>Arena Camping Granada</span>
                             </div>
                             <div className="info-row">
-                                <span>Dirección: </span>
+                                <span>Address: </span>
                                 <span>18183 Huétor de Santillán Granda, España</span>
                             </div>
                             <div className="info-row">
-                                <span>Teléfono: </span>
+                                <span>Phone: </span>
                                 <span>666-666-666</span>
                             </div>
                             <div className="info-row">
@@ -36,15 +36,16 @@ const footerPanel = () => {
                     </div>
                 </div >
                 <br />
-                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
+
                 <nav>
                     <ul>
-                        <li className='foot-li'><Link to="/">Inicio</Link></li>
-                        <li><a href="#about">Acerca de</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                        <li><a href="#work-with-us">Trabaja con nosotros</a></li>
+                        <li className='foot-li'><Link to="/">Start</Link></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#work-with-us">Work with us</a></li>
                     </ul>
                 </nav>
+                <p className="copyright">© 2024 | Felipe Toledano Escudero</p>
             </footer >
         </div >
     );

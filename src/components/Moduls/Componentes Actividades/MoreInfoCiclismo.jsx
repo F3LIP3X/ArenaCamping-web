@@ -1,49 +1,48 @@
 import React from 'react';
 import '../../Inicio/inicio.css'
 
-
 const MoreInfoCiclismo = () => {
     return (
         <div>
             <section>
-                <h2>Rutas de Bicicleta</h2>
-                <h4>Descubrelos todos</h4>
+                <h2>Bicycle Routes</h2>
+                <h4>Discover them all</h4>
                 <br />
 
-                <h4>Rutas Ciclismo Montaña</h4>
+                <h4>Mountain Biking Routes</h4>
 
                 <div>
                     <article>
-                        Ruta Sierra Nevada
+                        Sierra Nevada Route
                     </article>
                 </div>
                 <div>
                     <article>
-                        Ruta Alpujarras
+                        Alpujarras Route
                     </article>
                 </div>
                 <div>
                     <article>
-                        Ruta Parque natural de Doñana
+                        Doñana Natural Park Route
                     </article>
                 </div>
 
                 <br />
-                <h4>Rutas Ciclismo Carretera</h4>
+                <h4>Road Cycling Routes</h4>
 
                 <div>
                     <article>
-                        Ruta Sierra Nevada
+                        Sierra Nevada Route
                     </article>
                 </div>
                 <div>
                     <article>
-                        Ruta Alpujarras
+                        Alpujarras Route
                     </article>
                 </div>
                 <div>
                     <article>
-                        Ruta Parque natural de Doñana
+                        Doñana Natural Park Route
                     </article>
                 </div>
             </section>
