@@ -19,7 +19,7 @@
 }
 
 .icon-text-container .icon {
-    font-size: 1.1em;
+    font-size: 1.1vw;
     margin-right: 5px; /* Ajusta el margen entre el icono y el texto según sea necesario */
 }
 
@@ -27,7 +27,7 @@
     padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 1em;
-    font-size: 0.8em;
+    font-size: 1vw;
     font-weight: 500;
     color: #0d460280;
     text-shadow: none;
@@ -145,6 +145,10 @@ i {
     .responsive-gallery {
         display: block;
     }
+
+    .botonActi{
+        font-size: 3vw;
+    }
 }
 /* Estilo para as imagens da galeria */
 .carousel-item img {
@@ -160,5 +164,9 @@ i {
 @media screen and (max-width: 912px) {
     tr button {
         margin-left: 10em;
+    }
+
+    .botonActi{
+        font-size: 3vw;
     }
 }

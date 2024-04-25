@@ -28,7 +28,7 @@
     border-bottom: 2px #000000 solid;
     width: 100%;
     padding: 10px 0;
-    font-size: 1em;
+    font-size: 1vw;
     color: #000000;
   }
   
@@ -47,7 +47,7 @@
   
   .form-control label span {
     display: inline-block;
-    font-size: 18px;
+    font-size: large;
     min-width: 5px;
     color: #353535;
     transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -63,7 +63,7 @@ button[type="submit"] {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -95,5 +95,7 @@ button[type="submit"] {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-
+  button[type="submit"] {
+    font-size: 4vw;
+  }
 }
