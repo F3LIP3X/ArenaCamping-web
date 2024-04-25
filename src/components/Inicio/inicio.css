@@ -34,7 +34,7 @@ body {
     overflow-x: hidden;
 }
 
-/*--------------------------*/
+/*-----------------------------------------------------------------*/
 
 main {
     width: auto;
@@ -44,7 +44,6 @@ main {
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
-    padding-bottom: 1.4em;
 }
 
 .icon {
@@ -97,6 +96,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1em;
 }
 
 .follow {

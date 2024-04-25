@@ -7,10 +7,11 @@ import { IoShareSocial } from "react-icons/io5";
 const SocialPanel = () => {
     return (
         <section className='redes'>
-            <div class="icon-text-container">
-                <h2 class="icon-text"><IoShareSocial class="icon" />Follow us on any of our social networks</h2>
+            <div className="container-galeria">
+                <div class="icon-text-container">
+                    <h2 class="icon-text"><IoShareSocial class="icon" />Follow us on any of our social networks</h2>
+                </div>
             </div>
-
             <div class="card">
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="socialContainer containerOne">
                     <svg class="socialSvg instagramSvg" viewBox="0 0 16

@@ -17,7 +17,7 @@ const GaleryPanel = () => {
             <section>
                 <div  className="container-galeria">
                     <div className="icon-text-container">
-                        <h2 className="icon-text"><FaPhotoVideo class="icon" /> Galery</h2>
+                        <h2 className="icon-text"><FaPhotoVideo class="icon" />Galery</h2>
                     </div>
                 </div>
                 <div className='Galeria'>
