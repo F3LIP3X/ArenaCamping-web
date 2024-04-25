@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 
+//Icons
+import { BsActivity } from "react-icons/bs";
+
+
 // Images
 import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
 import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
@@ -30,7 +34,9 @@ const AseguradoraComponent = () => {
             <div className="main-content-Actividades">
                 <main className='titulo'>
                     <section>
-                        <h2>Activities</h2>
+                        <div class="icon-text-container">
+                            <h2 class="activities"><BsActivity class="icon" /> Activities</h2>
+                        </div>
                     </section>
 
                     <section class="tabla">
@@ -68,7 +74,7 @@ const AseguradoraComponent = () => {
                         <img src={BiciM} alt="img3" />
                         <img src={BiciC} alt="img4" />
                     </section>
-                    
+
 
                     <section className='Partes'>
                         <h2>Don't miss out!</h2>

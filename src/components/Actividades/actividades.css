@@ -12,6 +12,17 @@
     margin-top: 0.3%;
 }
 
+.icon-text-container .activities {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.icon-text-container .icon {
+    font-size: 1.1em;
+    margin-right: 5px; /* Ajusta el margen entre el icono y el texto según sea necesario */
+}
+
 .botonActi {
     padding: 10px 20px;
     text-transform: uppercase;
