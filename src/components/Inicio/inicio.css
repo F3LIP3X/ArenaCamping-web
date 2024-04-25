@@ -40,6 +40,19 @@ main {
     width: auto;
 }
 
+.icon-text-container .icon-text {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-bottom: 1.4em;
+}
+
+.icon {
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+
+
 
 section {
     background-color: #f9f9f9;
@@ -79,16 +92,22 @@ section {
     font-size: 20px;
     cursor: pointer;
 }
-.galeryh2{
-    text-align: center;
+
+.container-galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.follow{
+.follow {
     text-align: center;
     padding-bottom: 1%;
 }
 
-#aboutUs,#contactos, .titleservicio, .Reglas {
+#aboutUs,
+#contactos,
+.titleservicio,
+.Reglas {
     text-align: left;
 }
 
@@ -180,7 +199,8 @@ a:hover {
     color: rgba(190, 236, 105, 0.459);
 }
 
-.copyright, li {
+.copyright,
+li {
     color: white;
     margin-top: 0.1em;
     text-align: left;
@@ -338,13 +358,15 @@ a:hover {
         justify-content: center;
 
     }
+
     .divVideo {
         width: 1%;
-        background-color: #ffffff;/* Ajusta el porcentaje según la relación de aspecto del video */
+        background-color: #ffffff;
+        /* Ajusta el porcentaje según la relación de aspecto del video */
     }
-    
+
     .iframeVideo {
-        height: 100%;      
+        height: 100%;
     }
 }
 

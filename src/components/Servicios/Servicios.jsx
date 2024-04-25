@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Components
-import FooterPanel from '../Moduls/footer'; 
-import HeaderPanel from '../Moduls/header'; 
+import FooterPanel from '../Moduls/footer';
+import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import GaleryPanel2 from '../Moduls/GaleryPanel2';
 
@@ -10,6 +10,9 @@ import GaleryPanel2 from '../Moduls/GaleryPanel2';
 import '../Servicios/servicios.css';
 
 // Icons
+import { GrServices } from "react-icons/gr";
+import { AiFillCaretRight } from "react-icons/ai";
+
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -28,10 +31,15 @@ const secondIndex = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h2>Services</h2>
+                        <div class="icon-text-container">
+                            <h2 class="services-h2"><GrServices class="icon" /> Services</h2>
+                        </div>
                     </section>
                     <section>
-                        <h2 className='titleservicio'>Our Services</h2>
+                        <div class="icon-text-container">
+                            <h2 class="services-h2"><AiFillCaretRight class="icon" /> Our Services</h2>
+                        </div>
+
                         <hr />
                         <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
                         <hr />
@@ -72,7 +80,9 @@ const secondIndex = () => {
                     </section>
 
                     <section id="rules">
-                        <h2 className='Reglas'>Rules</h2>
+                        <div class="icon-text-container">
+                            <h2 class="services-h2"><AiFillCaretRight class="icon" />Rules</h2>
+                        </div>
                         <hr />
                         <div class="Normas">
                             <div className='normasG'>

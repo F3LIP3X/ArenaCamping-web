@@ -1,13 +1,16 @@
 import React from 'react';
-import '../Inicio/inicio.css'
+import '../Inicio/inicio.css';
+import { IoShareSocial } from "react-icons/io5";
+
 
 //Comando para comentar Ctrl + K + C
 const SocialPanel = () => {
     return (
         <section className='redes'>
-            <div>
-                <h2 className='follow'>Follow us on any of our social networks</h2>
+            <div class="icon-text-container">
+                <h2 class="icon-text"><IoShareSocial class="icon" />Follow us on any of our social networks</h2>
             </div>
+
             <div class="card">
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="socialContainer containerOne">
                     <svg class="socialSvg instagramSvg" viewBox="0 0 16

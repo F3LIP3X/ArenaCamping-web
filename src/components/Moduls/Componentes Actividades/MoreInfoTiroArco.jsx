@@ -5,23 +5,22 @@ import "slick-carousel/slick/slick-theme.css";
 import '../../Inicio/inicio.css';
 import '../../Actividades/actividades.css';
 
-// Imagens Tiro con Arco
+// Images for Archery
 import TiroConArco1 from '../../assets/ImagenesActividades/TiroConArco1.jpg';
 import TiroConArco2 from '../../assets/ImagenesActividades/TiroConArco2.jpg';
 import tiroaoarco3 from '../../assets/ImagenesActividades/tiroaoarco3.jpg';
 import tiroaoarco4 from '../../assets/ImagenesActividades/tiroaoarco4.jpg';
 
-// Imagens para a galeria
+// Images for the gallery
 
 
 const MoreInfoTiroArco = () => {
     return (
         <div>
             <section className="desktop-only">
-                <h2>Tiro Con Arco</h2>
-                <h4>Pon a prueba tu punteria en nuestra zona de tiro con arco
-                </h4>
-                {/* Adicione aqui qualquer conteúdo adicional que deseje exibir apenas em computadores */}
+                <h2>Archery</h2>
+                <h4>Test your aim in our archery zone</h4>
+                {/* Add any additional content you want to display only on desktop here */}
                 <div className='Galeria'>
                     <img src={TiroConArco1} alt="img1" />
                     <img src={TiroConArco2} alt="img2" />
@@ -32,23 +31,23 @@ const MoreInfoTiroArco = () => {
             </section>
 
             <section className="responsive-gallery">
-                <h2>Tiro Con Arco</h2>
-                <h4>Pon a prueba tu punteria en nuestra zona de tiro con arco</h4>
+                <h2>Archery</h2>
+                <h4>Test your aim in our archery zone</h4>
                 <br />
 
                 <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
                     <Slider>
                         <div className="carousel-item">
-                            <img src={TiroConArco1} className="rounded-box" alt="TiroConArco1" />
+                            <img src={TiroConArco1} className="rounded-box" alt="Archery1" />
                         </div> 
                         <div className="carousel-item">
-                            <img src={TiroConArco2} className="rounded-box" alt="TiroConArco2" />
+                            <img src={TiroConArco2} className="rounded-box" alt="Archery2" />
                         </div> 
                         <div className="carousel-item">
-                            <img src={tiroaoarco3} className="rounded-box" alt="tiroaoarco3" />
+                            <img src={tiroaoarco3} className="rounded-box" alt="Archery3" />
                         </div> 
                         <div className="carousel-item">
-                            <img src={tiroaoarco4} className="rounded-box" alt="tiroaoarco4" />
+                            <img src={tiroaoarco4} className="rounded-box" alt="Archery4" />
                         </div>
                     </Slider>
                 </div>

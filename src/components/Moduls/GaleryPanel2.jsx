@@ -10,12 +10,18 @@ import electrodomesticos from '../assets/Imagenes Servicios/electrodomesticos.pn
 import parking from '../assets/Imagenes Servicios/parking.png';
 import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.png';
 
+import { FaPhotoVideo } from "react-icons/fa";
+
 //Comando para comentar Ctrl + K + C
 const GaleryPanel = () => {
     return (
         <div>
             <section>
-                <p className='fotosg'>Discover our facilities</p>
+                <div className="container-galeria">
+                    <div className="icon-text-container">
+                        <h2 className="icon-text"><FaPhotoVideo class="icon" />Discover our facilities</h2>
+                    </div>
+                </div>
                 <div className='Album'>
                     <div className='box'>
                         <img src={arealibre} alt="img1" />
