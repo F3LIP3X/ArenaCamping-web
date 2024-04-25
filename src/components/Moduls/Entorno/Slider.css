@@ -1,22 +1,22 @@
-ul,
-li {
+.main-continer-Entorno * ul,
+.main-continer-Entorno * li {
   list-style: none;
   white-space: nowrap;
 }
 
-li {
+.main-continer-Entorno * li {
   display: inline;
 }
 
-img {
+.main-continer-Entorno * img {
   margin-top: -16px;
 }
 
 /* Main container */
 
 .main-continer-Entorno {
-  width: 500px;
-  height: 280px;
+ /* width: 500px;
+  height: 280px;*/
   margin: 0 auto;
 }
 
@@ -77,4 +77,10 @@ div.active {
   width: 15px;
   height: 15px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 912px) {
+  .main-continer-Entorno * ul {
+    width: 74%;
+  }
 }

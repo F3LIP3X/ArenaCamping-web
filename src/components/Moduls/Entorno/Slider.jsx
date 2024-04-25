@@ -42,7 +42,7 @@ const SliderComida = () => {
 
     return (
         <section>
-            <div className="main-continer-Entorno">
+            <div className="º">
                 <div className="slider-container-Entorno">
                     <button className='leftArrow' onClick={() => scrollToImage('prev')}>
                         <IoIosArrowDropleftCircle />
