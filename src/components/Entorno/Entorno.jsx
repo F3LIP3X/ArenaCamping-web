@@ -97,6 +97,7 @@ const Entorno = () => {
                         <h2 id='contactos'>Book your spot at Arena Camping now</h2>
                         <hr />
                         <p>We have X spots of X meters, Contact us!</p>
+                        <br />
                         <button className='BotonEntonros'><Link to="/Contact" ></Link>Contact</button>
                     </section>
                     <SocialPanel />

@@ -20,7 +20,7 @@ const SliderComida = () => {
 
         // Iniciar la reproducción automática al montar el componente
         if (autoPlay) {
-            intervalRef.current = setInterval(autoPlayHandler, 10000); // Cambiar cada 3 segundos (ajustar según sea necesario)
+            intervalRef.current = setInterval(autoPlayHandler, 10000); // Cambiar cada 10 segundos (ajustar según sea necesario)
         }
 
         // Detener la reproducción automática al desmontar el componente
@@ -32,11 +32,27 @@ const SliderComida = () => {
     }, [autoPlay]);
 
     const scrollToImage = (index) => {
+        // Cambiar manualmente de imagen
         setCurrentIndex(index);
+        // Reiniciar el temporizador si la reproducción automática está habilitada
+        resetAutoPlayTimer();
     };
 
     const toggleAutoPlay = () => {
         setAutoPlay(prevState => !prevState);
+    };
+
+    const resetAutoPlayTimer = () => {
+        // Borra el temporizador existente
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+        }
+        // Si la reproducción automática está habilitada, configura un nuevo temporizador
+        if (autoPlay) {
+            intervalRef.current = setInterval(() => {
+                setCurrentIndex(prevIndex => (prevIndex === data.length - 1 ? 0 : prevIndex + 1));
+            }, 10000); // Cambiar cada 10 segundos (ajustar según sea necesario)
+        }
     };
 
     return (
@@ -53,7 +69,7 @@ const SliderComida = () => {
                         <ul ref={listRef}>
                             {data.map((item, index) => (
                                 <li key={item.id} style={{ display: index === currentIndex ? 'inline' : 'none' }}>
-                                    <img src={item.imgUrl} width={500} height={280} />
+                                    <img src={item.imgUrl} width={500} height={280} alt={`Slider ${index}`} />
                                 </li>
                             ))}
                         </ul>
@@ -75,4 +91,3 @@ const SliderComida = () => {
 };
 
 export default SliderComida;
-
