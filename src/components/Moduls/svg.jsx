@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function SvgComponent() {
     return (
@@ -146,9 +147,7 @@ function SvgComponent() {
                                         fontSize="12"
                                         pointerEvents="all"
                                     >
-                                        <a>
-                                            <font fontSize="140">3</font>
-                                        </a>
+                                        <Link to="https://example.com">3</Link>
                                     </div>
                                 </div>
                             </div>
@@ -216,9 +215,7 @@ function SvgComponent() {
                                         fontSize="12"
                                         pointerEvents="all"
                                     >
-                                        <a>
-                                            <font fontSize="140">1</font>
-                                        </a>
+                                        <Link to="https://example.com">1</Link>
                                     </div>
                                 </div>
                             </div>
@@ -286,9 +283,7 @@ function SvgComponent() {
                                         fontSize="12"
                                         pointerEvents="all"
                                     >
-                                        <a>
-                                            <font fontSize="140">2</font>
-                                        </a>
+                                        <Link to="https://example.com">2</Link>
                                     </div>
                                 </div>
                             </div>
@@ -356,9 +351,7 @@ function SvgComponent() {
                                         fontSize="12"
                                         pointerEvents="all"
                                     >
-                                        <a>
-                                            <font fontSize="140">4</font>
-                                        </a>
+                                        <Link to="https://example.com">4</Link>
                                     </div>
                                 </div>
                             </div>
