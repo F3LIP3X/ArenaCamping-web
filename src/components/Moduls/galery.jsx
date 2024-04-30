@@ -5,10 +5,10 @@ import '../Inicio/inicio.css'
 import { FaPhotoVideo } from "react-icons/fa";
 
 //imagenes
-import maps from '../assets/Imagenes Inicio/maps.png';
-import entrada from '../assets/Imagenes Inicio/entrada.png';
-import lavanderia from '../assets/Imagenes Inicio/lavadora.png';
-import aparcamiento from '../assets/Imagenes Inicio/aparcamiento.png';
+import maps from '../assets/Imagenes Inicio/maps.webp';
+import entrada from '../assets/Imagenes Inicio/entrada.webp';
+import lavanderia from '../assets/Imagenes Inicio/lavadora.webp';
+import aparcamiento from '../assets/Imagenes Inicio/aparcamiento.webp';
 
 //Comando para comentar Ctrl + K + C
 const GaleryPanel = () => {

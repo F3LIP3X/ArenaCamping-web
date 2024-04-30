@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 import '../Precios/Precios.css';
 
 //imagenes
-import Agua from '../assets/Imagenes Precios/agua.png'
-import Arco from '../assets/Imagenes Precios/arco.png'
-import Bicicleta from '../assets/Imagenes Precios/bicicleta.png'
-import Ducha from '../assets/Imagenes Precios/ducha.png'
-import Electrodomesticos from '../assets/Imagenes Precios/electrodomestico.png'
-import Senderismo from '../assets/Imagenes Precios/senderismo.png'
-import Estacionamiento from '../assets/Imagenes Precios/estacionamiento.png'
-import Escalada from '../assets/Imagenes Precios/escalada.png'
+import Agua from '../assets/Imagenes Precios/agua.webp'
+import Arco from '../assets/Imagenes Precios/arco.webp'
+import Bicicleta from '../assets/Imagenes Precios/bicicleta.webp'
+import Ducha from '../assets/Imagenes Precios/ducha.webp'
+import Electrodomesticos from '../assets/Imagenes Precios/electrodomestico.webp'
+import Senderismo from '../assets/Imagenes Precios/senderismo.webp'
+import Estacionamiento from '../assets/Imagenes Precios/estacionamiento.webp'
+import Escalada from '../assets/Imagenes Precios/escalada.webp'
 
 //Moduls
 import FooterPanel from '../Moduls/footer';

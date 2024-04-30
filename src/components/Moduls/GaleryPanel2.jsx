@@ -2,13 +2,13 @@ import React from 'react';
 import '../Inicio/inicio.css'
 
 //imagenes
-import arealibre from '../assets/Imagenes Servicios/arealibre.png';
-import camping from '../assets/Imagenes Servicios/camping.png';
-import duchas from '../assets/Imagenes Servicios/duchas.png';
-import electricidad from '../assets/Imagenes Servicios/electricidad.png';
-import electrodomesticos from '../assets/Imagenes Servicios/electrodomesticos.png';
-import parking from '../assets/Imagenes Servicios/parking.png';
-import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.png';
+import arealibre from '../assets/Imagenes Servicios/arealibre.webp';
+import camping from '../assets/Imagenes Servicios/camping.webp';
+import duchas from '../assets/Imagenes Servicios/duchas.webp';
+import electricidad from '../assets/Imagenes Servicios/electricidad.webp';
+import electrodomesticos from '../assets/Imagenes Servicios/electrodomesticos.webp';
+import parking from '../assets/Imagenes Servicios/parking.webp';
+import vaciadoaguas from '../assets/Imagenes Servicios/vaciadoaguas.webp';
 
 import { FaPhotoVideo } from "react-icons/fa";
 
