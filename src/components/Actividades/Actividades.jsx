@@ -87,7 +87,7 @@ const AseguradoraComponent = () => {
                             <div className='icon-text-container'>
                                 <h2 className='icon-text'><MdSecurity className='icon'/>Insurance</h2>
                             </div>
-                            <p >Insurance for outdoor activities</p>
+                            <p>Insurance for outdoor activities</p>
                             <br />
                         </div>
                         <div className='divs'>

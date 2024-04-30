@@ -6,8 +6,12 @@ import { Link } from 'react-router-dom';
 import FooterPanel from '../Moduls/footer';
 import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
-//import Contacta from '../Contacto/Contacto';
+
 import SliderComida from '../Moduls/Entorno/Slider';
+
+//icons 
+import { FaRoute } from "react-icons/fa6";
+import { FaInfoCircle } from "react-icons/fa";
 
 //Comando para comentar Ctrl + K + C
 const Entorno = () => {
@@ -25,10 +29,14 @@ const Entorno = () => {
             <div className="main-content">
                 <main>
                     <section>
-                        <h2>Home</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><FaRoute className='icon' />Around</h2>
+                        </div>
                     </section>
                     <section id="InformacionEntorno">
-                        <h2 id='aboutUs'>Area Information</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text' id='aboutUs'><FaInfoCircle className='icon'/>Area Information</h2>
+                        </div>
                         <hr />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
                             quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
