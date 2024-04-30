@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 // CSS
 import '../Precios/Precios.css';
 
+//Icons
+import { GiMoneyStack } from "react-icons/gi";
+
 //imagenes
 import Agua from '../assets/Imagenes Precios/agua.webp'
 import Arco from '../assets/Imagenes Precios/arco.webp'
@@ -27,7 +30,10 @@ const precios = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h2>Prices</h2>
+                        
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><GiMoneyStack className='icon'/>Prices</h2>
+                        </div>
                     </section>
 
                     <section>

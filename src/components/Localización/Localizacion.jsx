@@ -6,6 +6,10 @@ import HeaderPanel from '../Moduls/header';
 import SocialPanel from '../Moduls/social';
 import ContactPanel from '../Moduls/contacto';
 
+//Icons
+import { FaLocationDot } from "react-icons/fa6";
+import { FaSearchLocation } from "react-icons/fa";
+
 // Shortcut to comment Ctrl + K + C
 const locationPanel = () => {
     return (
@@ -14,10 +18,14 @@ const locationPanel = () => {
             <div className="main-content">
                 <main>
                     <section id="home">
-                        <h2>Location</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><FaLocationDot className='icon'/>Location</h2>
+                        </div>
                     </section>
                     <section id="about">
-                        <h2 id='aboutUs'>About Location</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><FaSearchLocation className='icon'/>About Location</h2>
+                        </div>
                         <hr />
                         <p>Welcome to Camping Vale Verde, a natural retreat that offers a unique escape for nature and adventure lovers. Situated amidst lush forests and bathed in sunlight filtered through the leaves, this camping site is a true paradise for those seeking disconnection and renewal.
 

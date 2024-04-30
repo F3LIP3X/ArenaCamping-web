@@ -9,8 +9,8 @@ import SvgComponent from '../Moduls/svg';
 //IMG
 
 
-//Imports
-
+//Icons
+import { CiBookmarkCheck } from "react-icons/ci";
 
 // Shortcut to comment Ctrl + K + C
 const Reserva = () => {
@@ -20,7 +20,9 @@ const Reserva = () => {
             <div className="main-content">
                 <main>
                     <section>
-                        <h2>Reservation</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><CiBookmarkCheck className='icon'/>Booking</h2>
+                        </div>
                     </section>
                     <section>
                         <div className='SectioPanel'>
