@@ -19,7 +19,7 @@
 }
 
 .icon-text-container .icon {
-    font-size: 1.1vw;
+    font-size: 1.1em;   /* esto no se toca */
     margin-right: 5px; /* Ajusta el margen entre el icono y el texto según sea necesario */
 }
 

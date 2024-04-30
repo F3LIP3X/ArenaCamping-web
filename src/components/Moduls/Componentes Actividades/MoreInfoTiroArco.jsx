@@ -5,6 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import '../../Inicio/inicio.css';
 import '../../Actividades/actividades.css';
 
+//Icons
+import { GiArcheryTarget } from "react-icons/gi";
+
+
 // Images for Archery
 import TiroConArco1 from '../../assets/ImagenesActividades/TiroConArco1.jpg';
 import TiroConArco2 from '../../assets/ImagenesActividades/TiroConArco2.jpg';
@@ -18,7 +22,9 @@ const MoreInfoTiroArco = () => {
     return (
         <div>
             <section className="desktop-only">
-                <h2>Archery</h2>
+                <div className='icon-text-container'>
+                    <h2 className='icon-text'><GiArcheryTarget class="icon"/>Archery</h2>
+                </div>
                 <h4>Test your aim in our archery zone</h4>
                 {/* Add any additional content you want to display only on desktop here */}
                 <div className='Galeria'>
@@ -26,12 +32,14 @@ const MoreInfoTiroArco = () => {
                     <img src={TiroConArco2} alt="img2" />
                     <img src={tiroaoarco3} alt="img3" />
                     <img src={tiroaoarco4} alt="img4" />
-                   
+
                 </div>
             </section>
 
             <section className="responsive-gallery">
-                <h2>Archery</h2>
+                <div className='icon-text-container'>
+                    <h2 className='icon-text'><GiArcheryTarget />Archery</h2>
+                </div>
                 <h4>Test your aim in our archery zone</h4>
                 <br />
 
@@ -39,13 +47,13 @@ const MoreInfoTiroArco = () => {
                     <Slider>
                         <div className="carousel-item">
                             <img src={TiroConArco1} className="rounded-box" alt="Archery1" />
-                        </div> 
+                        </div>
                         <div className="carousel-item">
                             <img src={TiroConArco2} className="rounded-box" alt="Archery2" />
-                        </div> 
+                        </div>
                         <div className="carousel-item">
                             <img src={tiroaoarco3} className="rounded-box" alt="Archery3" />
-                        </div> 
+                        </div>
                         <div className="carousel-item">
                             <img src={tiroaoarco4} className="rounded-box" alt="Archery4" />
                         </div>

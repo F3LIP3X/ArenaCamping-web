@@ -1,11 +1,16 @@
 import React from 'react';
 import '../../Inicio/inicio.css'
 
+//Icons
+import { FaHiking } from "react-icons/fa";
+
 const MoreInfoSenderismo = () => {
     return (
         <div>
             <section>
-                <h2>Hiking Routes</h2>
+                <div class="icon-text-container">
+                    <h2 class="icon-text"><FaHiking class="icon"/> Hiking Circuits</h2>
+                </div>
                 <h4>Discover the best routes with the best landscapes on our excursions</h4>
                 <br />
 

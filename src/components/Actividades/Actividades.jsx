@@ -8,13 +8,10 @@ import HeaderPanel from '../Moduls/header';
 
 //Icons
 import { BsActivity } from "react-icons/bs";
+import { MdCallMissed } from "react-icons/md";
+import { CiBookmarkPlus } from "react-icons/ci";
+import { MdSecurity } from "react-icons/md";
 
-
-// Images
-import Excursiones from '../assets/ImagenesActividades/ExcursioenesHistoricas.jpg'
-import Senderismo from '../assets/ImagenesActividades/SenderismoBosque.jpg'
-import BiciM from '../assets/ImagenesActividades/BiciMontaña.jpg'
-import BiciC from '../assets/ImagenesActividades/BiciCarretera.jpg'
 
 // Components
 import SocialPanel from '../Moduls/social';
@@ -68,21 +65,17 @@ const AseguradoraComponent = () => {
                     <MoreInfoSenderismo />
                     <MoreInfoTiroArco />
 
-                    <section className='Galeria'>
-                        <img src={Excursiones} alt="img1" />
-                        <img src={Senderismo} alt="img2" />
-                        <img src={BiciM} alt="img3" />
-                        <img src={BiciC} alt="img4" />
-                    </section>
-
-
                     <section className='Partes'>
-                        <h2>Don't miss out!</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><MdCallMissed className="icon"/>Don't miss out!</h2>
+                        </div>
                         <h4>Check out all the news from Arena Camping Granada here</h4>
                     </section>
 
                     <section className='Partes'>
-                        <h2>Book your spot at Arena Camping now</h2>
+                        <div className='icon-text-container'>
+                            <h2 className='icon-text'><CiBookmarkPlus class="icon"/>Book your spot at Arena Camping now</h2>
+                        </div>
                         <h5 id="Plazas">We have X spots, all from X meters. Contact us to learn more!</h5>
                         <div id='aseguradora'>
                             <button id='cont' ><Link to="/Contacto">Contact!</Link></button>
@@ -91,7 +84,9 @@ const AseguradoraComponent = () => {
 
                     <section>
                         <div id='Seguros'>
-                            <h3 id='h3'>Insurance</h3>
+                            <div className='icon-text-container'>
+                                <h2 className='icon-text'><MdSecurity className='icon'/>Insurance</h2>
+                            </div>
                             <p >Insurance for outdoor activities</p>
                             <br />
                         </div>
