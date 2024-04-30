@@ -152,12 +152,25 @@ i {
 }
 /* Estilo para as imagens da galeria */
 .carousel-item img {
-    width: 30%; /* Definindo largura de 100% para ocupar todo o espaço disponível */
-    height: 100%; /* Permitindo que a altura seja ajustada automaticamente para manter a proporção */
+    width: 100%; /* Definindo largura de 100% para ocupar todo o espaço disponível */
+    height: auto; /* Permitindo que a altura seja ajustada automaticamente para manter a proporção */
     display: flex;
     align-items: center;
     object-fit: cover; /* Garantindo que a imagem cubra completamente o contêiner */
 }
+
+.desktop-only {
+    display: none; /* Esconde por padrão em todos os tamanhos de tela */
+}
+
+@media only screen and (min-width: 768px) {
+    .desktop-only {
+        display: block; /* Exibe em dispositivos com uma largura mínima de 768 pixels (geralmente considerado desktop) */
+    }
+}
+
+
+
 
 
   
