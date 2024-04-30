@@ -15,7 +15,7 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 // Comment shortcut: Ctrl + K + C
 const firstIndex = () => {
     return (
-        <div>
+        <div className='fade-in'>
             <HeaderPanel />
             <div className="main-content">
                 <div className="loader"></div>

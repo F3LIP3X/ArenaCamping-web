@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 //Styles
 import './indexArena.css';
 //IMG
-import './assets/background.jpg'
+import './assets/background.jpg';
+
 
 //Comando para comentar Ctrl + K + C
 const indexPage = () => {
@@ -12,14 +14,15 @@ const indexPage = () => {
     };
 
     return (
-        <div className='homePageDiv'>
-            <div className='contentWrapper'>
-                
-                <h1 className='h1ArenaHome'>ARENA CAMPING</h1>
-                <Link to={"/Inicio"}>
-                    <button className='knowAboutButton'>Conoce nuestra web</button>
-                </Link>
-            </div>
+        <div className='homePageDiv fade-in'>
+        <div className='contentWrapper'>
+          
+        <h1 className='h1ArenaHome' data-original-title='ARENA CAMPING'>ARENA CAMPING</h1>
+
+            <Link to={"/Inicio"}>
+                <button className='knowAboutButton'>Discover our website</button>
+            </Link>
+        </div>
 
             <footer>
                 <ul class="wrapper">
@@ -65,8 +68,9 @@ const indexPage = () => {
                         </svg>
                     </li>
                 </ul>
-
             </footer>
+
+            
         </div >
     );
 };
