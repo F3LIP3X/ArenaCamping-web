@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./components/assets/background.jpg') ;
+  background: url('./components/assets/background.webp') ;
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;

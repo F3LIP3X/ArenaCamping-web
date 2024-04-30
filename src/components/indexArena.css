@@ -16,13 +16,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: inear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.527)), url('./assets/background.jpg');
+    background-image: inear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.527)), url('./assets/background.webp');
   overflow-y: initial !important;
 }
 
 
 .homePageDiv:not(hover){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.415)), url('./assets/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.533), rgba(0, 0, 0, 0.415)), url('./assets/background.webp');
 }
 
 .contentWrapper {

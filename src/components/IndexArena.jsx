@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 //Styles
 import './indexArena.css';
 //IMG
-import './assets/background.jpg';
+import './assets/background.webp';
 
 
 //Comando para comentar Ctrl + K + C
