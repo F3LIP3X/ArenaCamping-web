@@ -11,13 +11,13 @@ const contactPanel = () => {
         <div>
             <section id="contact">
                 <div className="icon-text-container">
-                    <h2 className="icon-text"><IoIosContact class="icon"/> Contact</h2>
+                    <h2 className="icon-text"><IoIosContact class="icon"/>Contact</h2>
                 </div>
 
                 <hr />
                 <p>To make reservations or for more information, do not hesitate to contact us:</p>
-                <p>Telephone: 123-456-789</p>
-                <p>Email: info@campingnaturaleza.com</p>
+                <p>📞Telephone: 123-456-789</p>
+                <p>📫Email: info@campingnaturaleza.com</p>
             </section>
         </div>
     );

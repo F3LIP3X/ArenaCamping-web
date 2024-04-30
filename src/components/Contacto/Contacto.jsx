@@ -7,7 +7,11 @@ import '../Contacto/contacto.css';
 import FooterPanel from '../Moduls/footer';
 import SocialPanel from '../Moduls/social';
 import Header from '../Moduls/header';
-import ContactPanel from '../Moduls/contacto';
+
+//Icons
+import { LuMessagesSquare } from "react-icons/lu";
+import { IoIosContact } from "react-icons/io";
+
 
 const FifthIndex = () => {
     return (
@@ -16,14 +20,23 @@ const FifthIndex = () => {
             <div className="main-content">
                 <main className='informacion'>
                     <section>
-                        <h2>Contact</h2>
+                        <div className="icon-text-container">
+                            <h2 className="icon-text"><IoIosContact class="icon" />Contact</h2>
+                        </div>
                     </section>
-
+                    <section>
+                        <p>To make reservations or for more information, do not hesitate to contact us:</p>
+                        <p>📞Telephone: 123-456-789</p>
+                        <p>📫Email: info@campingnaturaleza.com</p>
+                    </section>
                     <section className="formulario">
-                        <h2>If you have any questions, send us a message.</h2>
+                        <div className="icon-text-container">
+                            <h2 className="icon-text"><LuMessagesSquare class="icon" />If you have any questions, send us a message.</h2>
+                        </div>
+
                         <form>
                             <div className="form-control">
-                                <input type="text" required maxLength="7"/>
+                                <input type="text" required maxLength="7" />
                                 <label>
                                     <span style={{ transitionDelay: '0ms' }}>N</span>
                                     <span style={{ transitionDelay: '50ms' }}>a</span>
@@ -48,7 +61,7 @@ const FifthIndex = () => {
                                     <span style={{ transitionDelay: '50ms' }}>e</span>
                                     <span style={{ transitionDelay: '100ms' }}>s</span>
                                     <span style={{ transitionDelay: '150ms' }}>s</span>
-                                    <span style={{ transitionDelay: '200ms' }}>a</span> 
+                                    <span style={{ transitionDelay: '200ms' }}>a</span>
                                     <span style={{ transitionDelay: '250ms' }}>g</span>
                                     <span style={{ transitionDelay: '300ms' }}>e</span>
                                 </label>
@@ -56,7 +69,6 @@ const FifthIndex = () => {
                             <button type="submit">Send</button>
                         </form>
                     </section>
-                    <ContactPanel />
                     <SocialPanel />
                     <FooterPanel />
                 </main>
