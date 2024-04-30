@@ -44,6 +44,7 @@ body {
     font-style: none;
 }
 
+
 .h1ArenaHome {
     color: #ffffff;
     letter-spacing: 10px;
@@ -72,7 +73,6 @@ body {
     
   }
   
-
 
   /*BUTTON*/
 .knowAboutButton {
@@ -217,3 +217,21 @@ body {
         font-size: 10vw;
     }
 }
+
+
+
+
+
+.fade-in {
+    animation: fadeInAnimation 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
