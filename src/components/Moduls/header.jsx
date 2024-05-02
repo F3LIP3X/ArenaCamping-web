@@ -96,8 +96,8 @@ const Header = () => {
       <StyledHeader>
         <div className="contHead">
           <div className="nav_logo">
-            <Link to={"/"} className="nav-logo-link">
-              Arena Camping
+            <Link to={"/"} className="nav-logo-link" lang="en">
+              ARENA CAMPING
             </Link>
           </div>
           <div>
@@ -107,13 +107,8 @@ const Header = () => {
 
         <NavManu isToggleOpen={isToggleOpen}>
           <li>
-            <Link to={"/"} className="nav-menu-list">
-              Home
-            </Link>
-          </li>
-          <li>
             <Link to={"/Inicio"} className="nav-menu-list">
-              Start
+              Home
             </Link>
           </li>
           <li>
@@ -158,5 +153,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
