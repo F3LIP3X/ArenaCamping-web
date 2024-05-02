@@ -16,7 +16,7 @@ const SliderComida = () => {
         };
 
         if (autoPlay) {
-            intervalRef.current = setInterval(autoPlayHandler, 10000);
+            intervalRef.current = setInterval(autoPlayHandler, 5000);
         }
 
         return () => {
@@ -76,7 +76,7 @@ const SliderComida = () => {
                 </div>
             </div>
             <div>
-                <button onClick={toggleAutoPlay}>{autoPlay ? 'Pausar' : 'Reproducir'} automático</button>
+                <button id='AutomaticoSlider' onClick={toggleAutoPlay}>{autoPlay ? 'Pausar' : 'Reproducir'} automático</button>
             </div>
         </section>
     );
