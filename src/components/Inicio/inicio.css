@@ -92,6 +92,41 @@ section {
     cursor: pointer;
 }
 
+/* Eliminar la barra vertical */
+::selection {
+    background-color: transparent;
+}
+
+/* Cambiar el color del subrayado a verde */
+::selection {
+    background-color: rgba(3, 49, 21, 0.274);
+    color: inherit; /* Mantener el color del texto */
+}
+
+/* Estilos para la barra de desplazamiento */
+/* WebKit (Safari y Chrome) */
+::-webkit-scrollbar {
+    width: 0.5vw; 
+  }
+
+  /* Estilo del riel de la barra de desplazamiento */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    width: 0.2vw;
+  }
+  
+  /* Estilo del pulgar de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(4, 49, 21, 0.541); 
+  }
+  
+  /* Estilo del pulgar de la barra de desplazamiento al pasar el ratón sobre él */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(3, 49, 21, 0.664); 
+    
+  }
+  
+
 .container-galeria {
     display: flex;
     justify-content: center;
@@ -368,6 +403,9 @@ li {
     .iframeVideo {
         height: 100%;
     }
+    ::-webkit-scrollbar {
+        width: 0vw; 
+      }
 }
 
 .divVideo {
