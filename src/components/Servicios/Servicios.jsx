@@ -48,7 +48,7 @@ const SecondIndex = () => {
                         <div className={`faq ${faqOpen ? 'open' : ''}`}>
                             <div className="question" onClick={toggleFaq}>
                                 <div className="icon-text-container">
-                                    <h2 className="services-h2">{icon} Our Services {!faqOpen && <span className="pulsar-aqui">(Pulsar aquí)</span>}</h2>
+                                    <h2 className="services-h2">{icon} Our Services {!faqOpen && <span className="pulsar-aqui">(Click here)</span>}</h2>
                                 </div>
                             </div>
 
