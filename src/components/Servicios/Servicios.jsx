@@ -1,14 +1,4 @@
-import React from 'react';
-
-// Components
-import FooterPanel from '../Moduls/footer';
-import HeaderPanel from '../Moduls/header';
-import SocialPanel from '../Moduls/social';
-import GaleryPanel2 from '../Moduls/GaleryPanel2';
-
-// CSS
-import '../Servicios/servicios.css';
-// Icons
+import React, { useState } from 'react';
 import { GrServices } from "react-icons/gr";
 import { AiFillCaretRight } from "react-icons/ai";
 import { GiPadlock } from "react-icons/gi";
@@ -21,84 +11,85 @@ import { MdOutlineWaterDamage } from "react-icons/md";
 import { IoIosCloseCircle } from "react-icons/io";
 import { TiTick } from "react-icons/ti";
 import { MdGames } from "react-icons/md";
+import HeaderPanel from '../Moduls/header';
+import FooterPanel from '../Moduls/footer';
+import SocialPanel from '../Moduls/social';
+import GaleryPanel2 from '../Moduls/GaleryPanel2';
+import '../Servicios/servicios.css';
 
+const SecondIndex = () => {
+    const [faqOpen, setFaqOpen] = useState(false);
 
-
-const secondIndex = () => {
-
-
+    const toggleFaq = () => {
+        setFaqOpen(!faqOpen);
+    };
 
     return (
         <div>
             <HeaderPanel />
             <div className="main-content">
                 <main className='informacion'>
-                   
                     <section>
-                        <div class="icon-text-container">
-                            <h2 class="services-h2"><GrServices class="icon" /> Services</h2>
+                        <div className="icon-text-container">
+                            <h2 className="services-h2"><GrServices className="icon" /> Services</h2>
                         </div>
                     </section>
 
-
-
                     <section>
-                   
-                        <div class="icon-text-container">
-                            <h2 class="services-h2"><AiFillCaretRight class="icon" /> Our Services</h2>
-                      
-
-                        <hr />
-
-        
-                        <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
-                        <hr />
-                        <div className='lista'>
-                            <div className="service-item">
-                                <p className='logo'><GiPadlock /></p>
-                                <p>Secure Parking</p>
+                        <div className={`faq ${faqOpen ? 'open' : ''}`}>
+                            <div className="question" onClick={toggleFaq}>
+                                <div className="icon-text-container">
+                                    <h2 className="services-h2"><AiFillCaretRight className="icon" /> Our Services</h2>
+                                </div>
                             </div>
-                            <div className="service-item">
-                                <p className='logo'><FaWifi /></p>
-                                <p>Free Wi-Fi</p>
-                            </div>
-                            <div className="service-item">
-                                <p className='logo'><FaShower /></p>
-                                <p>Availability of Showers</p>
-                            </div>
-                            <div className="service-item">
-                                <p className='logo'><MdGames /></p>
-                                <p>Recreational Area</p>
-                            </div>
-                            <div className="service-item2">
-                                <p className='logo'><AiOutlineThunderbolt /></p>
-                                <p>Accessible Electricity</p>
-                            </div>
-                            <div className="service-item2">
-                                <p className='logo'><GiWashingMachine /></p>
-                                <p>Variety of Appliances</p>
-                            </div>
-                            <div className="service-item2">
-                                <p className='logo'><MdOutlineWaterDamage /></p>
-                                <p>Water Filling and Emptying</p>
-                            </div>
-                            <div className="service-item2">
-                                <p className='logo'><GiNightSleep /></p>
-                                <p>Rest Area</p>
+                            <hr />
+                            <div className="answer">
+                                <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
+                                <hr />
+                                <div className='lista'>
+                                    <div className="service-item">
+                                        <p className='logo'><GiPadlock /></p>
+                                        <p>Secure Parking</p>
+                                    </div>
+                                    <div className="service-item">
+                                        <p className='logo'><FaWifi /></p>
+                                        <p>Free Wi-Fi</p>
+                                    </div>
+                                    <div className="service-item">
+                                        <p className='logo'><FaShower /></p>
+                                        <p>Availability of Showers</p>
+                                    </div>
+                                    <div className="service-item">
+                                        <p className='logo'><MdGames /></p>
+                                        <p>Recreational Area</p>
+                                    </div>
+                                    <div className="service-item2">
+                                        <p className='logo'><AiOutlineThunderbolt /></p>
+                                        <p>Accessible Electricity</p>
+                                    </div>
+                                    <div className="service-item2">
+                                        <p className='logo'><GiWashingMachine /></p>
+                                        <p>Variety of Appliances</p>
+                                    </div>
+                                    <div className="service-item2">
+                                        <p className='logo'><MdOutlineWaterDamage /></p>
+                                        <p>Water Filling and Emptying</p>
+                                    </div>
+                                    <div className="service-item2">
+                                        <p className='logo'><GiNightSleep /></p>
+                                        <p>Rest Area</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
-                        </div>
-
                     </section>
-
 
                     <section id="rules">
-                        <div class="icon-text-container">
-                            <h2 class="services-h2"><AiFillCaretRight class="icon" />Rules</h2>
+                        <div className="icon-text-container">
+                            <h2 className="services-h2"><AiFillCaretRight className="icon" />Rules</h2>
                         </div>
                         <hr />
-                        <div class="Normas">
+                        <div className="Normas">
                             <div className='normasG'>
                                 <p><TiTick /><b>Caravans, campers, and motorhomes are allowed.</b></p>
                                 <p><TiTick /><b>Entrance and exit from 8:00 AM to 10:00 PM.</b></p>
@@ -111,7 +102,7 @@ const secondIndex = () => {
                             </div>
                         </div>
                     </section>
-              
+
                     <GaleryPanel2 />
                     <SocialPanel />
                 </main>
@@ -121,4 +112,4 @@ const secondIndex = () => {
     );
 };
 
-export default secondIndex;
+export default SecondIndex;
