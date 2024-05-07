@@ -30,17 +30,18 @@ const firstIndex = () => {
                             <h2 class="icon-text"><AiOutlineCaretRight class="icon" /> About Us</h2>
                         </div>
                         <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius
-                            quaerat vitae itaque blanditiis. Impedit voluptatem illum consequuntur
-                            rem provident eveniet optio porro! Accusantium, distinctio! Et molestiae
-                            velit natus maiores accusamus dignissimos, corrupti odit sequi porro
-                            soluta labore fuga praesentium quo, nostrum, reprehenderit ab facere
-                            commodi deleniti ea quidem consequatur quia quos aperiam? Fuga
-                            placeat labore iusto nisi non unde cupiditate enim voluptatem
-                            debitis id ab sequi vitae, aut recusandae veniam? Excepturi
-                            tempore at adipisci quibusdam, est, ullam saepe ratione eum
-                            non cumque rerum corporis iusto reprehenderit neque id deserunt
-                            itaque sequi molestias.</p>
+                        <p>the pain itself should be followed by adipisicing the developer. His things
+                             therefore let him seek the flattery of life. It prevents them from achieving that pleasure
+                             They provide an option for further! Accusers, distinction! And trouble
+                             He wants the elders to accuse the most worthy, the corrupt he hates to follow further
+                             For whom shall I open? Escape
+                             let him be pleased with just labor, unless he derives pleasure from desire
+                             Do you owe it to the pursuit of life, or the pardon of refusing it? I will wait
+                             at the time of obtaining some, it is, for any reason often him
+                             nor do they forsake the just things of the body
+                             and therefore to pursue the difficulties of bearing these debts by finding them
+                             will be followed. What is convenient for a corrupt architect to do
+                             with desire for us times who are similar and said the most</p>
                     </section>
 
                     <ContactPanel />
