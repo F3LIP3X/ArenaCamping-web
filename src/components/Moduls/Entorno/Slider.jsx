@@ -9,6 +9,7 @@ const SliderComida = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [autoPlay, setAutoPlay] = useState(true);
     const intervalRef = useRef(null);
+    const touchStartX = useRef(null);
 
     useEffect(() => {
         const autoPlayHandler = () => {
@@ -47,8 +48,27 @@ const SliderComida = () => {
         }
     };
 
+    const handleTouchStart = (e) => {
+        touchStartX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchEnd = (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const touchDifference = touchStartX.current - touchEndX;
+
+        if (Math.abs(touchDifference) > 50) { // Controlar la sensibilidad del deslizamiento ajustando el valor
+            if (touchDifference > 0) {
+                // Deslizar hacia la izquierda
+                scrollToImage((currentIndex + 1) % data.length);
+            } else {
+                // Deslizar hacia la derecha
+                scrollToImage((currentIndex + data.length - 1) % data.length);
+            }
+        }
+    };
+
     return (
-        <div>
+        <div onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
             <div className="main-continer-Entorno">
                 <div className="slider-container-Entorno">
                     <button className='leftArrow' onClick={() => scrollToImage((currentIndex + data.length - 1) % data.length)}>

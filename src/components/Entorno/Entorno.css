@@ -43,6 +43,13 @@
   margin-right: 20px;
 }
 
+/* la propiedad flex: 1; es una abreviatura de tres propiedades de Flexbox:
+
+flex-grow: 1;: Hace que el elemento crezca y ocupe todo el espacio disponible dentro del contenedor Flexbox.
+flex-shrink: 1;: Permite que el elemento se reduzca si es necesario para evitar desbordamiento en el contenedor.
+flex-basis: 0;: Establece el tamaño inicial del elemento como cero, permitiendo que crezca para llenar el espacio disponible.
+En resumen, flex: 1; hace que el elemento se expanda para llenar todo el espacio disponible dentro del contenedor Flexbox.*/
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .BotonEntonros,
