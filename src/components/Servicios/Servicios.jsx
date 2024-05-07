@@ -8,11 +8,9 @@ import GaleryPanel2 from '../Moduls/GaleryPanel2';
 
 // CSS
 import '../Servicios/servicios.css';
-
 // Icons
 import { GrServices } from "react-icons/gr";
 import { AiFillCaretRight } from "react-icons/ai";
-
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -24,23 +22,36 @@ import { IoIosCloseCircle } from "react-icons/io";
 import { TiTick } from "react-icons/ti";
 import { MdGames } from "react-icons/md";
 
+
+
 const secondIndex = () => {
+
+
     return (
         <div>
             <HeaderPanel />
             <div className="main-content">
                 <main className='informacion'>
+                   
                     <section>
                         <div class="icon-text-container">
                             <h2 class="services-h2"><GrServices class="icon" /> Services</h2>
                         </div>
                     </section>
+
+
+
                     <section>
+                    <div class = "faq">
+                    <div class="question">
                         <div class="icon-text-container">
                             <h2 class="services-h2"><AiFillCaretRight class="icon" /> Our Services</h2>
                         </div>
+                        </div>
 
                         <hr />
+                        <div class="answer">
+        
                         <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
                         <hr />
                         <div className='lista'>
@@ -77,7 +88,16 @@ const secondIndex = () => {
                                 <p>Rest Area</p>
                             </div>
                         </div>
+                        
+                        </div>
+                       </div>
                     </section>
+
+
+
+
+
+
 
                     <section id="rules">
                         <div class="icon-text-container">
@@ -97,6 +117,7 @@ const secondIndex = () => {
                             </div>
                         </div>
                     </section>
+              
                     <GaleryPanel2 />
                     <SocialPanel />
                 </main>
@@ -105,4 +126,3 @@ const secondIndex = () => {
         </div>
     );
 };
-export default secondIndex;
