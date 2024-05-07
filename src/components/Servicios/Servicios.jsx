@@ -27,6 +27,7 @@ import { MdGames } from "react-icons/md";
 const secondIndex = () => {
 
 
+
     return (
         <div>
             <HeaderPanel />
@@ -42,15 +43,13 @@ const secondIndex = () => {
 
 
                     <section>
-                    <div class = "faq">
-                    <div class="question">
+                   
                         <div class="icon-text-container">
                             <h2 class="services-h2"><AiFillCaretRight class="icon" /> Our Services</h2>
-                        </div>
-                        </div>
+                      
 
                         <hr />
-                        <div class="answer">
+
         
                         <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
                         <hr />
@@ -90,13 +89,8 @@ const secondIndex = () => {
                         </div>
                         
                         </div>
-                       </div>
+
                     </section>
-
-
-
-
-
 
 
                     <section id="rules">
