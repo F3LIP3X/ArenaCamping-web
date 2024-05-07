@@ -5,6 +5,11 @@
     src: url('../assets/Nexa\ Bold.otf') format('truetype');
 }
 
+.pulsar-aqui {
+    opacity: 0.2; /* Ajusta la opacidad según desees */
+    
+}
+
 
 /* Main styles */
 .informacion {

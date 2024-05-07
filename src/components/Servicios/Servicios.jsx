@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+
+//Icons
 import { GrServices } from "react-icons/gr";
-import { AiFillCaretRight } from "react-icons/ai";
+import { AiFillCaretRight, AiFillCaretDown } from "react-icons/ai";
 import { GiPadlock } from "react-icons/gi";
 import { FaShower } from "react-icons/fa";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -11,17 +13,24 @@ import { MdOutlineWaterDamage } from "react-icons/md";
 import { IoIosCloseCircle } from "react-icons/io";
 import { TiTick } from "react-icons/ti";
 import { MdGames } from "react-icons/md";
+
+
+//Components
 import HeaderPanel from '../Moduls/header';
 import FooterPanel from '../Moduls/footer';
 import SocialPanel from '../Moduls/social';
 import GaleryPanel2 from '../Moduls/GaleryPanel2';
+
+//CSS
 import '../Servicios/servicios.css';
 
 const SecondIndex = () => {
     const [faqOpen, setFaqOpen] = useState(false);
+    const [icon, setIcon] = useState(<AiFillCaretRight className="icon" />);
 
     const toggleFaq = () => {
         setFaqOpen(!faqOpen);
+        setIcon(faqOpen ? <AiFillCaretRight className="icon" /> : <AiFillCaretDown className="icon" />);
     };
 
     return (
@@ -39,13 +48,13 @@ const SecondIndex = () => {
                         <div className={`faq ${faqOpen ? 'open' : ''}`}>
                             <div className="question" onClick={toggleFaq}>
                                 <div className="icon-text-container">
-                                    <h2 className="services-h2"><AiFillCaretRight className="icon" /> Our Services</h2>
+                                    <h2 className="services-h2">{icon} Our Services {!faqOpen && <span className="pulsar-aqui">(Pulsar aquí)</span>}</h2>
                                 </div>
                             </div>
-                            <hr />
+
                             <div className="answer">
                                 <p className='textoinfo'>At Arena Camping in Granada, we offer our rest area for motorhomes and campers, and you can also enjoy the wide range of services we offer.</p>
-                                <hr />
+
                                 <div className='lista'>
                                     <div className="service-item">
                                         <p className='logo'><GiPadlock /></p>
