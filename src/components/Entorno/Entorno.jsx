@@ -54,7 +54,12 @@ const Entorno = () => {
                             cupiditate nobis tempora quis similique et dicta maxime
                         </p>
                     </section>
-                    <SliderComida />
+                    <section className='dobleslider'>
+                        <div><SliderComida /></div>
+                        <div><SliderComida /></div>
+                    </section>
+                    
+                    
                     <section id="DondeComer">
                         <div className='icon-text-container'>
                             <h2 className='icon-text'><MdFoodBank className='icon' />Where to Eat</h2>

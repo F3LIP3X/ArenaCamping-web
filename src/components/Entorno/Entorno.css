@@ -34,10 +34,27 @@
   transform: translateY(-1px);
 }
 
+.dobleslider{
+  display: flex;
+}
+
+.dobleslider > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .BotonEntonros,
   #ContactaEntorno {
   font-size: 3vw;
   }
+  .dobleslider{
+    flex-direction: column;
+  }
+  .dobleslider > div {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+
 }

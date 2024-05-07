@@ -48,7 +48,7 @@ const SliderComida = () => {
     };
 
     return (
-        <section>
+        <div>
             <div className="main-continer-Entorno">
                 <div className="slider-container-Entorno">
                     <button className='leftArrow' onClick={() => scrollToImage((currentIndex + data.length - 1) % data.length)}>
@@ -78,7 +78,7 @@ const SliderComida = () => {
             <div>
                 <button id='AutomaticoSlider' onClick={toggleAutoPlay}>{autoPlay ? 'Pausar' : 'Reproducir'} automático</button>
             </div>
-        </section>
+        </div>
     );
 };
 
