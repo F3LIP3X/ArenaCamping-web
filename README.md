@@ -1,4 +1,5 @@
-Arena Camping
+# <center><h1>Arena-app</h1></center>
+
 
 Este proyecto es una aplicación web desarrollada utilizando React y Node.js.
 
