@@ -6,8 +6,8 @@ function SvgComponent() {
             style={{
                 display: "flex",
                 justifyContent: 'center',
-                height: "100%",
-                width: "100%",
+                height: "80%",
+                width: "80%",
                 margin: "0 auto",
             }}>
     <svg
