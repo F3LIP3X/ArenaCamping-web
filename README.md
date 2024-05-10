@@ -30,22 +30,6 @@ Esto iniciará el servidor y podrás acceder a la aplicación desde tu navegador
 
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
-
-
-
-
-
-
-### Footer
-<img src="./public/SeeMe/Footer.png" alt="Footer">
-
-
-
-
-
-
-
-
 ### Home
 <img src="./public/SeeMe/Home.png" alt="Home">
 
@@ -73,7 +57,10 @@ A continuación, se muestran algunas capturas de pantalla de la aplicación:
 ### Reserva
 <img src="./public/SeeMe/Reserva.png" alt="Reserva">
 
+### Footer
+<img src="./public/SeeMe/footer.png" alt="Footer">
 
+Para ver la pagina web puede acceder a nuesto enlace de GitHub Pages: 
 
 ## Contribución
 
