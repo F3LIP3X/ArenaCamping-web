@@ -1,43 +1,78 @@
-# ARENA CAMPING
+#Arena Camping
 
-## Repositorio front Arena-App
+Este proyecto es una aplicación web desarrollada utilizando React y Node.js.
 
-Este repositorio contiene el código front-end de Arena-App.
+## Descripción
 
-## --Página Main--
+Esta aplicación web es el resultado del trabajo colaborativo de dos profesionales durante su período de prácticas en la empresa Arena Gaming. [Breve descripción de tu aplicación]
 
-![Vista previa de la página Main](ruta/a/la/imagen_main.jpg)
+## Instalación
 
-## --Página Inicio--
+1. Clona este repositorio.
+2. Instala las dependencias utilizando npm:
 
-![Vista previa de la página Inicio](ruta/a/la/imagen_inicio.jpg)
+   ```bash
+   npm install
+   ```
 
-## --Página Servicios--
+## Uso
 
-![Vista previa de la página Servicios](ruta/a/la/imagen_servicios.jpg)
+Para ejecutar la aplicación, puedes utilizar el siguiente comando:
 
-## --Página Actividades--
+```bash
+npm start
+```
 
-![Vista previa de la página Actividades](ruta/a/la/imagen_actividades.jpg)
+Esto iniciará el servidor y podrás acceder a la aplicación desde tu navegador.
 
-## --Página Entorno--
+## Capturas de pantalla
 
-![Vista previa de la página Entorno](ruta/a/la/imagen_entorno.jpg)
+A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
-## --Página Localización--
+### Actividades
 
-![Vista previa de la página Localización](ruta/a/la/imagen_localizacion.jpg)
+![Actividades](/SeeMe/Actividades.png)
 
-## --Página Reserva--
+### Around
 
-![Vista previa de la página Reserva](ruta/a/la/imagen_reserva.jpg)
+![Around](/SeeMe/Around.png)
 
-Para iniciar la página, sigue los siguientes pasos:
+### Contacto
 
-1. Asegúrate de tener Node.js instalado en tu sistema.
+![Contacto](/SeeMe/Contacto.png)
 
-2. Utiliza el comando `npm i` para instalar las dependencias del proyecto.
+### Footer
 
-3. Luego, utiliza el comando `npm start` para iniciar la aplicación.
+![Footer](/SeeMe/footer.png)
 
-Recuerda que es necesario tener instalado Tailwind CSS para el correcto funcionamiento de la aplicación.
+### Home
+
+![Home](/SeeMe/Home.png)
+
+### Inicio
+
+![Inicio](/SeeMe/Inicio.png)
+
+### Localización
+
+![Localización](/SeeMe/Localización.png)
+
+### Precios
+
+![Precios](/SeeMe/Precios.png)
+
+### Reserva
+
+![Reserva](/SeeMe/Reserva.png)
+
+### Servicios
+
+![Servicios](/SeeMe/Servicios.png)
+
+## Contribución
+
+Si quieres contribuir a este proyecto, ¡serás bienvenido! Puedes abrir un issue o enviar un pull request.
+
+## Licencia
+
+[Incluye la licencia de tu elección]
