@@ -4,7 +4,7 @@ Este proyecto es una aplicación web desarrollada utilizando React y Node.js.
 
 ## Descripción
 
-Esta aplicación web es el resultado del trabajo colaborativo de dos profesionales durante su período de prácticas en la empresa Arena Gaming. [Breve descripción de tu aplicación]
+Esta aplicación web es el resultado del trabajo colaborativo de dos profesionales durante su período de prácticas en la empresa Arena Gaming. 
 
 ## Instalación
 
@@ -75,4 +75,4 @@ Si quieres contribuir a este proyecto, ¡serás bienvenido! Puedes abrir un issu
 
 ## Licencia
 
-[Incluye la licencia de tu elección]
+[MispeLicense]
