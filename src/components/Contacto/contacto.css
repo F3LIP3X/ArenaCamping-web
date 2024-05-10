@@ -17,6 +17,7 @@
     display: none;
 }
 
+
 .form-control {
     position: relative;
     margin: 20px 0 40px;
@@ -28,8 +29,9 @@
     border-bottom: 2px #000000 solid;
     width: 100%;
     padding: 10px 0;
-    font-size: 1vw;
+    font-size: 2vw;
     color: #000000;
+
   }
   
   .form-control input:focus,
@@ -96,6 +98,9 @@ button[type="submit"] {
 /* Responsive styles */
 @media (max-width: 768px) {
   button[type="submit"] {
+    font-size: 4vw;
+  }
+  .form-control input{
     font-size: 4vw;
   }
 }

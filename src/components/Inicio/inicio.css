@@ -67,8 +67,6 @@ section {
     background-color: #011f1aaf;
     color: #ffffff;
     text-align: left;
-    /* Alinea el texto a la izquierda */
-    padding: 3em;
 }
 
 #icoHeader {
@@ -187,7 +185,7 @@ section {
     background-color: #011f1aaf;
     color: #ffffff;
     text-align: left;
-    padding: 3em;
+    padding: 1em;
 }
 
 .footer-container {
@@ -372,6 +370,7 @@ li {
         color: #ffffff;
         text-align: center;
         display: block;
+        min-width: 300px;
         bottom: 50px;
     }
 

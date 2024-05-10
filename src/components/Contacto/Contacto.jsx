@@ -38,10 +38,13 @@ const FifthIndex = () => {
                             <div className="form-control">
                                 <input type="text" required maxLength="7" />
                                 <label>
-                                    <span style={{ transitionDelay: '0ms' }}>N</span>
-                                    <span style={{ transitionDelay: '50ms' }}>a</span>
-                                    <span style={{ transitionDelay: '100ms' }}>m</span>
-                                    <span style={{ transitionDelay: '150ms' }}>e</span>
+                                    <span style={{ transitionDelay: '0ms' }}>T</span>
+                                    <span style={{ transitionDelay: '50ms' }}>u</span>
+                                    <span style={{ transitionDelay: '100ms' }}>i</span>
+                                    <span style={{ transitionDelay: '150ms' }}>t</span>
+                                    <span style={{ transitionDelay: '200ms' }}>i</span>
+                                    <span style={{ transitionDelay: '250ms' }}>o</span>
+                                    <span style={{ transitionDelay: '300ms' }}>n</span>
                                 </label>
                             </div>
                             <div className="form-control">

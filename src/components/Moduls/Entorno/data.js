@@ -1,4 +1,4 @@
-// Imagenes
+// Imagenes Entorno
 import Comida1 from '../../assets/Imagenes Entornos/Comida1.jpeg';
 import Comida2 from '../../assets/Imagenes Entornos/Comida2.jpeg';
 import Comida3 from '../../assets/Imagenes Entornos/Comida3.jpeg';

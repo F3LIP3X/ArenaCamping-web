@@ -19,7 +19,7 @@ const footerPanel = () => {
                             </div>
                             <div className="info-row">
                                 <span>Address: </span>
-                                <span>18183 Huétor de Santillán Granda, España</span>
+                                <span>18183, Huétor de Santillán-Granada, España</span>
                             </div>
                             <div className="info-row">
                                 <span>Phone: </span>

@@ -92,7 +92,7 @@ const Header = () => {
     setIsToggleOpen(!isToggleOpen);
   };
   return (
-    <>
+    <div>
       <StyledHeader>
         <div className="contHead">
           <div className="nav_logo">
@@ -148,7 +148,7 @@ const Header = () => {
           </li>
         </NavManu>
       </StyledHeader>
-    </>
+    </div>
   );
 };
 
