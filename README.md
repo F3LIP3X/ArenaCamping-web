@@ -1,4 +1,4 @@
-#Arena Camping
+Arena Camping
 
 Este proyecto es una aplicación web desarrollada utilizando React y Node.js.
 
