@@ -31,34 +31,34 @@ Esto iniciará el servidor y podrás acceder a la aplicación desde tu navegador
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
 ### Actividades
-<img src="/SeeMe/Actividades.png" alt="Actividades">
+<img src="./SeeMe/Actividades.png" alt="Actividades">
 
 ### Around
-<img src="/SeeMe/Around.png" alt="Around">
+<img src="./SeeMe/Around.png" alt="Around">
 
 ### Contacto
-<img src="/SeeMe/Contacto.png" alt="Contacto">
+<img src="./SeeMe/Contacto.png" alt="Contacto">
 
 ### Footer
-<img src="/SeeMe/footer.png" alt="Footer">
+<img src="./SeeMe/footer.png" alt="Footer">
 
 ### Home
-<img src="/SeeMe/Home.png" alt="Home">
+<img src="./SeeMe/Home.png" alt="Home">
 
 ### Inicio
-<img src="/SeeMe/Inicio.png" alt="Inicio">
+<img src="./SeeMe/Inicio.png" alt="Inicio">
 
 ### Localización
-<img src="/SeeMe/Localización.png" alt="Localización">
+<img src="./SeeMe/Localización.png" alt="Localización">
 
 ### Precios
-<img src="/SeeMe/Precios.png" alt="Precios">
+<img src="./SeeMe/Precios.png" alt="Precios">
 
 ### Reserva
-<img src="/SeeMe/Reserva.png" alt="Reserva">
+<img src="./SeeMe/Reserva.png" alt="Reserva">
 
 ### Servicios
-<img src="/SeeMe/Servicios.png" alt="Servicios">
+<img src="./SeeMe/Servicios.png" alt="Servicios">
 
 ## Contribución
 
