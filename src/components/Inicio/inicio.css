@@ -146,6 +146,10 @@ section {
 
 
 /* Redes sociales */
+.redes * {
+    flex-direction: row;
+}
+
 .imagenes {
     max-width: 2.4em;
     min-width: 0.5em;
