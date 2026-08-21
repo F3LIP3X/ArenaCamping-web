@@ -2,7 +2,7 @@
 # <h1><center>ArenaCamping-Web</center></h1>
 
 
-Este proyecto es una aplicación web desarrollada utilizando React y Node.js.
+Este proyecto es una aplicación web desarrollada con React y empaquetada con Vite.
 
 ## Descripción
 
@@ -19,13 +19,21 @@ Esta aplicación web es el resultado del trabajo colaborativo de dos profesional
 
 ## Uso
 
-Para ejecutar la aplicación, puedes utilizar el siguiente comando:
+Para arrancar el servidor de desarrollo:
 
 ```bash
-npm start
+npm run dev
 ```
 
-Esto iniciará el servidor y podrás acceder a la aplicación desde tu navegador.
+Esto iniciará Vite y podrás acceder a la aplicación desde tu navegador.
+
+Otros comandos disponibles:
+
+| Comando | Descripción |
+|---|---|
+| `npm run dev` | Servidor de desarrollo con recarga en caliente |
+| `npm run build` | Genera la versión de producción en `build/` |
+| `npm run preview` | Sirve en local la versión ya construida |
 
 ## Capturas de pantalla | Screenshots
 
