@@ -1,26 +1,247 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* ==========================================================================
+   Arena Camping — sistema de diseño
+   Area de autocaravanas en la sierra de Granada.
+   La pagina se trata como el panel informativo de un area de servicio:
+   datos practicos primero, pictogramas normalizados, tipografia de señal.
+   ========================================================================== */
+
+:root {
+  /* --- Color ------------------------------------------------------------
+     Tres colores, ni uno mas.
+     pino:    el pinar de la sierra al anochecer. Hace de negro.
+     piedra:  caliza de la sierra. Fondo claro, frio, nada de crema dulce.
+     granada: el fruto que da nombre a la ciudad y figura en su escudo.
+              Es el unico color saturado de la pagina: marca las acciones
+              y la banda de servicios, y no aparece en ningun sitio mas.   */
+  --pino-noche: #101e19;
+  --pino: #1a3329;
+  --pino-medio: #2e5545;
+  --musgo: #5c8571;
+
+  --piedra: #e4e0d6;
+  --piedra-media: #bdb8a9;
+  --hueso: #faf8f3;
+
+  --granada: #a31e2c;
+  --granada-viva: #c4293a;
+
+  --tinta: #14231d;
+  --tinta-suave: #56635c;
+  --linea: #cfcabc;
+
+  /* --- Tipografia -------------------------------------------------------
+     Barlow nacio inspirada en la señaletica de infraestructura publica;
+     la condensada hace de rotulo y la mono sostiene los datos duros.      */
+  --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --texto: 'Barlow', system-ui, -apple-system, sans-serif;
+  --dato: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+
+  /* --- Ritmo ------------------------------------------------------------ */
+  --ancho: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --seccion: clamp(4.5rem, 9vw, 8rem);
+
+  --r-chico: 3px;
+  --r: 6px;
+}
+
+/* --- Reset -------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--texto);
+  font-size: clamp(1rem, 0.97rem + 0.15vw, 1.09rem);
+  line-height: 1.65;
+  color: var(--tinta);
+  background: var(--hueso);
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: url('./components/assets/background.webp') ;
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img,
+picture,
+iframe {
+  display: block;
+  max-width: 100%;
 }
 
-selection {
-  background-color: transparent; /* Cambiar el color de fondo */
-  color: inherit; /* Mantener el color del texto */
+img {
+  height: auto;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* --- Tipografia base ---------------------------------------------------- */
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+}
+
+/* --- Primitivas de maquetacion ------------------------------------------ */
+.envoltura {
+  width: 100%;
+  max-width: var(--ancho);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.seccion {
+  padding-block: var(--seccion);
+}
+
+/* La cabecera es fija: sin este margen, al saltar desde el menu el rotulo
+   de la seccion queda escondido detras de ella. */
+section[id] {
+  scroll-margin-top: 78px;
+}
+
+.seccion--oscura {
+  background: var(--pino);
+  color: var(--piedra);
+}
+
+.seccion--arena {
+  background: var(--piedra);
+}
+
+/* Cabecera de seccion: el numero no decora, ordena el recorrido del area:
+   llegas, ves los servicios, miras el precio, consultas normas, reservas.  */
+.rotulo {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-bottom: 2.75rem;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 0.9rem;
+}
+
+.rotulo__indice {
+  font-family: var(--dato);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  opacity: 0.65;
+  flex-shrink: 0;
+}
+
+.rotulo__titulo {
+  font-size: clamp(2rem, 5.5vw, 3.4rem);
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 1;
+}
+
+.rotulo__nota {
+  margin-left: auto;
+  font-family: var(--dato);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* --- Botones ------------------------------------------------------------ */
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.6rem;
+  border: 2px solid transparent;
+  border-radius: var(--r-chico);
+  background: var(--granada);
+  color: var(--hueso);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.boton:hover {
+  background: var(--granada-viva);
+  transform: translateY(-2px);
+}
+
+.boton--linea {
+  background: transparent;
+  border-color: currentColor;
+  color: var(--piedra);
+}
+
+.boton--linea:hover {
+  background: rgba(228, 224, 214, 0.12);
+}
+
+/* --- Accesibilidad ------------------------------------------------------ */
+:focus-visible {
+  outline: 3px solid var(--granada);
+  outline-offset: 3px;
+}
+
+.salto-contenido {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.8rem 1.2rem;
+  background: var(--granada);
+  color: var(--hueso);
+  font-weight: 600;
+}
+
+.salto-contenido:focus {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

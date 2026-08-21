@@ -1,39 +1,31 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Cabecera from './sections/Cabecera';
+import Portada from './sections/Portada';
+import Servicios from './sections/Servicios';
+import Precios from './sections/Precios';
+import Actividades from './sections/Actividades';
+import Normas from './sections/Normas';
+import Llegar from './sections/Llegar';
+import Reservar from './sections/Reservar';
+import Pie from './sections/Pie';
+import './sections/secciones.css';
 
-//Páginas
-import Home from './components/IndexArena';
-import Inicio from './components/Inicio/Inicio';
-import Servicios from './components/Servicios/Servicios';
-import Actividades from './components/Actividades/Actividades';
-import Localización from './components/Localización/Localizacion';
-import Contacto from './components/Contacto/Contacto';
-import Precios from './components/Precios/Precios';
-import Entorno from './components/Entorno/Entorno';
-import Reserva from './components/Reserva/Reserva';
-
-
-
-function App() {
+export default function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route exact path='/' element={<Home />}/>
-          <Route exact path="/Inicio" element={<Inicio />} />
-          <Route exact path="/Servicios" element={<Servicios />} />
-          <Route exact path="/Actividades" element={<Actividades />} />
-          <Route exact path="/Localización" element={<Localización />} />
-          <Route exact path="/Precios" element={<Precios />} />
-          {/* No estan completos :) */}
-          <Route exact path="/Entorno" element={<Entorno />} />
-          <Route exact path="/Contacto" element={<Contacto />} />
-          <Route exact path="/Precios" element={<Actividades />} />
-          <Route exact path="/Reserva" element={<Reserva />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+      <a className="salto-contenido" href="#contenido">
+        Saltar al contenido
+      </a>
+      <Cabecera />
+      <main id="contenido">
+        <Portada />
+        <Servicios />
+        <Precios />
+        <Actividades />
+        <Normas />
+        <Llegar />
+        <Reservar />
+      </main>
+      <Pie />
+    </>
   );
-};
-
-export default App;
+}
